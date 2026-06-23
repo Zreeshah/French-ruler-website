@@ -1,0 +1,371 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://regle-enligne.onl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Règle à imprimer",
+      "item": "https://regle-enligne.onl/regle-a-imprimer/"
+    }
+  ]
+});
+
+const rulerSizes = [10, 20, 30];
+---
+
+<BaseLayout
+  title="Règle à imprimer – Règle en cm de 10 cm, 20 cm et 30 cm"
+  description="Imprimez une règle en ligne gratuite en centimètres et millimètres. Règle à imprimer A4 avec échelle à 100%."
+  canonicalUrl="https://regle-enligne.onl/regle-a-imprimer/"
+  schemaMarkup={breadcrumbSchema}
+>
+  <section class="section print-hero">
+    <div class="container">
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb no-print" aria-label="Fil d'Ariane">
+        <ol>
+          <li><a href="/">Règle en ligne</a></li>
+          <li aria-current="page">Règle à imprimer</li>
+        </ol>
+      </nav>
+
+      <h1>Règle à imprimer</h1>
+      <p class="page-intro">
+        Besoin d'une règle physique ? Imprimez notre règle graduée en centimètres et millimètres. 
+        Pour conserver la bonne échelle, réglez l'impression à <strong>100%</strong>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Print Instructions -->
+  <section class="section section-alt print-instructions no-print">
+    <div class="container">
+      <h2>Comment imprimer correctement la règle</h2>
+      <ol class="instruction-steps">
+        <li>
+          <span class="step-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          </span>
+          <span>Sélectionnez l'option d'impression (Ctrl+P ou le bouton ci-dessous).</span>
+        </li>
+        <li>
+          <span class="step-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          </span>
+          <span>Réglez l'échelle sur <strong>100%</strong>.</span>
+        </li>
+        <li>
+          <span class="step-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </span>
+          <span>Désactivez l'option <strong>"Ajuster à la page"</strong>.</span>
+        </li>
+        <li>
+          <span class="step-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </span>
+          <span>Après impression, vérifiez la <strong>zone de contrôle de 5 cm</strong> ci-dessous.</span>
+        </li>
+        <li>
+          <span class="step-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+          </span>
+          <span>Si la zone ne fait pas exactement 5 cm, imprimez à nouveau avec d'autres paramètres.</span>
+        </li>
+      </ol>
+
+      <div class="notice notice-warning" style="margin-top: var(--space-6);">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+        <span><strong>Important :</strong> N'ajustez pas à la page. Imprimez à l'échelle 100%, sinon la règle ne sera pas exacte.</span>
+      </div>
+
+      <!-- Buttons -->
+      <div class="print-actions">
+        <button class="btn btn-primary btn-lg" id="btn-print" aria-label="Imprimer la règle">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          Imprimer la règle
+        </button>
+        <button class="btn btn-secondary btn-lg" id="btn-download-pdf" aria-label="Télécharger le PDF">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Télécharger le PDF
+        </button>
+        <a href="/" class="btn btn-secondary btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+          Retour à la règle en ligne
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calibration Test Box -->
+  <section class="section print-calibration" id="test-box">
+    <div class="container">
+      <h2 class="no-print">Zone de contrôle de 5 cm</h2>
+      <p class="no-print">Après impression, mesurez cette zone avec une règle physique — elle doit faire exactement 5&nbsp;cm.</p>
+      
+      <div class="test-box-container">
+        <div class="test-box" aria-label="Zone de contrôle de 5 centimètres">
+          <span class="test-box-label">← 5 cm →</span>
+        </div>
+        <p class="test-box-note print-only">La zone ci-dessus doit faire exactement 5 cm. Si ce n'est pas le cas, imprimez à nouveau à l'échelle 100%.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Printable Rulers -->
+  <section class="section printable-rulers" id="linijki">
+    <div class="container">
+      <h2 class="no-print">Règles à imprimer</h2>
+      
+      {rulerSizes.map((size) => (
+        <div class="print-ruler-block" id={`ruler-${size}cm`}>
+          <h3 class="print-ruler-title">Règle de {size} cm</h3>
+          <div class="print-ruler-svg" data-length={size}>
+            <!-- SVG ruler will be generated client-side for screen, and also embedded statically for print -->
+          </div>
+        </div>
+      ))}
+
+      <!-- Print-only footer -->
+      <div class="print-footer print-only">
+        <p>regle-enligne.onl — Règle à imprimer en centimètres et millimètres</p>
+        <p>Imprimer à l'échelle 100%. N'ajustez pas à la page.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preview image -->
+  <section class="section section-alt no-print">
+    <div class="container" style="text-align: center;">
+      <img
+        src="/images/printable-preview.webp"
+        alt="Règle à imprimer sur feuille A4"
+        width="500"
+        height="340"
+        loading="lazy"
+        style="border-radius: var(--radius-lg); margin: 0 auto; box-shadow: var(--shadow-md);"
+      />
+      <p style="margin-top: var(--space-4); font-size: 0.875rem; color: var(--text-tertiary);">
+        Aperçu de la règle à imprimer sur feuille A4
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* --- Breadcrumb --- */
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: var(--space-2);
+    color: var(--border-dark);
+  }
+
+  .breadcrumb a {
+    color: var(--text-tertiary);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  /* --- Page Intro --- */
+  .page-intro {
+    font-size: 1.125rem;
+    max-width: 65ch;
+  }
+
+  /* --- Instructions --- */
+  .instruction-steps {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+    counter-reset: step;
+  }
+
+  .instruction-steps li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+  }
+
+  .step-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--accent-bg);
+    border-radius: 50%;
+    flex-shrink: 0;
+    color: var(--accent);
+  }
+
+  /* --- Print Actions --- */
+  .print-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-8);
+  }
+
+  /* --- Test Box --- */
+  .test-box-container {
+    margin-top: var(--space-4);
+  }
+
+  .test-box {
+    /* 5cm at 96 DPI = 5 * 37.795 ≈ 189px */
+    width: 189px;
+    height: 60px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+
+  .test-box-label {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #000;
+    font-family: var(--font-mono);
+  }
+
+  .test-box-note {
+    margin-top: var(--space-2);
+    font-size: 0.8125rem;
+    color: #000;
+  }
+
+  /* --- Print Rulers --- */
+  .print-ruler-block {
+    margin-top: var(--space-8);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--border);
+  }
+
+  .print-ruler-block:first-of-type {
+    border-top: none;
+  }
+
+  .print-ruler-title {
+    margin-top: 0;
+    margin-bottom: var(--space-4);
+    font-size: 1.125rem;
+  }
+
+  .print-ruler-svg {
+    overflow-x: auto;
+    padding: var(--space-2) 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .print-ruler-svg :global(svg) {
+    display: block;
+  }
+
+  /* --- Print Footer --- */
+  .print-footer {
+    margin-top: var(--space-8);
+    padding-top: var(--space-4);
+    border-top: 1px solid #000;
+    text-align: center;
+  }
+
+  .print-footer p {
+    font-size: 0.75rem;
+    color: #000;
+    margin-bottom: var(--space-1);
+  }
+
+  /* --- Print-specific overrides --- */
+  @media print {
+    .print-hero {
+      padding: 0;
+    }
+
+    .print-hero h1 {
+      font-size: 1.25rem;
+      margin-bottom: var(--space-2);
+    }
+
+    .print-hero .page-intro {
+      font-size: 0.875rem;
+      margin-bottom: var(--space-4);
+    }
+
+    .print-calibration {
+      padding: var(--space-4) 0;
+    }
+
+    .printable-rulers {
+      padding: 0;
+    }
+
+    .print-ruler-block {
+      page-break-inside: avoid;
+      margin-top: var(--space-4);
+      padding-top: var(--space-2);
+      border-top: 1px solid #ccc;
+    }
+
+    .print-ruler-title {
+      font-size: 0.875rem;
+      margin-bottom: var(--space-2);
+    }
+
+    .print-ruler-svg {
+      overflow: visible;
+      padding: 0;
+    }
+  }
+</style>
+
+<script>
+  import { generatePrintRulerSVG } from '../scripts/ruler';
+
+  // Generate print rulers on page load
+  document.querySelectorAll('.print-ruler-svg').forEach((el) => {
+    const length = parseInt((el as HTMLElement).dataset.length || '10');
+    el.innerHTML = generatePrintRulerSVG(length);
+  });
+
+  // Print button
+  document.getElementById('btn-print')?.addEventListener('click', () => {
+    window.print();
+  });
+
+  // Download PDF (triggers print dialog where user can save as PDF)
+  document.getElementById('btn-download-pdf')?.addEventListener('click', () => {
+    window.print();
+  });
+</script>

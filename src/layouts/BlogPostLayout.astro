@@ -1,0 +1,158 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  pubDate: Date | string;
+  heroImage: string;
+  imageAlt?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  slug: string;
+  headings: Array<{ depth: number; slug: string; text: string }>;
+  relatedPosts?: Array<{ slug: string; title: string; heroImage: string }>;
+}
+
+const {
+  title,
+  description,
+  pubDate,
+  heroImage,
+  imageAlt = '',
+  ogTitle,
+  ogDescription,
+  slug,
+  headings,
+  relatedPosts = []
+} = Astro.props;
+
+const formattedDate = new Date(pubDate).toLocaleDateString('fr-FR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Generate dynamic JSON-LD article schema
+const articleSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "image": `https://regle-enligne.onl${heroImage}`,
+  "author": {
+    "@type": "Organization",
+    "name": "Rédaction"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Règle en Ligne",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://regle-enligne.onl/favicon.svg"
+    }
+  },
+  "datePublished": "2026-06-07",
+  "dateModified": "2026-06-07",
+  "inLanguage": "fr-FR",
+  "mainEntityOfPage": `https://regle-enligne.onl/blog/${slug}/`
+});
+
+// Filter headings for the Table of Contents (H2 and H3 headings)
+const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
+---
+
+<BaseLayout
+  title={`${title} | Blog Regle-Enligne.onl`}
+  description={description}
+  canonicalUrl={`https://regle-enligne.onl/blog/${slug}/`}
+  ogImage={heroImage}
+  schemaMarkup={articleSchema}
+>
+  <div class="blog-post-container container">
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs no-print" aria-label="Fil d'Ariane">
+      <ol role="list">
+        <li><a href="/">Accueil</a></li>
+        <li><svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></li>
+        <li aria-current="page">{title}</li>
+      </ol>
+    </nav>
+
+    <div class="blog-grid">
+      <!-- Main Article -->
+      <article class="blog-main">
+        <header class="blog-header">
+          <div class="blog-meta">
+            <span class="blog-category">Guide de Mesure</span>
+            <span class="meta-dot">&bull;</span>
+            <time datetime={new Date(pubDate).toISOString()}>{formattedDate}</time>
+            <span class="meta-dot">&bull;</span>
+            <span class="author-label">Auteur : Rédaction</span>
+          </div>
+          <h1 class="blog-title">{title}</h1>
+          <p class="blog-lead">{description}</p>
+          
+          <div class="blog-hero-wrapper">
+            <img class="blog-hero-image" src={heroImage} alt={imageAlt || title} />
+          </div>
+        </header>
+
+        <!-- Dynamic Content Slot -->
+        <div class="blog-content">
+          <slot />
+        </div>
+
+        <!-- Call to Action Section -->
+        <section class="blog-cta no-print">
+          <div class="cta-card">
+            <h3>Besoin d'une mesure précise ?</h3>
+            <p>Utilisez notre règle en ligne gratuite et entièrement calibrée, qui s'adapte automatiquement à votre écran.</p>
+            <a href="/" class="btn btn-primary">Lancer la règle en ligne 1:1</a>
+          </div>
+        </section>
+      </article>
+
+      <!-- Sidebar -->
+      <aside class="blog-sidebar no-print">
+        <!-- Table of Contents -->
+        {tocHeadings.length > 0 && (
+          <div class="toc-card sticky-sidebar">
+            <h2 class="toc-title">Table des matières</h2>
+            <nav class="toc-nav">
+              <ul>
+                {tocHeadings.map((heading) => (
+                  <li class={`toc-depth-${heading.depth}`}>
+                    <a href={`#${heading.slug}`}>{heading.text}</a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
+        )}
+      </aside>
+    </div>
+
+    <!-- Related Articles -->
+    {relatedPosts.length > 0 && (
+      <section class="related-posts-section no-print">
+        <h2 class="section-title">Articles recommandés</h2>
+        <div class="related-grid">
+          {relatedPosts.map((post) => (
+            <a href={`/blog/${post.slug}/`} class="related-card">
+              <div class="related-img-wrapper">
+                <img src={post.heroImage} alt={post.title} />
+              </div>
+              <div class="related-body">
+                <h3>{post.title}</h3>
+                <span class="related-more">Lire la suite &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

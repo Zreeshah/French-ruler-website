@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://regle-enligne.onl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Politique de confidentialité",
+      "item": "https://regle-enligne.onl/politique-de-confidentialite/"
+    }
+  ]
+});
+---
+
+<BaseLayout
+  title="Politique de confidentialité – Regle-Enligne.onl"
+  description="Politique de confidentialité du service Regle-Enligne.onl. Nous ne demandons aucune connexion et ne collectons aucune donnée personnelle."
+  canonicalUrl="https://regle-enligne.onl/politique-de-confidentialite/"
+  schemaMarkup={breadcrumbSchema}
+>
+  <section class="section privacy-page">
+    <div class="container privacy-container">
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <ol>
+          <li><a href="/">Règle en ligne</a></li>
+          <li aria-current="page">Politique de confidentialité</li>
+        </ol>
+      </nav>
+
+      <h1>Politique de confidentialité</h1>
+      <p class="privacy-updated">Dernière mise à jour : juin 2026</p>
+
+      <div class="privacy-content">
+        <h2>Informations générales</h2>
+        <p>
+          Le service <strong>Regle-Enligne.onl</strong> est un outil en ligne gratuit permettant de mesurer des objets à l'écran. 
+          Nous respectons votre vie privée et mettons tout en œuvre pour que l'utilisation de notre outil soit sûre et agréable.
+        </p>
+
+        <h2>Données personnelles</h2>
+        <p>
+          Notre service <strong>ne nécessite aucune connexion</strong> ni inscription. 
+          Nous ne collectons aucune donnée personnelle sur nos utilisateurs. 
+          Vous n'avez pas besoin de fournir votre nom, votre adresse e-mail ou toute autre information pour utiliser notre règle en ligne.
+        </p>
+
+        <h2>Cookies et localStorage</h2>
+        <p>
+          Le site peut utiliser la technologie <strong>localStorage</strong> de votre navigateur uniquement pour enregistrer 
+          vos paramètres de calibrage de la règle. Ces données :
+        </p>
+        <ul class="privacy-list">
+          <li>Sont stockées exclusivement sur votre appareil</li>
+          <li>Ne sont transmises à aucun serveur</li>
+          <li>Ne contiennent aucune donnée personnelle</li>
+          <li>Peuvent être supprimées à tout moment (via le bouton "Réinitialiser le calibrage" ou en vidant l'historique du navigateur)</li>
+        </ul>
+
+        <h2>Services tiers</h2>
+        <p>
+          Le site peut faire appel à des services tiers, notamment :
+        </p>
+        <ul class="privacy-list">
+          <li><strong>Google Fonts</strong> — pour le chargement des polices. Google peut enregistrer votre adresse IP lors du téléchargement des polices.</li>
+        </ul>
+        <p>
+          Nous n'utilisons pas d'outils de suivi, de cookies publicitaires ou de systèmes d'analyse collectant des données à caractère personnel.
+        </p>
+
+        <h2>Sécurité</h2>
+        <p>
+          Le service fonctionne entièrement côté client (dans votre navigateur). 
+          Nous ne traitons aucune donnée sur nos serveurs. Toute la logique de l'outil — y compris le calibrage et les mesures — 
+          est exécutée localement sur votre appareil.
+        </p>
+
+        <h2>Droits des utilisateurs</h2>
+        <p>
+          Comme nous ne collectons aucune donnée personnelle, il n'est pas nécessaire de soumettre des demandes de suppression ou d'accès. 
+          Si vous avez des questions concernant la confidentialité, vous pouvez nous contacter via la page <a href="/a-propos/">À propos</a>.
+        </p>
+
+        <h2>Modification de la politique de confidentialité</h2>
+        <p>
+          Nous nous réservons le droit de modifier la présente politique de confidentialité. 
+          Toute modification sera publiée sur cette page avec la date de mise à jour correspondante.
+        </p>
+
+        <div class="privacy-cta">
+          <a href="/" class="btn btn-primary">Retour à la règle en ligne</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .privacy-container {
+    max-width: var(--container-lg);
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: var(--space-2);
+    color: var(--border-dark);
+  }
+
+  .breadcrumb a {
+    color: var(--text-tertiary);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  .privacy-updated {
+    font-size: 0.875rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-8);
+  }
+
+  .privacy-content h2 {
+    margin-top: var(--space-8);
+  }
+
+  .privacy-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-5);
+  }
+
+  .privacy-list li {
+    list-style: disc;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .privacy-cta {
+    margin-top: var(--space-10);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border);
+  }
+</style>

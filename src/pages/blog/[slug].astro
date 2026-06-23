@@ -1,0 +1,43 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+// Generate paths for all blog posts dynamically
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+// Fetch all posts to determine related posts
+const allPosts = await getCollection('blog');
+const relatedPosts = allPosts
+  .filter(p => p.id !== entry.id)
+  .sort(() => 0.5 - Math.random()) // Shuffle
+  .slice(0, 3) // Take 3 random posts as related
+  .map(p => ({
+    slug: p.id,
+    title: p.data.title,
+    heroImage: p.data.heroImage
+  }));
+---
+
+<BlogPostLayout
+  title={entry.data.title}
+  description={entry.data.description}
+  pubDate={entry.data.pubDate}
+  heroImage={entry.data.heroImage}
+  imageAlt={entry.data.imageAlt}
+  ogTitle={entry.data.ogTitle}
+  ogDescription={entry.data.ogDescription}
+  slug={entry.id}
+  headings={headings}
+  relatedPosts={relatedPosts}
+>
+  <Content />
+</BlogPostLayout>

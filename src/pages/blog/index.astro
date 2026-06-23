@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Fetch all articles from the blog collection
+const allPosts = await getCollection('blog');
+
+// Sort posts (alphabetically by title for structured order)
+const sortedPosts = allPosts.sort((a, b) => a.data.title.localeCompare(b.data.title, 'fr'));
+
+const featuredPost = sortedPosts[0];
+const remainingPosts = sortedPosts.slice(1);
+
+const blogSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Blog Regle-Enligne.onl",
+  "description": "Guides de mesure, guides de calibrage de règle en ligne, convertisseurs d'unités et articles pratiques sur les règles.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Règle en Ligne"
+  },
+  "url": "https://regle-enligne.onl/blog/"
+});
+---
+
+<BaseLayout
+  title="Blog et Guides de Mesure | Regle-Enligne.onl"
+  description="Guides, calibrage de règle en ligne, conversions de centimètres, millimètres et pouces. Apprenez à mesurer précisément sur votre écran."
+  canonicalUrl="https://regle-enligne.onl/blog/"
+  schemaMarkup={blogSchema}
+>
+  <div class="blog-index-container container">
+    <header class="blog-index-header">
+      <span class="blog-badge">Connaissances & Outils</span>
+      <h1 class="blog-index-title">Blog sur les mesures et les règles en ligne</h1>
+      <p class="blog-index-lead">Retrouvez des instructions détaillées, des tableaux de conversion d'unités, des conseils pratiques et des guides sur les mesures d'écran et l'impression de règles.</p>
+    </header>
+
+    <!-- Featured Post -->
+    {featuredPost && (
+      <section class="featured-section">
+        <a href={`/blog/${featuredPost.id}/`} class="featured-card-link">
+          <article class="featured-card">
+            <div class="featured-img-wrapper">
+              <img src={featuredPost.data.heroImage} alt={featuredPost.data.imageAlt || featuredPost.data.title} />
+            </div>
+            <div class="featured-info">
+              <span class="card-badge">Article à la une</span>
+              <h2 class="featured-title">{featuredPost.data.title}</h2>
+              <p class="featured-desc">{featuredPost.data.description}</p>
+              <div class="card-footer-meta">
+                <span class="card-date">
+                  {new Date(featuredPost.data.pubDate).toLocaleDateString('fr-FR', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </span>
+                <span class="read-more-link">Lire l'article &rarr;</span>
+              </div>
+            </div>
+          </article>
+        </a>
+      </section>
+    )}
+
+    <!-- Posts Grid -->
+    <section class="posts-grid-section">
+      <h2 class="grid-section-title">Tous les articles</h2>
+      
+      <div class="blog-cards-grid">
+        {remainingPosts.map((post) => (
+          <a href={`/blog/${post.id}/`} class="blog-card-link">
+            <article class="blog-card">
+              <div class="card-img-wrapper">
+                <img src={post.data.heroImage} alt={post.data.imageAlt || post.data.title} loading="lazy" />
+              </div>
+              <div class="card-body">
+                <span class="card-category">Guide</span>
+                <h3 class="card-title">{post.data.title}</h3>
+                <p class="card-excerpt">{post.data.description}</p>
+                <div class="card-meta">
+                  <span class="card-date">
+                    {new Date(post.data.pubDate).toLocaleDateString('fr-FR', {
+                      year: 'numeric',
+                      month: 'short',
+                      day: 'numeric'
+                    })}
+                  </span>
+                  <span class="card-link">Plus &rarr;</span>
+                </div>
+              </div>
+            </article>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

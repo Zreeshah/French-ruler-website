@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://regle-enligne.onl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "À propos",
+      "item": "https://regle-enligne.onl/a-propos/"
+    }
+  ]
+});
+---
+
+<BaseLayout
+  title="À propos – Regle-Enligne.onl"
+  description="En savoir plus sur Regle-Enligne.onl — un outil gratuit pour mesurer des objets en ligne avec votre téléphone, tablette ou ordinateur."
+  canonicalUrl="https://regle-enligne.onl/a-propos/"
+  schemaMarkup={breadcrumbSchema}
+>
+  <section class="section about-page">
+    <div class="container about-container">
+      <!-- Breadcrumb -->
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <ol>
+          <li><a href="/">Règle en ligne</a></li>
+          <li aria-current="page">À propos</li>
+        </ol>
+      </nav>
+
+      <h1>À propos de Regle-Enligne.onl</h1>
+
+      <div class="about-content">
+        <p class="about-lead">
+          <strong>Regle-Enligne.onl</strong> est un outil en ligne gratuit qui transforme l'écran de votre appareil en une véritable règle graduée en centimètres.
+        </p>
+
+        <h2>Pourquoi avons-nous créé cet outil ?</h2>
+        <p>
+          Parfois, vous devez mesurer rapidement un petit objet, mais vous n'avez pas de règle physique sous la main. 
+          C'est précisément dans ces moments-là que notre <a href="/">règle en ligne</a> s'avère extrêmement utile. 
+          Il vous suffit d'ouvrir la page dans votre navigateur — sur téléphone, tablette ou ordinateur — et le tour est joué.
+        </p>
+
+        <h2>Comment ça fonctionne ?</h2>
+        <p>
+          L'outil affiche à l'écran une échelle graduée en centimètres et en millimètres. Afin de garantir une mesure la plus précise possible, 
+          nous proposons un système de calibrage qui permet d'ajuster l'échelle à la taille réelle des pixels de votre écran. 
+          Vous pouvez calibrer la règle en indiquant la diagonale de l'écran en pouces ou en utilisant une carte bancaire comme référence.
+        </p>
+
+        <h2>À qui s'adresse notre règle numérique ?</h2>
+        <ul class="about-list">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Pour tous ceux qui ont besoin d'une mesure rapide en cm ou en mm</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Pour les élèves et les étudiants durant leurs études</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Pour les personnes travaillant avec de petits objets (bijoux, vis, électronique)</span>
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Pour quiconque n'a pas de règle physique à portée de main</span>
+          </li>
+        </ul>
+
+        <h2>Ce qui nous distingue</h2>
+        <p>
+          Notre site est rapide, simple et ne nécessite aucune inscription ni installation d'application. 
+          Nous ne collectons aucune donnée personnelle. Le calibrage est enregistré localement dans votre navigateur, 
+          de sorte que lors de votre prochaine visite, la règle graduée sera immédiatement prête à l'emploi.
+        </p>
+
+        <div class="about-cta">
+          <a href="/" class="btn btn-primary">Règle en ligne</a>
+          <a href="/regle-a-imprimer/" class="btn btn-secondary">Règle à imprimer</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about-container {
+    max-width: var(--container-lg);
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: var(--space-2);
+    color: var(--border-dark);
+  }
+
+  .breadcrumb a {
+    color: var(--text-tertiary);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  .about-lead {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: var(--space-8);
+  }
+
+  .about-content h2 {
+    margin-top: var(--space-8);
+  }
+
+  .about-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .about-list li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+  }
+
+  .about-list li svg {
+    flex-shrink: 0;
+  }
+
+  .about-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-10);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border);
+  }
+</style>

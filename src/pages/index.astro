@@ -1,0 +1,1008 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Schema markup
+const schemaWebApp = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Règle en ligne",
+  "url": "https://regle-enligne.onl",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Web browser",
+  "inLanguage": "fr",
+  "description": "Règle en ligne gratuite en cm et mm. Utilisez votre téléphone, tablette ou ordinateur comme règle graduée.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  }
+};
+
+const schemaHowTo = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Comment utiliser la règle en ligne",
+  "description": "Instructions pour utiliser la règle en ligne sur téléphone, tablette ou ordinateur.",
+  "inLanguage": "fr",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Ouvrir le site",
+      "text": "Ouvrez le site sur votre appareil."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Calibrer la règle",
+      "text": "Calibrez la règle pour améliorer la précision de la mesure."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Placer l'objet",
+      "text": "Placez l'objet sur l'échelle graduée à l'écran."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Lire le résultat",
+      "text": "Lisez la longueur en centimètres ou en millimètres."
+    }
+  ]
+};
+
+const faqItems = [
+  {
+    question: "La règle en ligne fonctionne-t-elle sur téléphone ?",
+    answer: "Oui, la règle en ligne fonctionne sur téléphone. Il est recommandé de l'utiliser en mode paysage et de calibrer l'écran avant la mesure pour une règle en cm sur téléphone précise."
+  },
+  {
+    question: "Puis-je utiliser la règle en ligne sans installer d'application ?",
+    answer: "Oui, la règle numérique fonctionne directement sans installation. Il suffit d'ouvrir la page dans votre navigateur Web."
+  },
+  {
+    question: "Pourquoi dois-je calibrer la règle graduée ?",
+    answer: "Les écrans ont des densités de pixels différentes. Le calibrage permet d'ajuster l'échelle de la règle en cm à la taille réelle."
+  },
+  {
+    question: "Existe-t-il une règle à imprimer ?",
+    answer: "Oui, vous pouvez télécharger une règle à imprimer en centimètres et millimètres sur notre page dédiée, à imprimer à l'échelle 100%."
+  },
+  {
+    question: "La règle numérique affiche-t-elle les millimètres ?",
+    answer: "Oui, notre règle en cm affiche également les millimètres pour vous permettre d'effectuer des mesures de règle très précises."
+  }
+];
+
+const schemaFAQ = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": item.answer
+    }
+  }))
+};
+
+const allSchemas = JSON.stringify([schemaWebApp, schemaHowTo, schemaFAQ]);
+
+const conversionData = [
+  { cm: 1, mm: 10, inch: "0,39" },
+  { cm: 2, mm: 20, inch: "0,79" },
+  { cm: 3, mm: 30, inch: "1,18" },
+  { cm: 4, mm: 40, inch: "1,57" },
+  { cm: 5, mm: 50, inch: "1,97" },
+  { cm: 10, mm: 100, inch: "3,94" },
+  { cm: 15, mm: 150, inch: "5,91" },
+  { cm: 20, mm: 200, inch: "7,87" },
+  { cm: 25, mm: 250, inch: "9,84" },
+  { cm: 30, mm: 300, inch: "11,81" },
+  { cm: 50, mm: 500, inch: "19,69" },
+];
+---
+
+<BaseLayout
+  title="Règle en ligne 1:1 – Règle en cm sur téléphone et ordinateur"
+  description="Règle en ligne gratuite en cm et mm. Utilisez votre téléphone comme règle graduée. Calibrez votre écran pour une mesure règle en taille réelle."
+  schemaMarkup={allSchemas}
+>
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Règle en ligne 1:1 – Règle en cm sur&nbsp;écran</h1>
+          <p class="hero-subtitle">
+            Mesurez de petits objets sans règle physique. Utilisez notre règle en ligne gratuite sur téléphone, tablette ou&nbsp;ordinateur.
+          </p>
+          <div class="hero-cta">
+            <a href="#règle" class="btn btn-primary btn-lg" id="cta-use-ruler">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <path d="M2 12h20M6 8v8M10 10v4M14 8v8M18 10v4"/>
+              </svg>
+              Utiliser la règle en ligne
+            </a>
+            <a href="/regle-a-imprimer/" class="btn btn-secondary btn-lg" id="cta-print-ruler">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <polyline points="6 9 6 2 18 2 18 9"/>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+                <rect x="6" y="14" width="12" height="8"/>
+              </svg>
+              Télécharger la règle à imprimer
+            </a>
+          </div>
+          <p class="hero-trust">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            Calibrage automatique – la règle numérique s'adapte à votre écran.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img
+            src="/images/hero.webp"
+            alt="Règle en ligne sur téléphone et ordinateur"
+            width="520"
+            height="340"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FULL-PAGE RULER TOOL ====== -->
+  <section class="ruler-section no-print" id="règle" aria-label="Règle en ligne">
+    <div class="ruler-hint">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg>
+      Faites défiler vers le bas pour voir la règle complète
+    </div>
+
+    <!-- Floating device info card -->
+    <div class="ruler-device-card" id="ruler-device-card">
+      <div class="device-card-header">
+        <span class="device-name" id="device-name">Détection...</span>
+        <span class="device-diagonal" id="device-diagonal"></span>
+      </div>
+      <div class="device-card-body">
+        <div class="device-screen-input">
+          <label for="screen-size-input" class="sr-only">Taille de l'écran en pouces</label>
+          <div class="screen-size-display">
+            <span class="screen-label">Écran</span>
+            <input
+              type="number"
+              id="screen-size-input"
+              class="screen-value-input"
+              min="3"
+              max="100"
+              step="0.1"
+              aria-label="Diagonale de l'écran en pouces"
+            />
+            <span class="screen-unit">pouces</span>
+          </div>
+          <span class="device-hint">Entrez la diagonale</span>
+        </div>
+        <button class="redetect-btn" id="btn-redetect" aria-label="Détecter à nouveau">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+          Détecter
+        </button>
+      </div>
+    </div>
+
+    <!-- Ruler SVG container — scrollable -->
+    <div class="ruler-scroll-area" id="ruler-scroll-area">
+      <div class="ruler-track" id="ruler-track">
+        <!-- SVG will be injected here -->
+      </div>
+    </div>
+
+    <!-- Sticky bottom bar: CM / INCH toggle -->
+    <div class="ruler-bottom-bar" id="ruler-bottom-bar">
+      <div class="unit-toggle">
+        <button class="unit-btn active" id="btn-unit-cm" aria-label="Centimètres" aria-pressed="true">CM</button>
+        <span class="unit-sep">|</span>
+        <button class="unit-btn" id="btn-unit-inch" aria-label="Pouces" aria-pressed="false">INCH</button>
+      </div>
+      <a href="/regle-a-imprimer/" class="bottom-link">Règle à imprimer</a>
+    </div>
+  </section>
+
+  <!-- ====== CALIBRATION PANEL (compact) ====== -->
+  <section class="section section-alt calibration-panel no-print" id="kalibracja" aria-label="Calibrage de la règle">
+    <div class="container">
+      <h2>Calibrage de la règle</h2>
+      <p>La règle numérique se calibre automatiquement. Vous pouvez également effectuer un calibrage manuel pour obtenir une règle taille réelle exacte.</p>
+
+      <div class="calibration-grid">
+        <!-- Method: Credit Card -->
+        <div class="card calibration-card" id="calibration-card">
+          <h3>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            Calibrage avec carte bancaire
+          </h3>
+          <p>Placez une carte de crédit sur l'écran et ajustez les contours à l'aide du curseur.</p>
+          <div class="calibration-form">
+            <div class="card-reference" id="card-reference">
+              <div class="card-outline" id="card-outline">
+                <span class="card-label">85,6 mm</span>
+              </div>
+            </div>
+            <label for="card-slider" class="input-label">Ajuster la taille de la carte</label>
+            <input
+              type="range"
+              id="card-slider"
+              min="200"
+              max="500"
+              value="323"
+              aria-label="Curseur de taille de la carte"
+            />
+            <button class="btn btn-primary" id="btn-calibrate-card" style="margin-top: var(--space-3);">Calibrer la règle</button>
+          </div>
+        </div>
+
+        <!-- Status -->
+        <div class="card calibration-card">
+          <h3>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+            Statut du calibrage
+          </h3>
+          <div id="calibration-status-info">
+            <p id="calibration-status-text">Vérification du calibrage...</p>
+          </div>
+          <button class="btn btn-sm btn-secondary" id="btn-reset-calibration" style="margin-top: var(--space-3);">Réinitialiser le calibrage</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SEO CONTENT ====== -->
+  <section class="section seo-content">
+    <div class="container seo-container">
+      <h2>Qu'est-ce qu'une règle en ligne ?</h2>
+      <p>
+        Une <strong>règle en ligne</strong> (ou <strong>regle en ligne</strong>) est un outil numérique simple et gratuit qui vous permet de mesurer de petits objets sans avoir besoin d'une règle physique. 
+        Il vous suffit d'ouvrir notre site Web sur votre téléphone, votre tablette ou votre ordinateur de bureau et de poser l'objet à côté de la <strong>règle graduée</strong> affichée sur l'écran. 
+        C'est idéal pour effectuer une <strong>mesure regle</strong> rapide et efficace à tout moment.
+      </p>
+
+      <h2>Comment utiliser notre règle numérique ?</h2>
+      <ol class="steps-list">
+        <li>
+          <span class="step-number">1</span>
+          <span>Ouvrez la <strong>règle</strong> sur votre appareil mobile ou votre ordinateur.</span>
+        </li>
+        <li>
+          <span class="step-number">2</span>
+          <span>L'outil effectue un calibrage automatique pour afficher une <strong>regle taille reelle</strong> (ou <strong>regle taille reel</strong>) selon votre écran.</span>
+        </li>
+        <li>
+          <span class="step-number">3</span>
+          <span>Pour plus de précision, utilisez le calibrage manuel par carte bancaire ou diagonale.</span>
+        </li>
+        <li>
+          <span class="step-number">4</span>
+          <span>Posez l'objet sur l'écran et lisez la mesure sur la graduation de la <strong>regle centimetre</strong>.</span>
+        </li>
+      </ol>
+
+      <h2>Règle en cm sur téléphone</h2>
+      <p>
+        Si vous n'avez pas de mètre ruban ou de règle physique sous la main, votre smartphone peut devenir une excellente <strong>règle en cm sur téléphone</strong>. 
+        Notre outil s'adapte à la taille et à la résolution de votre écran. Faites défiler la règle vers le bas pour accéder à une plus grande longueur de mesure.
+      </p>
+
+      <h2>Règle en cm et règle graduée numérique</h2>
+      <p>
+        Notre <strong>regle cm</strong> (ou <strong>regle en cm</strong>) affiche des graduations en centimètres et en millimètres. Vous pouvez également passer en pouces (inches) en un seul clic. 
+        Cette <strong>règle numérique</strong> polyvalente est idéale pour mesurer des vis, des pièces de monnaie, des bagues ou tout autre petit accessoire du quotidien.
+      </p>
+
+      <h2>Règle taille réelle 10 cm and 20 cm</h2>
+      <p>
+        Selon la taille de votre écran, vous disposerez d'une règle de 10 cm, 20 cm ou plus. 
+        Pour garantir que votre <strong>regle en cm</strong> affiche la taille réelle parfaite, suivez nos instructions de calibrage simple à l'aide d'une carte standard.
+      </p>
+
+      <h2>La règle en ligne est-elle précise ?</h2>
+      <p>
+        Oui, après un calibrage correct, la <strong>règle en ligne</strong> offre une précision remarquable. Cependant, la précision physique finale dépend des spécifications de votre écran. 
+        Pour les mesures industrielles ou de haute précision, utilisez toujours des outils de mesure physiques professionnels comme un pied à coulisse.
+      </p>
+
+      <div class="seo-cta-row">
+        <p>
+          Besoin d'une règle en papier ? Imprimez notre <a href="/regle-a-imprimer/">règle à imprimer</a> gratuite au format A4 à l'échelle 100%.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONVERSION TABLE ====== -->
+  <section class="section section-alt conversion-section" id="tabela-konwersji" aria-label="Tableau de conversion">
+    <div class="container">
+      <h2>Tableau de conversion : centimètres, millimètres et pouces</h2>
+      <p>Conversion rapide des unités de longueur les plus courantes.</p>
+      
+      <div class="table-wrapper">
+        <table aria-label="Tableau de conversion des centimètres, millimètres et pouces">
+          <thead>
+            <tr>
+              <th scope="col">Centimètres</th>
+              <th scope="col">Millimètres</th>
+              <th scope="col">Pouces</th>
+            </tr>
+          </thead>
+          <tbody>
+            {conversionData.map((row) => (
+              <tr>
+                <td>{row.cm} cm</td>
+                <td>{row.mm} mm</td>
+                <td>{row.inch} pouces</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FAQ ====== -->
+  <section class="section faq-section" id="faq" aria-label="Questions fréquemment posées">
+    <div class="container">
+      <h2>Questions fréquemment posées</h2>
+      
+      <div class="faq-list">
+        {faqItems.map((item, i) => (
+          <details class="faq-item" id={`faq-${i + 1}`}>
+            <summary class="faq-question">
+              <span>{item.question}</span>
+              <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </summary>
+            <div class="faq-answer">
+              <p>{item.answer}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ====== HERO ====== */
+  .hero-section {
+    padding: var(--space-10) 0 var(--space-8);
+    background: linear-gradient(180deg, var(--accent-bg) 0%, var(--bg-primary) 100%);
+  }
+
+  @media (min-width: 768px) {
+    .hero-section {
+      padding: var(--space-16) 0 var(--space-12);
+    }
+  }
+
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .hero-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-12);
+    }
+  }
+
+  .hero-text h1 { margin-bottom: var(--space-4); }
+
+  .hero-subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--space-6);
+    max-width: 50ch;
+  }
+
+  .hero-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+  }
+
+  .hero-trust {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.875rem;
+    color: var(--text-tertiary);
+    margin-bottom: 0;
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    border-radius: var(--radius-lg);
+  }
+
+  /* ====== FULL-PAGE RULER ====== */
+  .ruler-section {
+    position: relative;
+    background: #fff;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .ruler-hint {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Floating device card */
+  .ruler-device-card {
+    position: absolute;
+    top: 56px;
+    left: 80px;
+    z-index: 10;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    padding: var(--space-4);
+    min-width: 240px;
+    max-width: 320px;
+  }
+
+  @media (max-width: 500px) {
+    .ruler-device-card {
+      left: 70px;
+      right: var(--space-3);
+      min-width: auto;
+    }
+  }
+
+  .device-card-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-2);
+    margin-bottom: var(--space-3);
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  .device-diagonal {
+    color: var(--text-tertiary);
+    font-weight: 400;
+  }
+
+  .device-card-body {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-4);
+  }
+
+  .device-screen-input {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .screen-size-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: var(--space-2) var(--space-3);
+    min-width: 72px;
+  }
+
+  .screen-label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .screen-value-input {
+    width: 60px;
+    border: none;
+    background: transparent;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-align: center;
+    padding: 0;
+    -moz-appearance: textfield;
+  }
+
+  .screen-value-input::-webkit-inner-spin-button,
+  .screen-value-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .screen-value-input:focus {
+    outline: none;
+    color: var(--accent);
+  }
+
+  .screen-unit {
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+  }
+
+  .device-hint {
+    font-size: 0.6875rem;
+    color: var(--text-tertiary);
+    text-align: center;
+  }
+
+  .redetect-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-2) var(--space-3);
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--accent);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition-fast);
+    margin-top: var(--space-2);
+  }
+
+  .redetect-btn:hover {
+    background: var(--accent-bg);
+    border-color: var(--accent-lighter);
+  }
+
+  /* Ruler scroll area */
+  .ruler-scroll-area {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 80vh;
+    min-height: 400px;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ruler-track {
+    position: relative;
+  }
+
+  .ruler-track :global(svg) {
+    display: block;
+  }
+
+  /* Sticky bottom bar */
+  .ruler-bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+  }
+
+  .unit-toggle {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .unit-btn {
+    background: none;
+    border: none;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+    letter-spacing: 0.05em;
+  }
+
+  .unit-btn:hover {
+    color: var(--accent);
+  }
+
+  .unit-btn.active {
+    color: var(--accent);
+    background: var(--accent-bg);
+  }
+
+  .unit-sep {
+    color: var(--border-dark);
+    font-size: 0.875rem;
+  }
+
+  .bottom-link {
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    font-weight: 500;
+  }
+
+  .bottom-link:hover {
+    color: var(--accent);
+  }
+
+  /* ====== CALIBRATION ====== */
+  .calibration-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 768px) {
+    .calibration-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .calibration-card h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    margin-top: 0;
+    margin-bottom: var(--space-3);
+  }
+
+  .calibration-card p {
+    font-size: 0.9375rem;
+    margin-bottom: var(--space-4);
+  }
+
+  .card-reference {
+    display: flex;
+    justify-content: center;
+    padding: var(--space-4) 0;
+    margin-bottom: var(--space-4);
+  }
+
+  .card-outline {
+    width: 323px;
+    height: 204px;
+    border: 2.5px dashed var(--accent);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-bg);
+    transition: width 0.15s ease;
+  }
+
+  .card-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  /* ====== SEO CONTENT ====== */
+  .seo-container { max-width: var(--container-lg); }
+
+  .steps-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .steps-list li {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+  }
+
+  .step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.875rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .seo-cta-row {
+    margin-top: var(--space-8);
+    padding: var(--space-4) var(--space-6);
+    background: var(--accent-bg);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--accent-lighter);
+  }
+
+  .seo-cta-row p {
+    margin-bottom: 0;
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+
+  /* ====== CONVERSION TABLE ====== */
+  .table-wrapper {
+    overflow-x: auto;
+    margin-top: var(--space-6);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+  }
+
+  table { min-width: 400px; }
+  thead { background: var(--bg-tertiary); }
+
+  th {
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  td {
+    padding: var(--space-3) var(--space-4);
+    font-size: 0.9375rem;
+    color: var(--text-primary);
+    border-top: 1px solid var(--border);
+    font-variant-numeric: tabular-nums;
+  }
+
+  tbody tr:nth-child(even) { background: var(--bg-secondary); }
+  tbody tr:hover { background: var(--accent-bg); }
+
+  th:first-child, td:first-child {
+    position: sticky;
+    left: 0;
+    background: inherit;
+    font-weight: 600;
+  }
+
+  /* ====== FAQ ====== */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: var(--space-6);
+    max-width: var(--container-lg);
+  }
+
+  .faq-item {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: box-shadow var(--transition-base);
+  }
+
+  .faq-item:hover { box-shadow: var(--shadow-sm); }
+  .faq-item[open] { box-shadow: var(--shadow-md); }
+
+  .faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-5);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    color: var(--text-primary);
+    list-style: none;
+    user-select: none;
+    transition: background var(--transition-fast);
+  }
+
+  .faq-question::-webkit-details-marker { display: none; }
+  .faq-question:hover { background: var(--bg-secondary); }
+
+  .faq-chevron {
+    flex-shrink: 0;
+    transition: transform var(--transition-base);
+    color: var(--text-tertiary);
+  }
+
+  .faq-item[open] .faq-chevron { transform: rotate(180deg); }
+
+  .faq-answer { padding: 0 var(--space-5) var(--space-4); }
+
+  .faq-answer p {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+</style>
+
+<script>
+  import { generateFullPageRulerSVG, calcMaxUnits, type RulerUnit } from '../scripts/ruler';
+  import { detectDevice, onOrientationChange } from '../scripts/device-detect';
+  import {
+    loadCalibration,
+    resetCalibration,
+    autoCalibrate,
+    calibrateByDiagonal,
+    calibrateByCard,
+    getCurrentPxPerMm,
+  } from '../scripts/calibration';
+
+  // State
+  let currentUnit: RulerUnit = 'cm';
+  let currentDevice = detectDevice();
+
+  // DOM refs
+  const rulerTrack = document.getElementById('ruler-track')!;
+  const scrollArea = document.getElementById('ruler-scroll-area')!;
+  const deviceNameEl = document.getElementById('device-name')!;
+  const deviceDiagEl = document.getElementById('device-diagonal')!;
+  const screenInput = document.getElementById('screen-size-input') as HTMLInputElement;
+  const btnUnitCm = document.getElementById('btn-unit-cm')!;
+  const btnUnitInch = document.getElementById('btn-unit-inch')!;
+
+  // --- Auto-calibrate on first load ---
+  function initCalibration() {
+    const existing = loadCalibration();
+    if (!existing) {
+      // First visit: auto-calibrate using detected diagonal
+      autoCalibrate(currentDevice.estimatedDiagonalInches);
+    }
+    updateDeviceCard();
+  }
+
+  function updateDeviceCard() {
+    const cal = loadCalibration();
+    const diag = cal?.diagonalInches || currentDevice.estimatedDiagonalInches;
+
+    deviceNameEl.textContent = currentDevice.deviceName === 'Inconnu' ? 'Inconnu' : currentDevice.deviceName;
+    deviceDiagEl.textContent = `· ${diag.toFixed(2)}"`;
+    screenInput.value = diag.toFixed(1);
+
+    // Update calibration status panel
+    const statusText = document.getElementById('calibration-status-text');
+    if (statusText) {
+      const method = cal?.method || 'default';
+      const labels: Record<string, string> = {
+        auto: 'Automatique',
+        diagonal: 'Manuelle (diagonale)',
+        card: 'Manuelle (carte)',
+        default: 'Par défaut (96 DPI)',
+      };
+      statusText.innerHTML = `
+        <strong>Méthode :</strong> ${labels[method] || 'Automatique'}<br>
+        <strong>Diagonale :</strong> ${diag.toFixed(1)}"<br>
+        <strong>Appareil :</strong> ${currentDevice.deviceName === 'Inconnu' ? 'Inconnu' : currentDevice.deviceName}<br>
+        <strong>Échelle :</strong> ${getCurrentPxPerMm().toFixed(2)} px/mm
+      `;
+    }
+  }
+
+  // --- Render ruler ---
+  function renderRuler() {
+    const pxPerMm = getCurrentPxPerMm();
+    // Use viewport height as base for vertical ruler (allow scrolling for more)
+    const availableHeight = Math.max(window.innerHeight * 3, 2000);
+    const totalUnits = calcMaxUnits(availableHeight, currentUnit, pxPerMm);
+
+    const svg = generateFullPageRulerSVG({
+      orientation: 'vertical',
+      unit: currentUnit,
+      pxPerMm,
+      totalUnits: Math.min(totalUnits, currentUnit === 'cm' ? 50 : 20),
+    });
+
+    rulerTrack.innerHTML = svg;
+  }
+
+  // --- Initialize ---
+  initCalibration();
+  renderRuler();
+
+  // --- Screen size input: recalibrate when changed ---
+  screenInput.addEventListener('change', () => {
+    const val = parseFloat(screenInput.value);
+    if (val && val >= 3 && val <= 100) {
+      calibrateByDiagonal(val);
+      updateDeviceCard();
+      renderRuler();
+    }
+  });
+
+  // Re-detect button
+  document.getElementById('btn-redetect')?.addEventListener('click', () => {
+    currentDevice = detectDevice();
+    autoCalibrate(currentDevice.estimatedDiagonalInches);
+    updateDeviceCard();
+    renderRuler();
+  });
+
+  // --- Unit toggle ---
+  btnUnitCm.addEventListener('click', () => {
+    currentUnit = 'cm';
+    btnUnitCm.classList.add('active');
+    btnUnitCm.setAttribute('aria-pressed', 'true');
+    btnUnitInch.classList.remove('active');
+    btnUnitInch.setAttribute('aria-pressed', 'false');
+    renderRuler();
+  });
+
+  btnUnitInch.addEventListener('click', () => {
+    currentUnit = 'inch';
+    btnUnitInch.classList.add('active');
+    btnUnitInch.setAttribute('aria-pressed', 'true');
+    btnUnitCm.classList.remove('active');
+    btnUnitCm.setAttribute('aria-pressed', 'false');
+    renderRuler();
+  });
+
+  // --- Orientation change ---
+  onOrientationChange(() => {
+    currentDevice = detectDevice();
+    renderRuler();
+    updateDeviceCard();
+  });
+
+  // --- Credit card calibration ---
+  const cardOutline = document.getElementById('card-outline') as HTMLElement;
+  const cardSlider = document.getElementById('card-slider') as HTMLInputElement;
+
+  if (cardSlider && cardOutline) {
+    cardSlider.addEventListener('input', () => {
+      const width = parseInt(cardSlider.value);
+      cardOutline.style.width = width + 'px';
+      cardOutline.style.height = Math.round(width * (53.98 / 85.6)) + 'px';
+    });
+  }
+
+  document.getElementById('btn-calibrate-card')?.addEventListener('click', () => {
+    if (cardSlider) {
+      calibrateByCard(parseInt(cardSlider.value));
+      updateDeviceCard();
+      renderRuler();
+    }
+  });
+
+  // --- Reset calibration ---
+  document.getElementById('btn-reset-calibration')?.addEventListener('click', () => {
+    resetCalibration();
+    currentDevice = detectDevice();
+    autoCalibrate(currentDevice.estimatedDiagonalInches);
+    updateDeviceCard();
+    renderRuler();
+  });
+</script>
