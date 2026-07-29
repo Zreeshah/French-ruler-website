@@ -1,33 +1,41 @@
-# Astro Starter Kit: Minimal
+# French Ruler Website
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Astro static site for <https://regle-enligne.onl>, a French online ruler and measurement guide.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The site is configured as SSG (`output: 'static'`) and builds every page to HTML in `dist/`.
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## Project Structure
 
 ```text
 /
 ├── public/
+│   ├── robots.txt
+│   └── 66a8eaa41055fd74aecd440735d9f84c.txt
+├── scripts/
+│   └── submit-indexnow.mjs
 ├── src/
+│   ├── content/blog/
+│   ├── layouts/
 │   └── pages/
-│       └── index.astro
-└── package.json
+└── astro.config.mjs
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## SEO
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- `robots.txt` allows crawlers and points to `https://regle-enligne.onl/sitemap-index.xml`.
+- `@astrojs/sitemap` generates the sitemap during `npm run build`.
+- The IndexNow key file is served from `/<key>.txt` after deployment.
+- `scripts/submit-indexnow.mjs` reads generated HTML files from `dist/`, skips pages marked `noindex`, and submits every indexable URL to `https://api.indexnow.org/indexnow`.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Run IndexNow only after the latest build is deployed and the key file is reachable at:
 
-## 🧞 Commands
+```text
+https://regle-enligne.onl/66a8eaa41055fd74aecd440735d9f84c.txt
+```
 
-All commands are run from the root of the project, from a terminal:
+## Commands
+
+All commands are run from the project root:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -35,9 +43,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run indexnow:dry-run`| Print the IndexNow payload from `dist/`          |
+| `npm run indexnow:submit` | Submit all generated HTML URLs to IndexNow       |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
