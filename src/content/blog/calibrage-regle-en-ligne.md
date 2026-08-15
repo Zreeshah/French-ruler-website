@@ -6,9 +6,10 @@ ogDescription: "Cinq étapes simples pour régler une échelle graduée précise
 imageAlt: "Calibrage de la règle en ligne à l'aide d'une carte plastique sur l'écran"
 heroImage: "/images/blog/calibrage-regle-en-ligne.png"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment calibrer votre règle en ligne pour des mesures précises ?
+## Comment calibrer votre règle en ligne pour des mesures précises ?
 
 Le calibrage d'une **règle en ligne** (ou **regle en ligne**) consiste à ajuster l'échelle affichée sur l'écran avec un objet de référence de taille connue. L'utilisateur place un gabarit standard, comme une carte bancaire ou une règle physique, puis modifie l'échelle de l'outil jusqu'à ce que les contours correspondent exactement à la longueur réelle. C'est pourquoi, avant votre première **mesure regle**, il est recommandé de prendre une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de la **règle numérique** non calibrée.
 

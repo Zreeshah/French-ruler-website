@@ -18,6 +18,22 @@ const schemaWebApp = {
   }
 };
 
+const schemaOrganization = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Règle en Ligne",
+  "url": "https://regle-enligne.onl/",
+  "logo": "https://regle-enligne.onl/favicon.svg"
+};
+
+const schemaWebSite = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Règle en Ligne",
+  "url": "https://regle-enligne.onl/",
+  "inLanguage": "fr-FR"
+};
+
 const schemaHowTo = {
   "@context": "https://schema.org",
   "@type": "HowTo",
@@ -88,7 +104,7 @@ const schemaFAQ = {
   }))
 };
 
-const allSchemas = JSON.stringify([schemaWebApp, schemaHowTo, schemaFAQ]);
+const allSchemas = JSON.stringify([schemaOrganization, schemaWebSite, schemaWebApp, schemaHowTo, schemaFAQ]);
 
 const conversionData = [
   { cm: 1, mm: 10, inch: "0,39" },
@@ -146,8 +162,8 @@ const conversionData = [
           <img
             src="/images/hero.webp"
             alt="Règle en ligne sur téléphone et ordinateur"
-            width="520"
-            height="340"
+            width="1024"
+            height="1024"
             loading="eager"
           />
         </div>

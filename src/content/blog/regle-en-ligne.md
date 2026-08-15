@@ -6,9 +6,10 @@ ogDescription: "Principes de base pour mesurer des objets sur l'écran d'un ordi
 imageAlt: "Règle en ligne à l'échelle 1:1 sur l'écran d'un ordinateur portable"
 heroImage: "/images/blog/regle-en-ligne.png"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Règle en ligne 1:1 - comment mesurer des objets sur votre écran ?
+## Règle en ligne 1:1 - comment mesurer des objets sur votre écran ?
 
 Une **règle en ligne** (ou **regle en ligne**) à l'échelle 1:1 affiche des centimètres et des millimètres dans une taille très proche de celle d'une règle physique. Pour que le résultat de la mesure soit précis, l'utilisateur doit d'abord calibrer son écran, vérifier le zoom du navigateur et aligner correctement l'objet avec le début de la graduation. C'est pourquoi, avant votre première mesure, il est conseillé de prendre une minute pour calibrer votre écran plutôt que d'utiliser la **règle numérique** sans vérification préalable.
 
@@ -67,8 +68,8 @@ Sur un écran d'ordinateur portable, qui offre une surface plus large, il est po
 Pour aller plus loin, vous pouvez également consulter :
 
 - [Le guide de calibrage](/blog/calibrage-regle-en-ligne)
-- [La règle en cm en ligne](/blog/regle-en-cm-en-ligne)
-- [La règle à imprimer](/blog/regle-a-imprimer)
+- [La règle en cm en ligne](/blog/mesure-regle-en-ligne-cm)
+- [La règle à imprimer](/regle-a-imprimer/)
 
 Sources utiles concernant les unités et l'échelle :
 

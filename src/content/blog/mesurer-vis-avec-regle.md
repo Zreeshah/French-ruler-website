@@ -6,9 +6,10 @@ ogDescription: "Guide simple pour évaluer la taille de petits composants de qui
 imageAlt: "Mesure d'une vis en millimètres sur la règle en ligne"
 heroImage: "/images/blog/mesurer-vis-avec-regle.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment mesurer une vis, un écrou ou un petit composant technique ?
+## Comment mesurer une vis, un écrou ou un petit composant technique ?
 
 Mesurer une vis avec une règle en ligne est très pratique pour estimer rapidement la longueur ou le diamètre d'une pièce, mais ne remplace pas un pied à coulisse professionnel. Pour obtenir une mesure correcte, calibrez soigneusement votre écran puis placez le composant sur la graduation en millimètres. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de votre **regle en cm** virtuelle.
 
@@ -63,7 +64,7 @@ Exemple : la tige filetée de la vis s'arrête à 24 mm et son diamètre semble 
 Pour aller plus loin :
 
 - [Convertisseur de mm en cm](/blog/mm-en-cm)
-- [La règle de 10 cm en ligne](/blog/10-cm)
+- [La règle de 10 cm en ligne](/blog/regle-10-cm)
 - [Comment calibrer votre règle en ligne](/blog/calibrage-regle-en-ligne)
 
 Sources utiles concernant les standards physiques :

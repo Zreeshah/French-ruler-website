@@ -6,9 +6,10 @@ ogDescription: "Conseils pratiques pour évaluer la taille de votre bijou sans o
 imageAlt: "Mesure d'une bague avec une règle graduée en ligne"
 heroImage: "/images/blog/mesurer-bague-avec-regle.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment mesurer le diamètre d'une bague avec une règle en ligne ?
+## Comment mesurer le diamètre d'une bague avec une règle en ligne ?
 
 Mesurer le diamètre d'une bague ou d'une alliance avec une règle virtuelle est possible à titre indicatif en évaluant la distance intérieure de l'anneau en millimètres. Placez la bague à plat sur l'écran, alignez le centre de l'ouverture sur les graduations et lisez l'écart entre les parois intérieures. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de votre **regle en cm** virtuelle.
 

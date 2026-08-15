@@ -6,9 +6,10 @@ ogDescription: "Exemples et cas d'usage pratiques de l'utilisation de votre smar
 imageAlt: "Mesure sur téléphone pour évaluer la taille d'un objet"
 heroImage: "/images/blog/mesure-sur-telephone.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Mesure sur téléphone : applications pratiques à la maison, à l'école et au travail
+## Mesure sur téléphone : applications pratiques à la maison, à l'école et au travail
 
 La **mesure sur téléphone** est une solution idéale lorsque vous devez vérifier rapidement la longueur d'un petit objet sans chercher de règle physique. Après un calibrage simple, votre smartphone peut vous aider à la maison, à l'école, au bureau ou pour de petites tâches techniques. C'est pourquoi, avant votre première mesure, il est fortement conseillé de passer une minute à calibrer la **règle numérique** sur votre écran afin d'obtenir un **regle centimetre** fiable et à la taille réelle.
 

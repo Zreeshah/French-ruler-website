@@ -6,9 +6,10 @@ ogDescription: "Dimensions d'une carte, calibrage de règle et contrôle pratiqu
 imageAlt: "Dimensions d'une carte bancaire mesurées avec une règle en ligne"
 heroImage: "/images/blog/dimensions-carte-bancaire.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment calibrer sa règle en ligne avec une carte bancaire ?
+## Comment calibrer sa règle en ligne avec une carte bancaire ?
 
 Les dimensions d'une carte bancaire standard servent de référence idéale pour calibrer une **règle en ligne** (ou **regle en ligne**). La norme internationale ID-1 fixe la largeur de ces cartes à 85,60 mm et leur hauteur à 53,98 mm. Ainsi, poser votre carte sur l'écran vous permet d'ajuster parfaitement l'échelle de la règle virtuelle. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran plutôt que d'utiliser la graduation par défaut sans contrôle.
 

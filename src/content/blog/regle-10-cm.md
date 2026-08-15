@@ -6,9 +6,10 @@ ogDescription: "Mesures rapides d'objets de moins de 10 cm sur téléphone ou or
 imageAlt: "Règle graduée de 10 cm à l'écran pour petits objets"
 heroImage: "/images/blog/regle-10-cm.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Règle en ligne 10 cm - mesure rapide de petits objets
+## Règle en ligne 10 cm - mesure rapide de petits objets
 
 Une longueur de 10 cm est idéale pour mesurer rapidement de petits objets du quotidien à l'écran. Après calibrage de la **règle en ligne**, vous pouvez vérifier la taille d'une clé, d'un élastique, d'une étiquette, d'une vis ou d'un composant de papeterie sans chercher de mètre ruban. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de votre **regle en cm** virtuelle.
 
@@ -64,7 +65,7 @@ Pour aller plus loin :
 
 - [Convertisseur cm en mm](/blog/cm-en-mm)
 - [Règle en ligne de 20 cm](/blog/regle-en-ligne-20-cm)
-- [La règle à imprimer](/blog/regle-a-imprimer)
+- [La règle à imprimer](/regle-a-imprimer/)
 
 Sources utiles concernant les standards physiques :
 

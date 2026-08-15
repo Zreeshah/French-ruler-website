@@ -4,6 +4,8 @@ export interface Props {
   description: string;
   canonicalUrl?: string;
   ogImage?: string;
+  ogTitle?: string;
+  ogDescription?: string;
   noIndex?: boolean;
   schemaMarkup?: string;
 }
@@ -13,12 +15,16 @@ const {
   description,
   canonicalUrl = Astro.url.href,
   ogImage = '/images/og-image.png',
+  ogTitle,
+  ogDescription,
   noIndex = false,
   schemaMarkup,
 } = Astro.props;
 
 const siteUrl = 'https://regle-enligne.onl';
 const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+const socialTitle = ogTitle || title;
+const socialDescription = ogDescription || description;
 ---
 
 <!doctype html>
@@ -45,16 +51,16 @@ const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalUrl} />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
+  <meta property="og:title" content={socialTitle} />
+  <meta property="og:description" content={socialDescription} />
   <meta property="og:image" content={fullOgImage} />
   <meta property="og:locale" content="fr_FR" />
   <meta property="og:site_name" content="Regle-Enligne.onl" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content={title} />
-  <meta name="twitter:description" content={description} />
+  <meta name="twitter:title" content={socialTitle} />
+  <meta name="twitter:description" content={socialDescription} />
   <meta name="twitter:image" content={fullOgImage} />
 
   <!-- Theme Color -->

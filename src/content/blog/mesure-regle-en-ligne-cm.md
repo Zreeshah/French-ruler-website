@@ -6,9 +6,10 @@ ogDescription: "Applications pratiques d'une règle graduée en ligne à la mais
 imageAlt: "Règle graduée en ligne affichant des centimètres et millimètres sur écran"
 heroImage: "/images/blog/mesure-regle-en-ligne-cm.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Mesure règle en ligne en cm et mm - quand l'utiliser ?
+## Mesure règle en ligne en cm et mm - quand l'utiliser ?
 
 Une **règle en ligne** est idéale pour estimer rapidement la longueur d'un petit objet en cm ou en mm. Il convient de l'utiliser pour les petites mesures du quotidien, après avoir calibré votre écran de smartphone ou d'ordinateur pour obtenir une **regle en cm** fiable. C'est pourquoi, avant votre première mesure, prenez une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de la **règle numérique** non calibrée.
 
@@ -67,7 +68,7 @@ Exemple : un enseignant souhaite vérifier la largeur d'une image pour une fiche
 Pour poursuivre vos mesures :
 
 - [Le centimètre en ligne](/blog/centimetre-en-ligne)
-- [Tableau de conversion mm en cm](/blog/mm-na-cm)
+- [Tableau de conversion mm en cm](/blog/mm-en-cm)
 - [Comment calibrer votre règle en ligne](/blog/calibrage-regle-en-ligne)
 
 Sources de référence pour les standards de mesure :

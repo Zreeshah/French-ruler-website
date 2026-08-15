@@ -6,9 +6,10 @@ ogDescription: "Comment utiliser votre navigateur internet pour faire de votre t
 imageAlt: "Téléphone comme règle pour mesurer un petit objet"
 heroImage: "/images/blog/telephone-comme-regle.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment utiliser votre téléphone comme règle sans installer d'application ?
+## Comment utiliser votre téléphone comme règle sans installer d'application ?
 
 Utiliser son **téléphone comme règle** de mesure est tout à fait possible sans installer d'application, simplement en ouvrant une **règle en ligne** dans votre navigateur et en calibrant l'échelle sur votre écran. C'est une solution rapide pour effectuer une **mesure regle** sur de petits objets à la maison, au magasin, à l'école ou au travail. C'est pourquoi, avant votre première mesure, il est fortement conseillé de passer une minute à calibrer la **règle numérique** sur votre écran afin d'obtenir un **regle centimetre** précis à la taille réelle.
 

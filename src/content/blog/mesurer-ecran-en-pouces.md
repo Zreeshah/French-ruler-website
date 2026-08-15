@@ -6,9 +6,10 @@ ogDescription: "Une méthode simple pour calculer la diagonale d'un écran en po
 imageAlt: "Comment mesurer un écran en pouces avec une règle"
 heroImage: "/images/blog/mesurer-ecran-en-pouces.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment mesurer l'écran de votre téléphone ou ordinateur en pouces ?
+## Comment mesurer l'écran de votre téléphone ou ordinateur en pouces ?
 
 Comment mesurer la taille d'un écran en pouces ? Il suffit de mesurer la diagonale de la partie active de l'écran d'un angle à l'angle opposé à l'aide d'une **regle en cm**, puis de diviser le résultat obtenu en centimètres par 2,54. Les bordures physiques de l'appareil ne doivent pas être prises en compte dans cette mesure. C'est pourquoi, avant votre première mesure, il est fortement conseillé de passer une minute à calibrer la **règle numérique** sur votre écran afin d'obtenir un **regle centimetre** fiable et à la taille réelle.
 

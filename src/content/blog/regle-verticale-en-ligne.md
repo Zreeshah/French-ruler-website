@@ -6,9 +6,10 @@ ogDescription: "Mesurer la hauteur, les objets étroits et les éléments vertic
 imageAlt: "Règle verticale en ligne graduée affichée sur un écran"
 heroImage: "/images/blog/regle-verticale-en-ligne.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Règle verticale en ligne : quand utiliser un outil de mesure vertical sur écran ?
+## Règle verticale en ligne : quand utiliser un outil de mesure vertical sur écran ?
 
 Une **règle verticale en ligne** s'avère particulièrement utile lorsqu'il faut mesurer la hauteur d'un petit objet plutôt que sa largeur. Son principe de fonctionnement est identique à celui d'une **règle en ligne** horizontale, mais la graduation s'affiche le long de l'axe vertical de l'écran. C'est pourquoi, avant votre première mesure, il est vivement recommandé de passer une minute à calibrer la **règle numérique** sur votre écran afin d'obtenir un **regle centimetre** précis et à la taille réelle.
 

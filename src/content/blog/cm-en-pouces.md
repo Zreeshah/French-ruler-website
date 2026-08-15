@@ -6,9 +6,10 @@ ogDescription: "Convertisseur rapide de centimètres en pouces (inches) pour les
 imageAlt: "Tableau de conversion des cm en pouces pour la règle en ligne"
 heroImage: "/images/blog/cm-en-pouces.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Centimètres en pouces - tableau de conversion pour règle en ligne
+## Centimètres en pouces - tableau de conversion pour règle en ligne
 
 Pour convertir des centimètres en pouces, il suffit de diviser le nombre de centimètres par 2,54. Un pouce (inch) équivaut exactement à 2,54 cm. Ainsi, 10 cm correspondent à environ 3,94 pouces, et 20 cm à environ 7,87 pouces. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de votre **regle en cm** virtuelle.
 

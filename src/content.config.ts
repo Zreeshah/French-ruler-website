@@ -11,6 +11,7 @@ const blog = defineCollection({
     imageAlt: z.string().optional(),
     heroImage: z.string(),
     pubDate: z.date().or(z.string().transform((val) => new Date(val))),
+    updatedDate: z.date().or(z.string().transform((val) => new Date(val))).optional(),
   }),
 });
 

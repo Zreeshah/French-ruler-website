@@ -6,9 +6,10 @@ ogDescription: "Comment mesurer des objets plus longs sur un ordinateur portable
 imageAlt: "Règle en ligne de 20 cm affichée sur l'écran d'une tablette"
 heroImage: "/images/blog/regle-en-ligne-20-cm.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Règle en ligne 20 cm - comment mesurer des objets plus grands sur votre écran ?
+## Règle en ligne 20 cm - comment mesurer des objets plus grands sur votre écran ?
 
 Une **règle en ligne** de 20 cm fonctionne de manière optimale sur une tablette, un ordinateur portable ou un moniteur de bureau, là où l'échelle complète s'affiche en une seule fois. Après avoir réglé l'échelle 1:1, vous pouvez mesurer des objets plus longs, des bandes de papier, des câbles et des accessoires de bureau sans avoir à imprimer une règle papier. C'est pourquoi, avant votre première **mesure regle**, il est conseillé de prendre une minute pour calibrer votre écran plutôt que d'utiliser la **règle numérique** par défaut sans vérification.
 
@@ -64,7 +65,7 @@ Exemple : vous devez découper une bande de papier de 18 cm. Après calibrage de
 
 Pour poursuivre vos mesures :
 
-- [La règle en ligne de 10 cm](/blog/10-cm)
+- [La règle en ligne de 10 cm](/blog/regle-10-cm)
 - [Le centimètre en ligne](/blog/centimetre-en-ligne)
 - [Comment calibrer votre règle en ligne](/blog/calibrage-regle-en-ligne)
 

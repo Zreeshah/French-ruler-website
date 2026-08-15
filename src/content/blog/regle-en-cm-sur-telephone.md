@@ -6,9 +6,10 @@ ogDescription: "Guide simple pour utiliser la règle en ligne sur votre smartpho
 imageAlt: "Règle en cm sur téléphone affichée sur l'écran d'un smartphone"
 heroImage: "/images/blog/regle-en-cm-sur-telephone.png"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Comment utiliser une règle en ligne sur téléphone ? Guide simple étape par étape
+## Comment utiliser une règle en ligne sur téléphone ? Guide simple étape par étape
 
 Une **règle en cm sur téléphone** fonctionne de manière optimale lorsque la page de mesure est calibrée à la taille réelle de votre écran. L'utilisateur ouvre l'outil dans son navigateur, ajuste l'échelle à l'aide d'une carte de crédit ou d'un objet de référence, puis applique l'objet à mesurer sur le bord de l'écran. C'est pourquoi, avant votre première **mesure regle**, il est recommandé de prendre une minute pour calibrer votre écran plutôt que de faire confiance aveuglément à la graduation par défaut de la **règle numérique**.
 

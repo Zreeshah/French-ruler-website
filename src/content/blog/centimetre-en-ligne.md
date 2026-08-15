@@ -6,9 +6,10 @@ ogDescription: "Comment mesurer une longueur sur l'écran d'un téléphone ou d'
 imageAlt: "Règle centimètre en ligne affichée sur un écran avec graduation en centimètres"
 heroImage: "/images/blog/centimetre-en-ligne.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Centimètre en ligne - comment mesurer une longueur sans règle physique ?
+## Centimètre en ligne - comment mesurer une longueur sans règle physique ?
 
 Le **centimètre en ligne** permet de vérifier rapidement la longueur de petits objets lorsqu'on ne possède pas d'instrument de mesure sous la main. Pour effectuer une **mesure regle** fiable, il est indispensable de calibrer d'abord l'affichage de votre écran, puis de placer l'objet à partir du point zéro de la **regle centimetre**. C'est pourquoi, avant votre première mesure, prenez le temps de calibrer votre écran plutôt que de faire confiance par défaut aux dimensions non vérifiées.
 
@@ -66,7 +67,7 @@ Exemple : vous voulez vérifier si une photo imprimée mesure environ 9 cm de la
 
 Pour poursuivre vos mesures :
 
-- [Convertisseur cm en mm](/blog/cm-na-mm)
+- [Convertisseur cm en mm](/blog/cm-en-mm)
 - [Règle en ligne gratuite 1:1](/blog/regle-en-ligne)
 - [Utiliser son téléphone comme règle](/blog/regle-en-cm-sur-telephone)
 

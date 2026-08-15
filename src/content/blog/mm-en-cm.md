@@ -6,9 +6,10 @@ ogDescription: "Convertisseur simple de millimètres en centimètres pour les me
 imageAlt: "Tableau de conversion des mm en cm pour règle de mesure"
 heroImage: "/images/blog/mm-en-cm.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Millimètres en centimètres - tableau rapide pour vos mesures
+## Millimètres en centimètres - tableau rapide pour vos mesures
 
 Pour convertir des millimètres en centimètres, il suffit de diviser la valeur en millimètres par 10. Cela signifie que 10 mm équivalent à 1 cm, 25 mm à 2,5 cm et 100 mm à 10 cm. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran de téléphone ou d'ordinateur pour obtenir une **regle en cm** fiable plutôt que d'utiliser l'affichage par défaut.
 

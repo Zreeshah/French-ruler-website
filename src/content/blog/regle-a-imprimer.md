@@ -6,9 +6,10 @@ ogDescription: "Conseils d'impression et vérification de la règle en cm sur pa
 imageAlt: "Règle à imprimer sur papier A4 avec échelle 100%"
 heroImage: "/images/blog/regle-a-imprimer.png"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Règle à imprimer - comment imprimer sa règle graduée en A4 ?
+## Règle à imprimer - comment imprimer sa règle graduée en A4 ?
 
 Imprimer une **règle à imprimer** en centimètres et millimètres est très utile pour disposer d'un instrument de mesure physique à portée de main. Pour conserver une échelle exacte, il est indispensable de configurer l'impression à 100% de la taille réelle. C'est pourquoi, avant votre première mesure, prenez une minute pour vérifier la zone de contrôle plutôt que d'utiliser la règle papier sans vérification préalable.
 
@@ -63,7 +64,7 @@ Après l'impression, mesurez la zone témoin de 10 cm avec une vraie règle. Si 
 Pour aller plus loin, vous pouvez également consulter :
 
 - [La règle en ligne gratuite 1:1](/blog/regle-en-ligne)
-- [La règle de 10 cm](/blog/10-cm)
+- [La règle de 10 cm](/blog/regle-10-cm)
 - [Comment calibrer votre règle](/blog/calibrage-regle-en-ligne)
 
 Sources utiles concernant les formats et échelles :

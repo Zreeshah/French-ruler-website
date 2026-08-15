@@ -6,9 +6,10 @@ ogDescription: "Découvrez les facteurs clés qui influencent la précision d'un
 imageAlt: "Calibrage d'une règle en ligne pour une mesure précise"
 heroImage: "/images/blog/regle-en-ligne-precise.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Une règle en ligne est-elle précise ? Qu'est-ce qui influence la mesure ?
+## Une règle en ligne est-elle précise ? Qu'est-ce qui influence la mesure ?
 
 Une **règle en ligne** est-elle précise ? Elle peut être suffisamment exacte pour des mesures quotidiennes, mais elle ne garantit pas une précision technique sans calibrage. Le résultat dépend de votre écran, du zoom du navigateur, des paramètres système, de la façon dont vous placez l'objet et de la lecture des millimètres. C'est pourquoi, avant votre première **mesure regle**, il est recommandé de prendre une minute pour calibrer votre écran plutôt que de faire confiance aveuglément à la graduation par défaut de la **règle numérique**.
 

@@ -43,7 +43,7 @@ const blogSchema = JSON.stringify({
         <a href={`/blog/${featuredPost.id}/`} class="featured-card-link">
           <article class="featured-card">
             <div class="featured-img-wrapper">
-              <img src={featuredPost.data.heroImage} alt={featuredPost.data.imageAlt || featuredPost.data.title} />
+              <img src={featuredPost.data.heroImage} alt={featuredPost.data.imageAlt || featuredPost.data.title} width={featuredPost.data.heroImage.endsWith('.svg') ? 1200 : 1024} height={featuredPost.data.heroImage.endsWith('.svg') ? 675 : 1024} />
             </div>
             <div class="featured-info">
               <span class="card-badge">Article à la une</span>
@@ -74,7 +74,7 @@ const blogSchema = JSON.stringify({
           <a href={`/blog/${post.id}/`} class="blog-card-link">
             <article class="blog-card">
               <div class="card-img-wrapper">
-                <img src={post.data.heroImage} alt={post.data.imageAlt || post.data.title} loading="lazy" />
+              <img src={post.data.heroImage} alt={post.data.imageAlt || post.data.title} width={post.data.heroImage.endsWith('.svg') ? 1200 : 1024} height={post.data.heroImage.endsWith('.svg') ? 675 : 1024} loading="lazy" />
               </div>
               <div class="card-body">
                 <span class="card-category">Guide</span>

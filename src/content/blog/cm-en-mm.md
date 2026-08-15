@@ -6,9 +6,10 @@ ogDescription: "Règle simple, exemples rapides et tableau de conversion pour tr
 imageAlt: "Tableau de conversion des cm en mm près de la règle en ligne"
 heroImage: "/images/blog/cm-en-mm.svg"
 pubDate: "2026-06-07"
+updatedDate: "2026-08-16"
 ---
 
-# Centimètres en millimètres - tableau et convertisseur simple
+## Centimètres en millimètres - tableau et convertisseur simple
 
 Pour convertir des cm en mm, il suffit de multiplier le nombre de centimètres par 10. Cela signifie que 1 cm correspond à 10 mm, 2,5 cm à 25 mm et 10 cm à 100 mm. Cette règle découle directement de la structure du système métrique. C'est pourquoi, avant votre première **mesure regle**, prenez une minute pour calibrer votre écran plutôt que de faire confiance par défaut aux graduations de votre **regle en cm** virtuelle.
 
