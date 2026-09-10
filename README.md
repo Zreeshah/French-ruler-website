@@ -46,3 +46,10 @@ All commands are run from the project root:
 | `npm run indexnow:dry-run`| Print the IndexNow payload from `dist/`          |
 | `npm run indexnow:submit` | Submit all generated HTML URLs to IndexNow       |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+
+
+## Live Site
+
+https://regle-enligne.onl/
+
+
