@@ -5,8 +5,8 @@ ogTitle: "Quand utiliser une règle verticale en ligne ?"
 ogDescription: "Mesurer la hauteur, les objets étroits et les éléments verticaux directement sur votre écran."
 imageAlt: "Règle verticale en ligne graduée affichée sur un écran"
 heroImage: "/images/blog/regle-verticale-en-ligne.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-10-04"
+updatedDate: "2026-10-04"
 ---
 
 ## Règle verticale en ligne : quand utiliser un outil de mesure vertical sur écran ?

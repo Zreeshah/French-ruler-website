@@ -5,8 +5,8 @@ ogTitle: "Application règle ou règle en ligne ?"
 ogDescription: "Comparatif sur le confort, la confidentialité, le calibrage et la rapidité d'utilisation."
 imageAlt: "Application règle comparée à une règle en ligne à l'écran"
 heroImage: "/images/blog/application-regle-online.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-09-04"
+updatedDate: "2026-09-04"
 ---
 
 ## Règle en ligne vs Application règle - quelle solution choisir ?

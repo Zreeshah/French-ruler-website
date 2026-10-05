@@ -5,8 +5,8 @@ ogTitle: "Règle de mesure en ligne en cm et mm"
 ogDescription: "Applications pratiques d'une règle graduée en ligne à la maison, à l'école et au travail."
 imageAlt: "Règle graduée en ligne affichant des centimètres et millimètres sur écran"
 heroImage: "/images/blog/mesure-regle-en-ligne-cm.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-07-06"
+updatedDate: "2026-07-06"
 ---
 
 ## Mesure règle en ligne en cm et mm - quand l'utiliser ?

@@ -5,8 +5,8 @@ ogTitle: "Comment mesurer une bague avec une règle ?"
 ogDescription: "Conseils pratiques pour évaluer la taille de votre bijou sans outil de bijoutier professionnel."
 imageAlt: "Mesure d'une bague avec une règle graduée en ligne"
 heroImage: "/images/blog/mesurer-bague-avec-regle.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-08-23"
+updatedDate: "2026-08-23"
 ---
 
 ## Comment mesurer le diamètre d'une bague avec une règle en ligne ?

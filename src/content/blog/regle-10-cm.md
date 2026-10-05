@@ -5,8 +5,8 @@ ogTitle: "Règle en ligne 10 cm"
 ogDescription: "Mesures rapides d'objets de moins de 10 cm sur téléphone ou ordinateur."
 imageAlt: "Règle graduée de 10 cm à l'écran pour petits objets"
 heroImage: "/images/blog/regle-10-cm.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-07-12"
+updatedDate: "2026-07-12"
 ---
 
 ## Règle en ligne 10 cm - mesure rapide de petits objets

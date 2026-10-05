@@ -5,8 +5,8 @@ ogTitle: "Mesurer l'écran de son téléphone ou ordinateur"
 ogDescription: "Une méthode simple pour calculer la diagonale d'un écran en pouces et éviter les erreurs de mesure les plus courantes."
 imageAlt: "Comment mesurer un écran en pouces avec une règle"
 heroImage: "/images/blog/mesurer-ecran-en-pouces.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-09-28"
+updatedDate: "2026-09-28"
 ---
 
 ## Comment mesurer l'écran de votre téléphone ou ordinateur en pouces ?

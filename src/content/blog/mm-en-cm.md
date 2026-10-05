@@ -5,8 +5,8 @@ ogTitle: "Mm en cm - tableau rapide"
 ogDescription: "Convertisseur simple de millimètres en centimètres pour les mesures en ligne et techniques."
 imageAlt: "Tableau de conversion des mm en cm pour règle de mesure"
 heroImage: "/images/blog/mm-en-cm.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-08-05"
+updatedDate: "2026-08-05"
 ---
 
 ## Millimètres en centimètres - tableau rapide pour vos mesures

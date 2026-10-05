@@ -5,8 +5,8 @@ ogTitle: "Centimètre en ligne sans règle physique"
 ogDescription: "Comment mesurer une longueur sur l'écran d'un téléphone ou d'un ordinateur."
 imageAlt: "Règle centimètre en ligne affichée sur un écran avec graduation en centimètres"
 heroImage: "/images/blog/centimetre-en-ligne.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-06-30"
+updatedDate: "2026-06-30"
 ---
 
 ## Centimètre en ligne - comment mesurer une longueur sans règle physique ?

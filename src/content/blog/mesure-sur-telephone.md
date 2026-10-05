@@ -5,8 +5,8 @@ ogTitle: "La mesure sur téléphone au quotidien"
 ogDescription: "Exemples et cas d'usage pratiques de l'utilisation de votre smartphone comme instrument de mesure rapide."
 imageAlt: "Mesure sur téléphone pour évaluer la taille d'un objet"
 heroImage: "/images/blog/mesure-sur-telephone.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-09-22"
+updatedDate: "2026-09-22"
 ---
 
 ## Mesure sur téléphone : applications pratiques à la maison, à l'école et au travail

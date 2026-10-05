@@ -5,8 +5,8 @@ ogTitle: "Comment mesurer avec une carte bancaire ?"
 ogDescription: "Dimensions d'une carte, calibrage de règle et contrôle pratique des mesures sur écran."
 imageAlt: "Dimensions d'une carte bancaire mesurées avec une règle en ligne"
 heroImage: "/images/blog/dimensions-carte-bancaire.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-08-17"
+updatedDate: "2026-08-17"
 ---
 
 ## Comment calibrer sa règle en ligne avec une carte bancaire ?

@@ -5,8 +5,8 @@ ogTitle: "Règle à imprimer A4 gratuite"
 ogDescription: "Conseils d'impression et vérification de la règle en cm sur papier A4."
 imageAlt: "Règle à imprimer sur papier A4 avec échelle 100%"
 heroImage: "/images/blog/regle-a-imprimer.png"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-07-18"
+updatedDate: "2026-07-18"
 ---
 
 ## Règle à imprimer - comment imprimer sa règle graduée en A4 ?

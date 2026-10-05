@@ -5,8 +5,8 @@ ogTitle: "Cm en pouces - tableau de conversion"
 ogDescription: "Convertisseur rapide de centimètres en pouces (inches) pour les écrans, objets et fiches produits."
 imageAlt: "Tableau de conversion des cm en pouces pour la règle en ligne"
 heroImage: "/images/blog/cm-en-pouces.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-08-11"
+updatedDate: "2026-08-11"
 ---
 
 ## Centimètres en pouces - tableau de conversion pour règle en ligne

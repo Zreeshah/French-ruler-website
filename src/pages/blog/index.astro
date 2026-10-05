@@ -5,8 +5,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 // Fetch all articles from the blog collection
 const allPosts = await getCollection('blog');
 
-// Sort posts (alphabetically by title for structured order)
-const sortedPosts = allPosts.sort((a, b) => a.data.title.localeCompare(b.data.title, 'fr'));
+// Sort posts by newest publish date first, then title for stable ordering.
+const sortedPosts = allPosts.sort((a, b) => {
+  const dateDiff = new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+
+  return dateDiff || a.data.title.localeCompare(b.data.title, 'fr');
+});
 
 const featuredPost = sortedPosts[0];
 const remainingPosts = sortedPosts.slice(1);

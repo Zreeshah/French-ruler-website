@@ -5,8 +5,8 @@ ogTitle: "La règle en ligne est-elle précise ?"
 ogDescription: "Découvrez les facteurs clés qui influencent la précision d'une règle sur écran et comment calibrer pour obtenir un résultat exact."
 imageAlt: "Calibrage d'une règle en ligne pour une mesure précise"
 heroImage: "/images/blog/regle-en-ligne-precise.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-09-10"
+updatedDate: "2026-09-10"
 ---
 
 ## Une règle en ligne est-elle précise ? Qu'est-ce qui influence la mesure ?

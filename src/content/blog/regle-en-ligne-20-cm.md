@@ -5,8 +5,8 @@ ogTitle: "Règle en ligne 20 cm sur grand écran"
 ogDescription: "Comment mesurer des objets plus longs sur un ordinateur portable, une tablette ou un écran."
 imageAlt: "Règle en ligne de 20 cm affichée sur l'écran d'une tablette"
 heroImage: "/images/blog/regle-en-ligne-20-cm.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-07-24"
+updatedDate: "2026-07-24"
 ---
 
 ## Règle en ligne 20 cm - comment mesurer des objets plus grands sur votre écran ?

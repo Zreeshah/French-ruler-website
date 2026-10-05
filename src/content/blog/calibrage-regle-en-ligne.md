@@ -5,8 +5,8 @@ ogTitle: "Comment calibrer une règle en ligne ?"
 ogDescription: "Cinq étapes simples pour régler une échelle graduée précise sur votre téléphone ou votre ordinateur."
 imageAlt: "Calibrage de la règle en ligne à l'aide d'une carte plastique sur l'écran"
 heroImage: "/images/blog/calibrage-regle-en-ligne.png"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-06-18"
+updatedDate: "2026-06-18"
 ---
 
 ## Comment calibrer votre règle en ligne pour des mesures précises ?

@@ -5,8 +5,8 @@ ogTitle: "La règle en ligne 1:1 en pratique"
 ogDescription: "Principes de base pour mesurer des objets sur l'écran d'un ordinateur, d'une tablette ou d'un téléphone."
 imageAlt: "Règle en ligne à l'échelle 1:1 sur l'écran d'un ordinateur portable"
 heroImage: "/images/blog/regle-en-ligne.png"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-06-12"
+updatedDate: "2026-06-12"
 ---
 
 ## Règle en ligne 1:1 - comment mesurer des objets sur votre écran ?

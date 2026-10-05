@@ -5,8 +5,8 @@ ogTitle: "Téléphone comme règle sans application"
 ogDescription: "Comment utiliser votre navigateur internet pour faire de votre téléphone un outil de mesure précis grâce au calibrage."
 imageAlt: "Téléphone comme règle pour mesurer un petit objet"
 heroImage: "/images/blog/telephone-comme-regle.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-09-16"
+updatedDate: "2026-09-16"
 ---
 
 ## Comment utiliser votre téléphone comme règle sans installer d'application ?

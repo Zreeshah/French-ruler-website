@@ -5,8 +5,8 @@ ogTitle: "Comment fonctionne la règle en cm sur téléphone ?"
 ogDescription: "Guide simple pour utiliser la règle en ligne sur votre smartphone, avec calibrage et astuces de mesure."
 imageAlt: "Règle en cm sur téléphone affichée sur l'écran d'un smartphone"
 heroImage: "/images/blog/regle-en-cm-sur-telephone.png"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-06-24"
+updatedDate: "2026-06-24"
 ---
 
 ## Comment utiliser une règle en ligne sur téléphone ? Guide simple étape par étape

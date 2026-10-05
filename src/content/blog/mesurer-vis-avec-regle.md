@@ -5,8 +5,8 @@ ogTitle: "Comment mesurer une vis avec une règle ?"
 ogDescription: "Guide simple pour évaluer la taille de petits composants de quincaillerie à l'écran."
 imageAlt: "Mesure d'une vis en millimètres sur la règle en ligne"
 heroImage: "/images/blog/mesurer-vis-avec-regle.svg"
-pubDate: "2026-06-07"
-updatedDate: "2026-08-16"
+pubDate: "2026-08-29"
+updatedDate: "2026-08-29"
 ---
 
 ## Comment mesurer une vis, un écrou ou un petit composant technique ?
