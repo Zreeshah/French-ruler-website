@@ -46,7 +46,33 @@ Une règle calibrée est adaptée aux petits objets : une étiquette, un trombon
 - Calibrer un écran puis déplacer l'affichage vers un autre moniteur.
 - Prendre une carte de fidélité sans vérifier sa taille.
 
-## FAQ
+## Préparer l'écran avant le réglage
+
+Commencez par remettre l'affichage à une taille normale. Sur ordinateur, vérifiez le zoom du navigateur ; sur téléphone, évitez les gestes d'agrandissement et les modes qui modifient la taille d'affichage. Fermez les panneaux flottants qui pourraient recouvrir la règle et posez l'appareil sur une surface plane. Un écran tenu en main bouge facilement au moment où vous comparez les bords.
+
+Choisissez une lumière suffisante pour voir simultanément la graduation et les contours de la référence. Les reflets ne modifient pas l'échelle, mais ils rendent l'alignement moins précis. Nettoyez le bord de la carte si nécessaire, puis placez-la près de l'écran sans pression. L'objectif est de comparer, non de faire glisser un objet sur la vitre.
+
+Lorsque la règle affiche des millimètres, alignez les bords au même niveau de lecture. Une carte placée un peu en diagonale paraît plus longue. Contrôlez que ses deux grands côtés restent parallèles aux graduations avant de régler quoi que ce soit.
+
+## Contrôler le calibrage avec une seconde longueur
+
+Une référence de 85,60 mm est longue et révèle bien un décalage, mais un contrôle complémentaire reste utile. Après avoir réglé la règle, comparez par exemple les repères 0 et 5 cm avec une règle physique. Puis vérifiez le repère 10 cm si la longueur est visible. Si les écarts ne sont pas identiques, recommencez le calibrage plutôt que de corriger mentalement chaque mesure.
+
+Cette vérification en plusieurs points permet aussi de repérer un mauvais zoom. Un affichage peut sembler correct près du zéro tout en s'écartant progressivement plus loin. Notez le résultat seulement après avoir obtenu une concordance satisfaisante au début, au milieu et à la fin de la référence.
+
+## Quand faut-il refaire le réglage ?
+
+Refaites-le après un changement d'appareil, de navigateur, de moniteur ou de zoom. Vérifiez également après avoir déplacé la page d'un écran à un autre ou après avoir tourné un téléphone. Le calibrage est lié à la manière dont la page est affichée à cet instant ; ce n'est pas un réglage universel enregistré pour tous les appareils.
+
+Pour une lecture occasionnelle d'étiquette ou de photo, une vérification rapide suffit. Pour une mesure qui précède une commande, contrôlez l'échelle juste avant de mesurer et répétez la lecture. Le guide [règle en ligne précise](/blog/regle-en-ligne-precise/) aide à choisir le niveau de prudence adapté.
+
+## Choisir une autre méthode lorsque nécessaire
+
+La diagonale déclarée de l'écran peut dépanner lorsque vous n'avez aucune référence physique, mais elle reste moins directe qu'une carte ou une règle. Elle suppose que les caractéristiques de l'appareil et l'affichage correspondent bien. Mesurez la diagonale de la surface active et consultez le guide [mesurer un écran en pouces](/blog/mesurer-ecran-en-pouces/) si vous devez utiliser cette solution.
+
+Pour un diamètre, un filetage, une épaisseur ou une pièce qui doit s'ajuster, le calibrage d'écran n'est qu'une aide de repérage. Choisissez ensuite un pied à coulisse ou un calibre. Une échelle bien réglée ne compense pas les limites de l'outil ni l'incertitude créée par un objet épais ou irrégulier.
+
+## Questions fréquentes
 
 ### Puis-je utiliser une pièce de monnaie pour calibrer ?
 

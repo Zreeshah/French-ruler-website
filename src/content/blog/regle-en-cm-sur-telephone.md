@@ -29,7 +29,37 @@ La règle sur téléphone est adaptée à une carte, une étiquette, un petit em
 
 Ne posez pas d'objet métallique, humide, coupant ou abrasif sur la vitre. Ne mesurez pas une grande longueur en déplaçant plusieurs fois l'objet : les petites erreurs s'additionnent. Enfin, ne vous servez pas de l'écran pour choisir une pièce de sécurité, un filetage ou une dimension de fabrication.
 
-## FAQ
+## Réussir le calibrage sur son appareil
+
+Le calibrage consiste à faire correspondre une longueur affichée à une longueur réelle. Une carte de paiement mesure 85,60 mm de large : posez-la près de l'écran, alignez un bord avec le zéro, puis ajustez la règle jusqu'à ce que l'autre bord tombe sur 85,60 mm. Faites-le calmement, car un décalage de 1 mm représente déjà une erreur visible sur un petit objet.
+
+Si vous n'avez pas de carte, utilisez une règle rigide dont les graduations sont intactes. Évitez les objets dont la dimension est seulement supposée, comme une carte de visite ou une ancienne carte de fidélité. Une référence incertaine donnerait une règle incertaine. Après le réglage, vérifiez une seconde fois sur une autre portion de la règle : cela révèle un éventuel mauvais alignement.
+
+Le calibrage est propre à chaque écran. Recommencez après avoir changé de téléphone, de navigateur, de taille d'affichage ou de zoom. Même sur le même appareil, vérifiez-le si la page a été agrandie par inadvertance. L'article sur le [calibrage d'une règle en ligne](/blog/calibrage-regle-en-ligne/) explique les signaux qui indiquent qu'il faut refaire le réglage.
+
+## Une méthode de mesure reproductible
+
+Nettoyez et séchez la surface autour de l'écran. Placez ensuite le téléphone sur une table stable et immobilisez l'objet à côté de la graduation. Pour ne pas dépendre du bord arrondi d'une coque, utilisez une bande de papier : reportez le début et la fin de l'objet sur le papier, puis placez cette bande le long de la règle. Vous pourrez répéter la lecture sans risque pour la vitre.
+
+Commencez toujours sur le trait zéro. Compter les graduations à partir du bord de l'écran est une erreur classique, car la zone avant le zéro n'a aucune valeur de mesure. Regardez directement au-dessus de l'extrémité à lire. Lorsque l'objet est épais, son bord supérieur peut paraître décalé par rapport à l'écran ; alignez plutôt le bord qui touche le support ou faites un repère sur papier.
+
+Notez le résultat en millimètres quand la taille est petite. Écrire « 37 mm » évite la confusion entre 3,7 cm et 37 cm et facilite la comparaison avec un emballage ou une fiche produit. Si votre lecture tombe entre deux graduations, inscrivez « environ » et ne la transformez pas en cote de fabrication.
+
+## Objets adaptés et objets délicats
+
+Une règle sur téléphone convient bien à une étiquette, un ruban, une photographie, une carte, un bouchon ou un petit objet plat. Elle peut aussi aider à vérifier la largeur d'une sangle avant de chercher un remplacement. Pour une montre, mesurez l'entre-corne avec un outil plus précis puis consultez le [guide des bracelets de montre](/blog/bracelet-montre-mm/), car quelques millimètres changent la compatibilité.
+
+Les objets souples méritent une précaution supplémentaire. Ne tirez pas sur un câble ou un bracelet pour le plaquer sur l'écran : reportez sa longueur sur un papier, sans l'étirer, et mesurez le repère. Pour une bague, mesurez uniquement le diamètre intérieur et comparez ensuite avec le [tableau des tailles de bague](/blog/tableau-tailles-bagues/). Pour une vis, une règle sur téléphone sert à estimer ; un pied à coulisse est nécessaire avant une commande importante.
+
+## Contrôler son résultat
+
+Faites deux lectures, en repositionnant l'objet entre les deux. Si elles diffèrent, cherchez la cause : l'objet a-t-il bougé, le zéro est-il visible, la coque gêne-t-elle, ou regardez-vous de biais ? Une différence de 1 mm est fréquente lors d'une mesure d'appoint ; une différence plus grande signale qu'il faut revoir le calibrage.
+
+Lorsque la mesure servira à acheter une pièce, conservez le résultat, l'unité et une photographie de l'objet avec une règle physique. Cette habitude rend une demande en magasin beaucoup plus claire et vous évite de commander une dimension sur la seule base d'un souvenir.
+
+Le téléphone demeure ainsi un bon outil de repérage : il répond vite à une question simple, puis vous aide à choisir la vérification physique nécessaire. Cette séparation entre estimation et confirmation rend la mesure beaucoup plus fiable.
+
+## Questions fréquentes
 
 ### Peut-on mesurer sans carte bancaire ?
 

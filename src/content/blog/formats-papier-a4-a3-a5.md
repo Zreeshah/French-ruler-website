@@ -43,7 +43,7 @@ Choisissez « taille réelle » ou « 100 % » dans le dialogue d'impression. D�
 
 La page [règle à imprimer](/regle-a-imprimer/) contient une zone de contrôle prévue pour ce test. L'aperçu d'impression montre la mise en page, pas l'exactitude physique de la sortie papier.
 
-## FAQ
+## Questions fréquentes
 
 ### Quel format est deux fois plus petit que l'A4 ?
 
@@ -66,3 +66,21 @@ Lorsque vous préparez un gabarit, indiquez toujours les dimensions dans le fich
 ## Vérifier un pliage ou une découpe
 
 Pour plier une A4 en deux, alignez soigneusement les bords avant de marquer le pli. Pour une découpe, tracez les repères avec une règle physique et contrôlez deux fois les millimètres. Une règle affichée à l'écran aide à comprendre les dimensions, mais une impression exacte demande une vérification sur le papier.
+
+## Passer d'un format A à un autre
+
+La logique de la série A est particulièrement pratique pour préparer plusieurs versions d'un document. Une feuille A4 pliée dans le sens de sa grande longueur donne deux feuilles A5. Une A3 pliée de la même manière donne deux A4. Cette continuité permet de réduire un visuel de A3 vers A4 ou de A4 vers A5 sans modifier la proportion entre largeur et hauteur.
+
+Attention toutefois aux marges et aux zones perdues de l'imprimante. Réduire un document pour le faire entrer dans une zone imprimable change sa taille finale, même si le rapport de côtés reste correct. Lorsque les dimensions ont une fonction pratique, comme un gabarit, une règle ou une étiquette, réglez l'impression à la taille réelle et acceptez qu'une partie du dessin puisse être coupée si le papier ne le permet pas.
+
+## Préparer un gabarit fiable
+
+Indiquez les dimensions importantes en millimètres directement sur le document. Ajoutez un segment de contrôle, par exemple 50 mm ou 100 mm, dans un coin non essentiel. Après impression, mesurez ce segment avec une règle physique. Si le segment de 100 mm mesure 95 mm, le reste du gabarit est réduit de la même manière et ne doit pas être utilisé pour une découpe précise.
+
+Choisissez aussi le bon sens de page. Une A4 en portrait mesure 210 mm de large sur 297 mm de haut ; en paysage, les mêmes dimensions sont simplement tournées. Le contenu peut tenir dans les deux orientations, mais un gabarit prévu pour l'une peut être réduit automatiquement s'il est imprimé dans l'autre. Vérifiez l'aperçu et les paramètres avant de lancer plusieurs exemplaires.
+
+## Utiliser les millimètres pour les travaux précis
+
+Les centimètres conviennent pour décrire un format général, mais les millimètres évitent les ambiguïtés lors d'une découpe ou d'un pliage. Écrire 148 mm est plus précis que « environ 15 cm » pour le côté court d'une A5. Utilisez une règle rigide et tracez avec une pointe fine ; un trait épais peut représenter plusieurs dixièmes de millimètre.
+
+Pour convertir une dimension destinée à un matériel exprimé en pouces, consultez le [guide cm et pouces](/blog/cm-en-pouces/). Gardez toutefois le format ISO indiqué en millimètres dans votre document de travail : cela limite les arrondis et facilite le contrôle sur la feuille réelle.

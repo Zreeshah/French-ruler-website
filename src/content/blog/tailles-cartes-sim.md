@@ -45,7 +45,7 @@ Demandez de préférence une carte triple découpe ou un remplacement à l'opér
 
 Une [règle calibrée](/) aide à comparer les contours, mais la solution la plus sûre reste une carte au bon format.
 
-## FAQ
+## Questions fréquentes
 
 ### Une nano-SIM entre-t-elle dans un logement micro-SIM ?
 
@@ -68,3 +68,27 @@ Les appareils récents peuvent aussi proposer une carte intégrée. Dans ce cas,
 ## Sauvegarder avant un remplacement
 
 Selon le téléphone et l'opérateur, certains contacts ou données peuvent être associés à la carte. Vérifiez leur emplacement et sauvegardez-les avant de changer de format. Cette précaution est plus importante que la mesure elle-même : une bonne découpe ne protège pas contre une perte de données ou un blocage de carte.
+
+## Reconnaître un format sans se fier à l'apparence
+
+Les trois formats partagent une puce de contact très semblable. Ce qui change est le contour de plastique qui l'entoure. Une carte ancienne paraît donc plus grande sans offrir davantage de fonctions. Placez-la à plat, observez son gabarit et comparez-le aux dimensions du tableau. Une nano SIM mesure environ 12,3 mm sur 8,8 mm ; une micro SIM atteint 15 mm sur 12 mm ; la SIM standard est nettement plus grande avec 25 mm sur 15 mm.
+
+Une règle rigide donne la lecture la plus simple. Une [règle en ligne](/) calibrée peut servir à confirmer l'ordre de grandeur, en utilisant une bande de papier pour ne pas toucher les contacts. Ne cherchez pas à identifier le format par la diagonale de la carte : largeur et hauteur sont les mesures utiles.
+
+## Lire les indications du téléphone et de l'opérateur
+
+Le manuel, le tiroir ou la fiche technique du téléphone indiquent normalement le format attendu. Cherchez le modèle exact, car deux générations proches peuvent utiliser un format différent ou proposer une carte intégrée. Si le tiroir mentionne une seconde ligne, vérifiez aussi si elle sert à une carte mémoire : les logements se ressemblent parfois mais n'acceptent pas le même élément.
+
+L'opérateur peut fournir une carte prédécoupée couvrant plusieurs formats. Détachez uniquement la partie nécessaire et conservez le cadre restant hors de portée des enfants et des contacts métalliques. Lors d'un remplacement, demandez également si l'activation de la nouvelle carte annule immédiatement l'ancienne afin de prévoir le transfert de service.
+
+## Les risques d'une découpe maison
+
+La découpe peut laisser une arête qui accroche le tiroir ou déplacer le contour par rapport aux contacts. Une carte trop petite bouge dans son logement ; une carte trop grande ne doit jamais être forcée. Même si un gabarit de découpe semble correspondre, l'épaisseur et la position des contacts comptent aussi. Un remplacement fourni par l'opérateur est habituellement plus sûr et plus propre.
+
+N'introduisez jamais un adaptateur seul dans le téléphone. Les petites broches du lecteur peuvent se coincer dans un cadre vide. Si vous devez retirer un ensemble avec adaptateur, éteignez l'appareil lorsque la documentation le recommande et tirez doucement le tiroir sans le tordre.
+
+## Préparer un changement de format sans surprise
+
+Avant de remplacer la carte, notez le numéro de votre ligne et assurez-vous de pouvoir recevoir les codes nécessaires à l'activation. Vérifiez que vos contacts sont synchronisés ou exportés, car leur emplacement varie selon les appareils. Conservez aussi le support de la nouvelle carte jusqu'à ce que l'activation soit terminée : il contient souvent des informations utiles.
+
+La mesure du format résout une question physique ; l'activation et la sauvegarde résolvent les questions de service. En séparant ces deux étapes, vous évitez de vous concentrer sur la taille de la carte alors que le problème vient d'une procédure d'opérateur.

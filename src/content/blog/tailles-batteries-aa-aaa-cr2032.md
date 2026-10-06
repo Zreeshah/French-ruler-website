@@ -46,7 +46,7 @@ Mesurez une pile intacte avec une règle physique ou un pied à coulisse. Ne cou
 
 Une [règle en ligne calibrée](/) peut aider à comparer un repère, mais un instrument physique reste plus sûr autour d'une pile.
 
-## FAQ
+## Questions fréquentes
 
 ### Une CR2032 peut-elle remplacer une CR2025 ?
 
@@ -69,3 +69,21 @@ Ne mélangez pas des piles neuves et usagées, ni des chimies ou marques différ
 ## Stockage et recyclage
 
 Conservez les piles au sec, à l'abri des sources de chaleur et hors de portée des enfants. Isolez les bornes des piles bouton usagées avec un ruban non conducteur avant de les déposer dans un point de collecte. Une pile bouton ingérée constitue une urgence médicale : contactez immédiatement les secours ou un centre antipoison.
+
+## Lire une référence de pile bouton
+
+Pour les piles bouton, les chiffres donnent souvent une indication utile sur les dimensions. Une CR2032 fait environ 20 mm de diamètre et 3,2 mm d'épaisseur. Une CR2025 présente le même diamètre mais une épaisseur moindre, ce qui peut empêcher un bon contact dans un appareil conçu pour la première. Ne remplacez pas une référence par une autre uniquement parce qu'elle entre dans le compartiment.
+
+La partie alphabétique et la tension doivent aussi correspondre. Consultez toujours le marquage dans le compartiment ou la notice de l'appareil. Une mesure physique peut confirmer la taille, mais elle ne permet pas à elle seule d'identifier la chimie ni la tension demandées.
+
+## Remplacer un jeu de piles correctement
+
+Ouvrez le compartiment, observez les signes plus et moins, puis retirez les anciennes piles sans utiliser d'outil métallique pour faire levier. Nettoyez prudemment les traces visibles de corrosion selon les recommandations du fabricant et évitez tout contact prolongé avec une fuite. Insérez ensuite les nouvelles piles dans le même sens et refermez le compartiment sans forcer.
+
+Dans un appareil utilisant plusieurs éléments, remplacez l'ensemble lorsque la notice le recommande. Mélanger une pile neuve avec une pile déchargée peut réduire l'autonomie et favoriser une fuite. Conservez les piles de rechange dans leur emballage, sans qu'elles se touchent librement au fond d'un sac.
+
+## Mesurer uniquement lorsque c'est utile
+
+La règle est pratique si la référence est effacée ou si vous devez distinguer rapidement une AA d'une AAA. Posez la pile à côté d'une règle physique et relevez diamètre et longueur. Une [règle en ligne](/) calibrée peut aider à comparer une bande de papier marquée, mais elle ne doit pas être utilisée avec une pile gonflée ou endommagée.
+
+La bonne mesure est une aide au tri. Pour le remplacement final, la référence imprimée, la tension et les indications du fabricant restent les critères décisifs.

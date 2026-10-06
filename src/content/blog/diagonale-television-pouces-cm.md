@@ -18,11 +18,11 @@ La conversion de base est simple : **1 pouce = 2,54 cm**. Une TV de 55 pouces po
 | Taille TV | Diagonale en cm | Usage fréquent |
 |---:|---:|---|
 | 32 pouces | 81,3 cm | chambre, cuisine, petit bureau |
-| 43 pouces | 109,2 cm | salon compact ou gaming occasionnel |
+| 43 pouces | 109,2 cm | salon compact ou jeux occasionnels |
 | 50 pouces | 127 cm | salon moyen |
 | 55 pouces | 139,7 cm | format polyvalent très courant |
 | 65 pouces | 165,1 cm | grand salon |
-| 75 pouces | 190,5 cm | home cinéma |
+| 75 pouces | 190,5 cm | cinéma à domicile |
 | 85 pouces | 215,9 cm | très grande pièce |
 
 ## Mesurer la diagonale sans se tromper
@@ -49,7 +49,7 @@ Mesurez l'intérieur du meuble ou la zone murale, puis ajoutez une marge pour l'
 
 Pour relever un écran existant, consultez [comment mesurer un écran en pouces](/blog/mesurer-ecran-en-pouces/). Le [tableau cm en pouces](/blog/cm-en-pouces/) aide à vérifier les conversions.
 
-## FAQ
+## Questions fréquentes
 
 ### Une TV de 55 pouces fait-elle 55 pouces de large ?
 
@@ -72,3 +72,21 @@ Pour un support mural, la position des fixations et la profondeur totale compten
 ## Bon réflexe avant de remplacer un écran
 
 Mesurez l'ancien téléviseur de coin à coin sur la zone active, puis comparez cette valeur avec la diagonale annoncée. Si le résultat paraît très différent, vous avez probablement inclus le cadre ou mesuré la largeur. Le tableau de conversion aide à vérifier le calcul, mais la fiche constructeur décide toujours de l'encombrement réel.
+
+## Calculer les dimensions de l'image avec prudence
+
+Le calcul pour un écran 16:9 donne une bonne estimation de l'image, pas du téléviseur complet. Une diagonale de 139,7 cm, soit 55 pouces, correspond à environ 121,8 cm de largeur d'image et 68,5 cm de hauteur d'image. Le cadre, l'épaisseur du châssis et le pied ajoutent ensuite leurs propres dimensions.
+
+Ce calcul est moins pertinent pour un écran dont le format n'est pas 16:9. Consultez toujours la fiche du modèle lorsque l'espace disponible est limité. Deux téléviseurs de même diagonale peuvent avoir quelques centimètres d'écart en largeur à cause du cadre ou d'un format différent.
+
+## Prévoir les câbles, l'aération et les accès
+
+Ne mesurez pas seulement la niche du meuble. Prévoyez un espace pour les connecteurs, la circulation d'air et l'accès aux boutons ou aux prises. Un meuble de largeur exacte peut accueillir l'écran mais empêcher de brancher un câble sans plier excessivement son connecteur. Sur un mur, vérifiez aussi que le support laisse assez de place derrière le téléviseur.
+
+Le pied mérite une vérification distincte. Certains modèles ont deux pieds très éloignés, d'autres un support central. Leur largeur et leur profondeur peuvent décider de la compatibilité avec un meuble bien plus sûrement que la diagonale. La notice ou le schéma coté du fabricant fournit ces valeurs.
+
+## Choisir selon la pièce, pas seulement selon le chiffre
+
+Une grande diagonale peut être agréable dans une pièce spacieuse, mais elle n'est pas automatiquement préférable. La disposition des sièges, la résolution du contenu, la lumière et l'angle de vision participent au confort. Mesurez la distance disponible et conservez un passage pratique autour du meuble avant de comparer les tailles proposées.
+
+Les pouces restent utiles pour naviguer dans les catalogues ; les centimètres servent à vérifier l'installation réelle. Utilisez le [guide de conversion cm et pouces](/blog/cm-en-pouces/) pour passer d'une unité à l'autre, puis revenez toujours aux dimensions exactes indiquées par le fabricant avant l'achat.

@@ -52,7 +52,7 @@ Pour une lecture de quelques millimètres, calibrez la [règle en ligne](/) ou u
 - Déduire l'entrecorne à partir du diamètre de la montre.
 - Oublier de vérifier le mode de fixation.
 
-## FAQ
+## Questions fréquentes
 
 ### Une montre de 40 mm utilise-t-elle forcément un bracelet de 20 mm ?
 
@@ -75,3 +75,25 @@ Pour un bracelet métallique, vérifiez également si des maillons supplémentai
 ## Quand demander conseil à un horloger
 
 Faites vérifier la montre lorsqu'une barrette est coincée, que la corne est tordue ou que le bracelet d'origine a une forme intégrée. Forcer un outil peut rayer le boîtier ou abîmer un mécanisme de fixation. Une mesure juste ne suffit pas si la géométrie du bracelet n'est pas compatible.
+
+## Mesurer l'entrecorne sans retirer le bracelet
+
+Quand le bracelet est difficile à déposer, une bande de papier fine donne un repère fiable. Glissez-la entre les cornes sans forcer, marquez les deux bords intérieurs puis retirez-la. Mesurez ensuite la distance entre les marques avec une règle graduée. La bande doit rester droite : si elle se plie, recommencez avec un morceau plus rigide.
+
+Une règle à l'écran peut aider à lire ce repère après calibrage, mais une règle physique ou un pied à coulisse reste préférable pour une valeur de 18, 20 ou 22 mm. Un seul millimètre d'écart suffit à rendre un bracelet trop serré ou trop lâche dans son logement. Contrôlez donc la mesure au moins deux fois avant de commander.
+
+## Vérifier la forme des extrémités
+
+Un bracelet droit présente une extrémité plane entre les cornes. Certains bracelets d'origine possèdent au contraire une pièce moulée qui épouse exactement le boîtier. Même si la largeur est identique, un bracelet droit peut laisser un espace visible ou ne pas suivre la courbe du boîtier. Recherchez la mention de compatibilité avec votre référence de montre lorsque vous souhaitez conserver l'aspect intégré.
+
+Observez aussi les barrettes. Une fixation rapide facilite le changement de bracelet, mais elle doit avoir le bon diamètre et la bonne longueur. Une montre avec une barre à ressort classique n'accepte pas nécessairement un système propriétaire. Photographiez l'attache et l'arrière du boîtier pour comparer avant achat.
+
+## Adapter la longueur au poignet
+
+La largeur entre les cornes assure la compatibilité ; la longueur détermine le confort. Mesurez votre tour de poignet avec un mètre ruban souple ou une bande de papier, sans serrer. Comparez cette valeur à la longueur annoncée des deux brins, en tenant compte du diamètre du boîtier et de la position de la boucle.
+
+Un bracelet métallique peut être raccourci par retrait de maillons, mais vérifiez que les maillons supplémentaires sont disponibles avant d'enlever trop d'éléments. Pour un bracelet en cuir, textile ou silicone, assurez-vous que les trous permettent un réglage confortable. La boucle et l'épaisseur du matériau peuvent modifier la sensation au poignet.
+
+## Contrôle final avant la commande
+
+Notez l'entrecorne, la longueur souhaitée, le type de barrette et la forme d'extrémité. Vérifiez ensuite les dimensions de la boucle : un bracelet qui se rétrécit peut employer une boucle plus étroite que l'entrecorne. Cette liste évite de choisir un produit sur la seule base d'une photo ou d'un diamètre de boîtier.

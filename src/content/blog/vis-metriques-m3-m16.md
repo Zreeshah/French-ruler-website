@@ -46,7 +46,7 @@ La [méthode pour mesurer une vis](/blog/mesurer-vis-avec-regle/) explique comme
 
 Dans `M6 × 30`, M6 indique un diamètre nominal de 6 mm et 30 la longueur, généralement prise sous la tête pour une vis à tête non fraisée. La forme de la tête, le matériau, le revêtement et le pas peuvent encore changer la compatibilité.
 
-## FAQ
+## Questions fréquentes
 
 ### Une clé de 10 mm indique-t-elle toujours une vis M6 ?
 
@@ -69,3 +69,19 @@ Pour une vis de meuble, la tête et l'empreinte peuvent être aussi importantes 
 ## Lire le tableau avec les bonnes limites
 
 Les tailles de clé indiquées sont des repères fréquents, non une promesse universelle. Une tête spéciale, une norme différente ou une vis endommagée peut modifier la mesure. Comparez toujours la pièce réelle avant d'acheter et n'essayez pas de « rattraper » un mauvais filetage en forçant l'écrou.
+
+## Distinguer diamètre, longueur et pas
+
+La désignation d'une vis rassemble plusieurs informations indépendantes. Dans M8 × 40, le premier nombre correspond au diamètre nominal du filetage et le second à la longueur, généralement mesurée sous la tête. Le pas n'apparaît pas toujours lorsqu'il s'agit du pas courant, mais il devient indispensable si le filetage est fin ou particulier. Une vis de même diamètre et de même longueur peut rester incompatible si son pas diffère.
+
+Mesurez la longueur avec la vis couchée contre une règle. Pour une tête fraisée, la tête fait généralement partie de la longueur parce qu'elle s'encastre dans le matériau. Pour une tête cylindrique ou hexagonale, partez normalement de la face située sous la tête. Le guide [mesurer une vis avec une règle](/blog/mesurer-vis-avec-regle/) illustre cette distinction fondamentale.
+
+## Vérifier une compatibilité avant montage
+
+Comparez d'abord la vis retirée avec la nouvelle : diamètre, longueur, tête, empreinte et forme de l'extrémité. Puis engagez-la à la main sur quelques tours. Une résistance immédiate n'est pas un signe qu'il faut forcer ; elle peut révéler un pas différent ou un filetage endommagé. Arrêtez-vous avant de marquer les filets de la pièce.
+
+Le matériau compte aussi. Une vis choisie pour le bois, le plastique ou le métal ne possède pas forcément le même profil ni la même résistance. Pour un assemblage qui supporte une charge, un élément électrique ou une partie de sécurité, la référence du fabricant prévaut sur toute estimation obtenue au tableau.
+
+## Préparer une demande claire
+
+Apportez l'ancienne vis quand cela est possible. Sinon, notez « M estimé », longueur sous tête, type de tête, empreinte, pas supposé et matériau apparent. Une photo à côté d'une règle physique aide à préciser la taille, mais ne remplace pas l'échantillon. Ces informations permettent au vendeur de poser les bonnes questions et réduisent le risque d'acheter une pièce qui ressemble à la bonne sans l'être.

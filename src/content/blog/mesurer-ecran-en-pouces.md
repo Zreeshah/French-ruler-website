@@ -38,7 +38,37 @@ Pour une télévision, consultez les [tailles courantes de téléviseur](/blog/d
 - Convertir avec 2,5 au lieu de 2,54.
 - Déduire les dimensions exactes du boîtier à partir de la diagonale seule.
 
-## FAQ
+## Repérer la zone d'affichage active
+
+La diagonale commerciale concerne la surface qui produit l'image. Sur un téléviseur ou un moniteur, le cadre peut être noir et se confondre avec la dalle lorsqu'il est éteint. Allumez une image claire ou consultez la fiche technique afin d'identifier le bord actif. Sur un téléphone, partez du coin où l'image commence, sans inclure la coque, la bordure ni les arrondis qui ne sont pas utilisables.
+
+Une encoche, un capteur ou une zone réservée dans un téléphone ne modifient pas nécessairement la diagonale annoncée, mais ils réduisent parfois la surface réellement exploitable par une application. Distinguez donc la taille de l'écran, qui est une mesure physique, de l'espace d'affichage, qui dépend aussi du format et de l'interface.
+
+Pour éviter un ruban déformé, utilisez un mètre ruban souple tenu sans courbe excessive ou une règle suffisamment longue. Placez une extrémité sur le premier coin actif et tendez l'outil vers le coin opposé. Ne suivez jamais le contour du cadre : la distance recherchée est une ligne droite.
+
+## Calculer et arrondir sans perdre le sens de la mesure
+
+La formule est simple : nombre de pouces = nombre de centimètres divisé par 2,54. Une diagonale de 68,58 cm correspond à 27 pouces, car 68,58 ÷ 2,54 = 27. À l'inverse, multipliez les pouces par 2,54 pour vérifier une valeur annoncée. Le [tableau de conversion](/blog/cm-en-pouces/) est utile pour une estimation immédiate, mais conservez la valeur complète durant le calcul.
+
+Les tailles commerciales sont souvent exprimées par un nombre entier ou une demi-valeur. Une mesure réelle légèrement différente ne signifie pas forcément que le produit est mal décrit : elle peut venir de l'arrondi, de la partie visible exacte ou de la précision de votre outil. Notez « environ 27 pouces » lorsque la mesure s'écarte de quelques millimètres, puis comparez la référence du modèle plutôt que de conclure sur la seule diagonale.
+
+## Comprendre le rôle du format d'image
+
+À diagonale égale, les dimensions changent avec le rapport entre largeur et hauteur. Un écran au format 16:9 est plus large qu'un écran ancien au format 4:3 de même diagonale. Un écran très large 21:9 offre encore davantage de largeur, mais moins de hauteur. C'est pourquoi deux moniteurs de 34 pouces peuvent ne pas convenir au même bureau.
+
+Pour prévoir l'encombrement, relevez la largeur et la hauteur extérieures sur la fiche fabricant. Ajoutez les pieds, les supports latéraux et l'espace nécessaire aux câbles. Pour une télévision accrochée au mur, vérifiez la position des fixations et la profondeur, pas seulement la diagonale. Le guide des [diagonales de téléviseur en centimètres](/blog/diagonale-television-pouces-cm/) donne des ordres de grandeur utiles avant cette vérification.
+
+## Cas pratiques selon l'appareil
+
+Sur un ordinateur portable, la diagonale de la dalle ne renseigne pas sur les dimensions du châssis ni sur la taille de la housse. Mesurez ou cherchez la largeur, la profondeur et l'épaisseur du modèle. Sur un téléphone, la diagonale est un repère de comparaison, mais la largeur de l'appareil détermine davantage la prise en main et la taille d'une protection.
+
+Pour une télévision, gardez les centimètres pour préparer le meuble ou le mur. Les pouces sont utiles pour lire les catalogues, tandis que la largeur réelle décide si l'appareil passera dans son emplacement. Une règle en ligne peut dépanner sur un petit téléphone calibré, mais un mètre ruban reste préférable dès que l'écran dépasse la longueur visible.
+
+## Vérifier avant de commander un accessoire
+
+Une housse, un support ou une protection ne se choisit jamais avec la seule diagonale. Cherchez le numéro exact du modèle et les dimensions indiquées par le fabricant. Deux appareils de même taille d'écran peuvent avoir des cadres, des capteurs et des positions de caméra incompatibles. Mesurez votre appareil uniquement pour confirmer une information, pas pour remplacer son identification.
+
+## Questions fréquentes
 
 ### Comment savoir si mon ordinateur est un 15 pouces ?
 

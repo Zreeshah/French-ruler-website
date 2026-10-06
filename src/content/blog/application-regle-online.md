@@ -46,9 +46,35 @@ Ne supposez pas qu'une application est automatiquement plus précise. Certaines 
 - Poser un objet rugueux ou humide sur l'écran.
 - Utiliser une mesure sur écran pour choisir un filetage ou une pièce de sécurité.
 
-## FAQ
+## Poser les bonnes questions avant de choisir
 
-### Une application est-elle plus précise qu'un site web ?
+Commencez par définir le travail à réaliser. Si vous voulez comparer la largeur d'une étiquette ou vérifier une petite longueur une seule fois, ouvrir une page est plus rapide que chercher, installer et régler un programme. Si vous devez conserver de nombreuses mesures, annoter des images ou utiliser l'appareil photo, une application peut apporter des fonctions supplémentaires qui justifient son installation.
+
+La question essentielle n'est pas le nom de l'outil, mais la référence utilisée pour l'échelle. Une application qui demande un calibrage et une page calibrée avec la même carte peuvent produire des résultats comparables. À l'inverse, une application qui promet une mesure immédiate sans contrôle physique doit être vérifiée avant un usage important.
+
+Évaluez aussi l'environnement d'utilisation. Une règle en ligne nécessite que la page soit chargée ; une application peut parfois rester disponible sans connexion. Dans les deux cas, la luminosité, la stabilité de l'appareil et l'état de l'écran influencent la facilité de lecture.
+
+## Protéger ses données et son appareil
+
+Pour afficher une simple graduation, l'accès aux contacts, aux messages ou à la localisation ne paraît généralement pas nécessaire. Lisez les autorisations avant d'installer une application et refusez celles qui ne correspondent pas à la fonction annoncée. Consultez la politique de confidentialité lorsqu'un outil propose un compte, un historique synchronisé ou des mesures réalisées avec l'appareil photo.
+
+Une page de règle ne doit pas vous conduire à poser une vis, un objet humide ou une pièce abrasive sur la vitre. Utilisez une bande de papier pour reporter les extrémités, particulièrement sur un téléphone. Cette précaution vaut quelle que soit la solution choisie et évite qu'une mesure d'appoint se transforme en dommage matériel.
+
+## Évaluer le résultat obtenu
+
+Après avoir calibré, mesurez deux fois le même objet en le repositionnant. Si les valeurs changent, vérifiez le zéro, le zoom et l'angle de vue. Une mesure cohérente sur un objet plat peut suffire pour préparer une recherche. Pour un objet épais, rond ou souple, notez que l'écran ne mesure pas directement sa forme : il sert seulement à lire un repère reporté.
+
+Si l'outil propose une estimation par appareil photo, comparez-la également avec une règle physique. La distance, l'angle et la lumière peuvent modifier ce type d'estimation. Ne l'utilisez pas comme seule source pour une coupe, une commande technique ou une pièce de sécurité.
+
+## Associer chaque besoin au bon outil
+
+La règle en ligne est un bon choix pour une vérification courte, une explication scolaire ou une comparaison rapide. Une [règle à imprimer](/regle-a-imprimer/) peut aider quand il faut poser une bande de papier sur une surface. Un mètre ruban est préférable pour un câble, un meuble ou une longueur de tissu. Un pied à coulisse convient aux diamètres et aux petites pièces mécaniques.
+
+Pour une bague, mesurez l'intérieur de l'anneau et consultez le [guide des tailles de bagues](/blog/tableau-tailles-bagues/). Pour une vis, notez longueur, diamètre et type de tête avant de lire le [tableau des vis métriques](/blog/vis-metriques-m3-m16/). Ces liens ne remplacent pas un outil précis, mais ils empêchent de réduire une décision de compatibilité à une seule graduation.
+
+## Questions fréquentes
+
+### Une application est-elle plus précise qu'un site internet ?
 
 Pas forcément. À appareil égal, le calibrage et la méthode de lecture comptent davantage que le format de l'outil.
 
