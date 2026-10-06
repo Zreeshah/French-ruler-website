@@ -59,3 +59,13 @@ Non. Le diamètre et la longueur sont différents, ce qui empêche un contact co
 ## À retenir
 
 Utilisez la référence imprimée comme point de départ, puis vérifiez dimensions, chimie et polarité. Ne forcez jamais une pile dans un compartiment.
+
+## Ne pas confondre format et capacité
+
+Le format décrit l'encombrement ; il ne dit pas à lui seul combien de temps la pile alimentera un appareil. Deux piles AA peuvent employer une chimie différente et offrir des comportements distincts selon l'usage. Respectez la tension et le type demandés par le fabricant de l'appareil, surtout pour les piles bouton et les équipements sensibles.
+
+Ne mélangez pas des piles neuves et usagées, ni des chimies ou marques différentes dans le même appareil. Remplacez les éléments d'un même jeu ensemble lorsque la notice le recommande.
+
+## Stockage et recyclage
+
+Conservez les piles au sec, à l'abri des sources de chaleur et hors de portée des enfants. Isolez les bornes des piles bouton usagées avec un ruban non conducteur avant de les déposer dans un point de collecte. Une pile bouton ingérée constitue une urgence médicale : contactez immédiatement les secours ou un centre antipoison.

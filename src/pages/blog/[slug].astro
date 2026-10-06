@@ -17,16 +17,28 @@ const { Content, headings } = await render(entry);
 // Related guides follow the reader's measurement task rather than a random build-time order.
 const allPosts = await getCollection('blog');
 const relatedBySlug: Record<string, string[]> = {
+  'application-regle-online': ['regle-en-cm-sur-telephone', 'calibrage-regle-en-ligne', 'regle-en-ligne-precise'],
   'bracelet-montre-mm': ['regle-10-cm', 'calibrage-regle-en-ligne', 'mesure-regle-en-ligne-cm'],
+  'calibrage-regle-en-ligne': ['regle-en-ligne-precise', 'regle-en-cm-sur-telephone', 'mesure-regle-en-ligne-cm'],
+  'centimetre-en-ligne': ['mesure-regle-en-ligne-cm', 'regle-10-cm', 'cm-en-pouces'],
+  'cm-en-pouces': ['mesurer-ecran-en-pouces', 'diagonale-television-pouces-cm', 'centimetre-en-ligne'],
   'diagonale-television-pouces-cm': ['mesurer-ecran-en-pouces', 'cm-en-pouces', 'formats-papier-a4-a3-a5'],
   'formats-papier-a4-a3-a5': ['regle-10-cm', 'cm-en-pouces', 'centimetre-en-ligne'],
+  'mesure-regle-en-ligne-cm': ['centimetre-en-ligne', 'calibrage-regle-en-ligne', 'regle-10-cm'],
+  'mesure-sur-telephone': ['regle-en-cm-sur-telephone', 'calibrage-regle-en-ligne', 'regle-en-ligne-precise'],
+  'mesurer-bague-avec-regle': ['tableau-tailles-bagues', 'calibrage-regle-en-ligne', 'mesure-regle-en-ligne-cm'],
+  'mesurer-ecran-en-pouces': ['cm-en-pouces', 'diagonale-television-pouces-cm', 'regle-en-cm-sur-telephone'],
+  'mesurer-vis-avec-regle': ['vis-metriques-m3-m16', 'regle-10-cm', 'mesure-regle-en-ligne-cm'],
+  'regle-10-cm': ['centimetre-en-ligne', 'mesure-regle-en-ligne-cm', 'calibrage-regle-en-ligne'],
+  'regle-en-cm-sur-telephone': ['mesure-sur-telephone', 'calibrage-regle-en-ligne', 'regle-en-ligne-precise'],
+  'regle-en-ligne-precise': ['calibrage-regle-en-ligne', 'mesure-regle-en-ligne-cm', 'regle-en-cm-sur-telephone'],
   'tableau-tailles-bagues': ['mesurer-bague-avec-regle', 'calibrage-regle-en-ligne', 'mesure-regle-en-ligne-cm'],
   'tailles-batteries-aa-aaa-cr2032': ['mesurer-vis-avec-regle', 'regle-10-cm', 'calibrage-regle-en-ligne'],
   'tailles-cartes-sim': ['mesurer-ecran-en-pouces', 'regle-en-cm-sur-telephone', 'cm-en-pouces'],
   'verre-trempe-telephone': ['mesurer-ecran-en-pouces', 'regle-en-cm-sur-telephone', 'calibrage-regle-en-ligne'],
   'vis-metriques-m3-m16': ['mesurer-vis-avec-regle', 'regle-10-cm', 'mesure-regle-en-ligne-cm'],
 };
-const relatedSlugs = relatedBySlug[entry.id] ?? ['calibrage-regle-en-ligne', 'regle-en-ligne-precise', 'regle-10-cm'];
+const relatedSlugs = relatedBySlug[entry.id] ?? [];
 const relatedPosts = relatedSlugs
   .map(slug => allPosts.find(post => post.id === slug))
   .filter((post): post is typeof allPosts[number] => Boolean(post && post.id !== entry.id))

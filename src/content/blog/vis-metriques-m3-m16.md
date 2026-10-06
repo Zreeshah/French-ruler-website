@@ -59,3 +59,13 @@ Non. Il faut aussi vérifier longueur, pas, tête et usage.
 ## À retenir
 
 Le tableau est un outil de repérage. Confirmez le filetage et la forme de tête avant de commander.
+
+## Identifier une vis sans endommager l'assemblage
+
+Retirez une vis seulement si vous connaissez son rôle et si l'appareil est hors tension lorsque c'est nécessaire. Photographiez son emplacement, notez sa longueur et conservez-la séparément. Une vis de même diamètre peut avoir une tête, un pas ou un matériau incompatible avec son usage initial.
+
+Pour une vis de meuble, la tête et l'empreinte peuvent être aussi importantes que le filetage. Pour une pièce mécanique, évitez toute approximation : utilisez une jauge et consultez la documentation du fabricant si la vis participe à la sécurité ou à une charge.
+
+## Lire le tableau avec les bonnes limites
+
+Les tailles de clé indiquées sont des repères fréquents, non une promesse universelle. Une tête spéciale, une norme différente ou une vis endommagée peut modifier la mesure. Comparez toujours la pièce réelle avant d'acheter et n'essayez pas de « rattraper » un mauvais filetage en forçant l'écrou.

@@ -65,3 +65,13 @@ Non. Il risque de se déformer ou de ne pas s'insérer correctement.
 ## À retenir
 
 Mesurez l'espace entre les cornes, contrôlez la référence du modèle et distinguez toujours la largeur de la longueur du bracelet.
+
+## Avant de commander : liste de contrôle
+
+Notez la largeur entre les cornes, la longueur de votre bracelet actuel et le type de fixation. Photographiez aussi l'arrière du boîtier : certaines montres utilisent des barrettes courbes ou un système propriétaire. Si vous hésitez entre deux tailles, ne choisissez pas la plus grande « pour être sûr » ; un bracelet trop large ne s'adapte pas correctement.
+
+Pour un bracelet métallique, vérifiez également si des maillons supplémentaires sont disponibles. Pour un bracelet en cuir ou en silicone, regardez la largeur au niveau de la boucle, car elle peut être inférieure à celle de l'entrecorne.
+
+## Quand demander conseil à un horloger
+
+Faites vérifier la montre lorsqu'une barrette est coincée, que la corne est tordue ou que le bracelet d'origine a une forme intégrée. Forcer un outil peut rayer le boîtier ou abîmer un mécanisme de fixation. Une mesure juste ne suffit pas si la géométrie du bracelet n'est pas compatible.

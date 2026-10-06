@@ -56,3 +56,13 @@ Oui, après avoir choisi l'échelle 100 % et vérifié le repère imprimé.
 ## À retenir
 
 Les formats A sont cohérents parce qu'ils gardent le même rapport de côtés. Pour une impression mesurée, l'étape décisive est toujours le contrôle de l'échelle.
+
+## Choisir le bon format pour un usage courant
+
+L'A4 convient aux courriers, documents administratifs et impressions de bureau. L'A5 est fréquent pour les carnets, dépliants et fiches compactes. L'A3 offre davantage d'espace pour une affiche ou un plan simple. Le choix du format dépend toutefois aussi des marges, du sens d'impression et de la zone réellement imprimable de votre matériel.
+
+Lorsque vous préparez un gabarit, indiquez toujours les dimensions dans le fichier et ajoutez un repère de contrôle. Cela permet à la personne qui imprime de détecter immédiatement une réduction involontaire.
+
+## Vérifier un pliage ou une découpe
+
+Pour plier une A4 en deux, alignez soigneusement les bords avant de marquer le pli. Pour une découpe, tracez les repères avec une règle physique et contrôlez deux fois les millimètres. Une règle affichée à l'écran aide à comprendre les dimensions, mais une impression exacte demande une vérification sur le papier.

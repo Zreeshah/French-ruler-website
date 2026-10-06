@@ -62,3 +62,13 @@ Non pour la taille commerciale. Oui lorsque vous vérifiez si le téléviseur en
 ## À retenir
 
 Mesurez la diagonale de la zone d'image, puis contrôlez la largeur, la hauteur et la profondeur du modèle choisi.
+
+## Exemple pour un meuble TV
+
+Vous disposez d'un meuble de 130 cm de large. Une télévision de 55 pouces au format 16:9 produit environ 122 cm de largeur d'image, mais le châssis peut dépasser cette valeur. Relevez les dimensions complètes du modèle, puis conservez une marge de chaque côté pour l'aération et la manipulation. Le pied peut également être plus large ou plus profond que l'écran.
+
+Pour un support mural, la position des fixations et la profondeur totale comptent autant que la diagonale. Consultez la notice du modèle, car deux téléviseurs de 55 pouces peuvent demander des emplacements de fixation différents.
+
+## Bon réflexe avant de remplacer un écran
+
+Mesurez l'ancien téléviseur de coin à coin sur la zone active, puis comparez cette valeur avec la diagonale annoncée. Si le résultat paraît très différent, vous avez probablement inclus le cadre ou mesuré la largeur. Le tableau de conversion aide à vérifier le calcul, mais la fiche constructeur décide toujours de l'encombrement réel.

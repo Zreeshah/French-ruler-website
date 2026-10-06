@@ -58,3 +58,13 @@ C'est risqué. Demandez plutôt une carte de remplacement à l'opérateur.
 ## À retenir
 
 Vérifiez le format demandé par l'appareil et privilégiez une carte fournie ou remplacée par l'opérateur.
+
+## Vérifier le tiroir avant toute manipulation
+
+Éteignez le téléphone lorsque le fabricant le demande et ouvrez le tiroir avec l'outil prévu. Observez l'encoche : elle indique le sens de la carte. Une carte qui dépasse, bouge ou résiste ne doit pas être forcée. Retirez-la, vérifiez le format et recommencez avec une carte ou un adaptateur adapté.
+
+Les appareils récents peuvent aussi proposer une carte intégrée. Dans ce cas, la taille physique de la carte ne s'applique pas ; consultez les instructions de l'opérateur pour l'activation.
+
+## Sauvegarder avant un remplacement
+
+Selon le téléphone et l'opérateur, certains contacts ou données peuvent être associés à la carte. Vérifiez leur emplacement et sauvegardez-les avant de changer de format. Cette précaution est plus importante que la mesure elle-même : une bonne découpe ne protège pas contre une perte de données ou un blocage de carte.

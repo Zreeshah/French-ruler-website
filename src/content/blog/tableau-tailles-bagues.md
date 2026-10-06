@@ -57,3 +57,13 @@ Souvent, oui, mais la forme intérieure compte aussi. Suivez la recommandation d
 ## À retenir
 
 Le tableau est utile avec une mesure intérieure soigneuse. Répétez la lecture et confirmez le système de taille auprès du vendeur avant un achat important.
+
+## Comparer les systèmes de tailles
+
+La taille française est couramment exprimée par le tour de doigt en millimètres. D'autres pays peuvent utiliser un diamètre, une lettre ou une échelle différente. Ne convertissez pas au hasard : ouvrez le guide du vendeur et vérifiez quel système il utilise. Une indication « 54 » n'a de sens que si le système est clairement identifié.
+
+Si vous offrez une bague, une bague existante portée au même doigt donne le meilleur repère. Évitez de mesurer une bague destinée à un autre doigt : le pouce, l'index et l'annulaire n'ont pas le même diamètre.
+
+## Cas particuliers
+
+Une bague ouverte, ajustable ou très large ne se choisit pas exactement comme un anneau classique. Les modèles à plusieurs anneaux peuvent aussi modifier la sensation de serrage. Dans ces situations, la mesure sert à réduire les options ; l'essayage ou l'avis du bijoutier reste la meilleure confirmation.

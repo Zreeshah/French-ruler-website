@@ -54,3 +54,13 @@ Pas nécessairement. La pose, l'adhésif et la compatibilité avec la coque comp
 ## À retenir
 
 Choisissez d'abord le modèle exact du téléphone, puis vérifiez découpes, bords et compatibilité avec votre coque.
+
+## Préparer la pose proprement
+
+Travaillez sur une surface stable, dans une pièce peu poussiéreuse. Nettoyez l'écran avec le matériel fourni, puis vérifiez une dernière fois l'orientation du verre avant de retirer le film protecteur. Alignez d'abord les découpes de caméra et de haut-parleur ; elles sont généralement plus révélatrices que les bords extérieurs.
+
+Si une bulle persiste près d'un bord, vérifiez qu'aucune poussière ou coque ne soulève le verre. Ne poussez pas fortement au centre et n'utilisez pas d'objet pointu sur la surface.
+
+## Quand remplacer le protecteur
+
+Remplacez un verre trempé lorsqu'une fissure traverse la zone d'affichage, qu'un bord se décolle ou que la surface gêne le toucher. Un protecteur abîmé peut encore rester en place temporairement, mais il ne doit pas servir à masquer un écran du téléphone déjà fissuré.
