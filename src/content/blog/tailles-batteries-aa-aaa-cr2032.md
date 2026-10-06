@@ -6,7 +6,7 @@ ogDescription: "Tableau rapide des formats AA, AAA, C, D, 9V et bouton CR2032 av
 imageAlt: "Tableau des tailles de piles AA AAA et CR2032 en millimètres"
 heroImage: "/images/blog/tailles-batteries-aa-aaa-cr2032.svg"
 pubDate: "2026-09-19"
-updatedDate: "2026-09-19"
+updatedDate: "2026-10-06"
 ---
 
 ## Dimensions des piles courantes
@@ -34,3 +34,28 @@ Si la pile est gonflée, oxydée ou fuit, ne la manipulez pas longtemps. Placez-
 
 Un format trop grand peut tordre les contacts. Un format trop petit peut bouger et couper l'alimentation. Vérifiez aussi la polarité + et -, puis comparez la référence exacte avant d'acheter. Pour d'autres petits objets techniques, le guide [mesurer une vis avec une règle](/blog/mesurer-vis-avec-regle/) explique comment limiter les erreurs de lecture en millimètres.
 
+## Identifier une pile sans se tromper
+
+Les dimensions constituent un premier repère, mais la référence imprimée reste prioritaire. Une CR2032 désigne généralement une pile bouton de 20 mm de diamètre et 3,2 mm d'épaisseur ; la chimie, la tension et les contacts doivent aussi correspondre. AA et AAA ne sont pas interchangeables, même lorsqu'elles paraissent proches.
+
+Lisez le marquage du compartiment et de la pile d'origine avant toute mesure. Les dimensions peuvent varier légèrement selon le fabricant et la gaine de l'élément.
+
+## Mesurer et manipuler en sécurité
+
+Mesurez une pile intacte avec une règle physique ou un pied à coulisse. Ne court-circuitez jamais les bornes avec un objet métallique. Une pile gonflée, corrodée ou qui fuit ne doit pas être réutilisée : évitez le contact prolongé et déposez-la dans une filière de collecte adaptée.
+
+Une [règle en ligne calibrée](/) peut aider à comparer un repère, mais un instrument physique reste plus sûr autour d'une pile.
+
+## FAQ
+
+### Une CR2032 peut-elle remplacer une CR2025 ?
+
+Elles ont généralement le même diamètre, mais pas la même épaisseur. Vérifiez la référence demandée par l'appareil.
+
+### Peut-on remplacer une AA par une AAA ?
+
+Non. Le diamètre et la longueur sont différents, ce qui empêche un contact correct dans la plupart des appareils.
+
+## À retenir
+
+Utilisez la référence imprimée comme point de départ, puis vérifiez dimensions, chimie et polarité. Ne forcez jamais une pile dans un compartiment.

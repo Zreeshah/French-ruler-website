@@ -6,7 +6,7 @@ ogDescription: "Tableau des formats ISO 216, conversions en pouces et conseils p
 imageAlt: "Formats papier A3 A4 A5 A6 et A7 avec dimensions"
 heroImage: "/images/blog/formats-papier-a4-a3-a5.svg"
 pubDate: "2026-09-25"
-updatedDate: "2026-09-25"
+updatedDate: "2026-10-06"
 ---
 
 ## Tableau des formats papier de la série A
@@ -31,3 +31,28 @@ Cette logique est très utile pour les impressions, les flyers, les carnets et l
 
 Après impression, mesurez un repère connu avec une règle physique ou une [règle en ligne](/) calibrée. Si l'imprimante a réduit le document à 95 % ou l'a ajusté à la page, toutes les mesures seront fausses, même si le PDF semblait correct à l'écran.
 
+## Pourquoi les formats A gardent les mêmes proportions
+
+La série A suit la norme ISO 216. Chaque format est obtenu en divisant le précédent par deux, tout en conservant le même rapport de côtés. Deux feuilles A5 forment donc une A4, et deux A4 une A3. Cette propriété permet d'agrandir ou de réduire un document sans le déformer.
+
+Le format A4 mesure 210 × 297 mm. Il ne faut pas le confondre avec le format nord-américain Lettre, dont les proportions sont différentes : un document prévu pour l'un ne s'imprime pas forcément à l'échelle sur l'autre.
+
+## Imprimer un document mesuré à 100 %
+
+Choisissez « taille réelle » ou « 100 % » dans le dialogue d'impression. Désactivez « ajuster à la page », « réduire les pages surdimensionnées » et toute option de remplissage. Imprimez d'abord une page et contrôlez un repère connu avec une règle physique.
+
+La page [règle à imprimer](/regle-a-imprimer/) contient une zone de contrôle prévue pour ce test. L'aperçu d'impression montre la mise en page, pas l'exactitude physique de la sortie papier.
+
+## FAQ
+
+### Quel format est deux fois plus petit que l'A4 ?
+
+L'A5. Deux feuilles A5 réunies forment une feuille A4.
+
+### Puis-je imprimer une règle sur du papier A4 ?
+
+Oui, après avoir choisi l'échelle 100 % et vérifié le repère imprimé.
+
+## À retenir
+
+Les formats A sont cohérents parce qu'ils gardent le même rapport de côtés. Pour une impression mesurée, l'étape décisive est toujours le contrôle de l'échelle.

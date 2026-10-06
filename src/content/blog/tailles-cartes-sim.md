@@ -6,7 +6,7 @@ ogDescription: "Tableau des formats de cartes SIM et conseils pour éviter les e
 imageAlt: "Dimensions nano SIM micro SIM et SIM standard en millimètres"
 heroImage: "/images/blog/tailles-cartes-sim.svg"
 pubDate: "2026-09-13"
-updatedDate: "2026-09-13"
+updatedDate: "2026-10-06"
 ---
 
 ## Les trois formats de cartes SIM
@@ -33,3 +33,28 @@ Un adaptateur nano vers micro ou standard doit être rigide, propre et parfaitem
 
 Pour comprendre la différence entre mesure physique et diagonale annoncée d'un appareil, consultez aussi le guide [comment mesurer un écran en pouces](/blog/mesurer-ecran-en-pouces/).
 
+## Dimensions et épaisseur des cartes SIM
+
+Les formats les plus courants sont 25 × 15 mm pour la SIM standard, 15 × 12 mm pour la micro-SIM et 12,3 × 8,8 mm pour la nano-SIM. La nano-SIM est aussi plus fine. Les contacts sont comparables, mais la quantité de plastique et l'épaisseur déterminent si la carte entre dans le tiroir.
+
+Consultez d'abord le manuel du téléphone ou la fiche de l'opérateur. Une mesure sert à identifier un format, pas à justifier une découpe improvisée.
+
+## Utiliser un adaptateur sans abîmer le lecteur
+
+Demandez de préférence une carte triple découpe ou un remplacement à l'opérateur. Avec un adaptateur, la nano-SIM doit rester parfaitement à plat et immobilisée. N'insérez jamais un adaptateur vide : il peut accrocher les broches du lecteur.
+
+Une [règle calibrée](/) aide à comparer les contours, mais la solution la plus sûre reste une carte au bon format.
+
+## FAQ
+
+### Une nano-SIM entre-t-elle dans un logement micro-SIM ?
+
+Non. Il faut un adaptateur adapté ou une carte au bon format.
+
+### Peut-on couper une micro-SIM en nano-SIM ?
+
+C'est risqué. Demandez plutôt une carte de remplacement à l'opérateur.
+
+## À retenir
+
+Vérifiez le format demandé par l'appareil et privilégiez une carte fournie ou remplacée par l'opérateur.

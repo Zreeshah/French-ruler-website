@@ -6,7 +6,7 @@ ogDescription: "Guide de mesure pour vérifier un protège-écran de téléphone
 imageAlt: "Mesure d'un verre trempé de téléphone avec une règle"
 heroImage: "/images/blog/verre-trempe-telephone.svg"
 pubDate: "2026-10-05"
-updatedDate: "2026-10-05"
+updatedDate: "2026-10-06"
 ---
 
 ## La diagonale du téléphone ne suffit pas
@@ -31,3 +31,26 @@ Si vous comparez avec une fiche produit, vérifiez toujours le modèle exact du 
 
 Un verre plus fin peut être plus discret, tandis qu'un verre plus épais peut mieux absorber certains chocs. La protection dépend aussi de la qualité du collage, du traitement de surface et de la pose. Nettoyez l'écran, alignez le verre sans tension et chassez les bulles sans forcer.
 
+## Le modèle exact compte plus que la diagonale
+
+Deux téléphones ayant la même diagonale peuvent avoir des capteurs, des coins, une caméra frontale ou une zone tactile très différents. Commencez par le nom exact du modèle, y compris l'année ou la variante, puis comparez les découpes et la mention de compatibilité du fabricant.
+
+La diagonale ne décrit ni la largeur ni la hauteur réelles. Le guide [mesurer un écran en pouces](/blog/mesurer-ecran-en-pouces/) explique pourquoi elle ne suffit pas pour choisir un protecteur.
+
+## Vérifier sans rayer l'écran
+
+Reportez la largeur et la hauteur sur une bande de papier, puis lisez les marques avec une règle physique. Une [règle en ligne](/) calibrée peut aider à comparer cette bande, mais pas à vérifier une découpe au dixième de millimètre. Vérifiez aussi la compatibilité avec votre coque : un verre trop large peut se soulever au bord.
+
+## FAQ
+
+### Un verre de même diagonale convient-il forcément ?
+
+Non. Les proportions, les capteurs et les arrondis peuvent différer.
+
+### Un verre plus épais protège-t-il toujours mieux ?
+
+Pas nécessairement. La pose, l'adhésif et la compatibilité avec la coque comptent aussi.
+
+## À retenir
+
+Choisissez d'abord le modèle exact du téléphone, puis vérifiez découpes, bords et compatibilité avec votre coque.

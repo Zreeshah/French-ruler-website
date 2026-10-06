@@ -6,7 +6,7 @@ ogDescription: "Repères pratiques pour identifier une vis métrique, son diamè
 imageAlt: "Vis métrique M3 à M16 posée sur une règle graduée"
 heroImage: "/images/blog/vis-metriques-m3-m16.svg"
 pubDate: "2026-09-07"
-updatedDate: "2026-09-07"
+updatedDate: "2026-10-06"
 ---
 
 ## Comprendre les tailles de vis métriques
@@ -32,7 +32,30 @@ Vous pouvez estimer la longueur totale sous tête et le diamètre extérieur du 
 
 Le pas du filetage est plus difficile à vérifier avec une règle, car il faut compter plusieurs filets sur une longueur précise. Pour une réparation mécanique, utilisez une jauge de filetage ou comparez la vis avec une pièce connue.
 
-## Conseil SEO pratique pour l'utilisateur
+## Choisir une vis de remplacement
 
 Si vous cherchez une vis de remplacement, notez la forme de tête, la longueur, le diamètre et le contexte d'usage. Une vis M6 pour meuble n'a pas forcément la même tête qu'une vis M6 pour machine. En cas de doute, apportez l'ancienne pièce en magasin.
 
+## Mesurer le pas de filetage avec prudence
+
+Le pas est la distance entre deux sommets de filets successifs. Une règle permet seulement une estimation : comptez plusieurs intervalles sur une longueur connue, puis divisez. Pour une identification fiable, utilisez une jauge de filetage ou comparez la vis avec un écrou connu. Un diamètre M6 ne garantit pas à lui seul que deux vis se vissent ensemble.
+
+La [méthode pour mesurer une vis](/blog/mesurer-vis-avec-regle/) explique comment relever longueur et diamètre. Une [règle calibrée](/) convient au premier repérage, mais un pied à coulisse est préférable pour une pièce mécanique.
+
+## Lire une désignation courante
+
+Dans `M6 × 30`, M6 indique un diamètre nominal de 6 mm et 30 la longueur, généralement prise sous la tête pour une vis à tête non fraisée. La forme de la tête, le matériau, le revêtement et le pas peuvent encore changer la compatibilité.
+
+## FAQ
+
+### Une clé de 10 mm indique-t-elle toujours une vis M6 ?
+
+C'est courant pour certaines têtes hexagonales M6, mais les normes peuvent varier. Vérifiez la pièce.
+
+### Puis-je choisir une vis uniquement avec son diamètre ?
+
+Non. Il faut aussi vérifier longueur, pas, tête et usage.
+
+## À retenir
+
+Le tableau est un outil de repérage. Confirmez le filetage et la forme de tête avant de commander.

@@ -48,7 +48,7 @@ const articleSchema = JSON.stringify({
   "image": `https://regle-enligne.onl${heroImage}`,
   "author": {
     "@type": "Organization",
-    "name": "Rédaction"
+    "name": "Équipe éditoriale Regle-Enligne.onl"
   },
   "publisher": {
     "@type": "Organization",
@@ -98,7 +98,8 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
             <span class="meta-dot">&bull;</span>
             <time datetime={new Date(pubDate).toISOString()}>{formattedDate}</time>
             <span class="meta-dot">&bull;</span>
-            <span class="author-label">Auteur : Rédaction</span>
+            <span class="author-label">Équipe éditoriale Regle-Enligne.onl</span>
+            {updatedDate && <><span class="meta-dot">&bull;</span><span>Mis à jour le {new Date(updatedDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span></>}
           </div>
           <h1 class="blog-title">{title}</h1>
           <p class="blog-lead">{description}</p>

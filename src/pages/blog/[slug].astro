@@ -14,12 +14,23 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 
-// Fetch all posts to determine related posts
+// Related guides follow the reader's measurement task rather than a random build-time order.
 const allPosts = await getCollection('blog');
-const relatedPosts = allPosts
-  .filter(p => p.id !== entry.id)
-  .sort(() => 0.5 - Math.random()) // Shuffle
-  .slice(0, 3) // Take 3 random posts as related
+const relatedBySlug: Record<string, string[]> = {
+  'bracelet-montre-mm': ['regle-10-cm', 'calibrage-regle-en-ligne', 'mesure-regle-en-ligne-cm'],
+  'diagonale-television-pouces-cm': ['mesurer-ecran-en-pouces', 'cm-en-pouces', 'formats-papier-a4-a3-a5'],
+  'formats-papier-a4-a3-a5': ['regle-10-cm', 'cm-en-pouces', 'centimetre-en-ligne'],
+  'tableau-tailles-bagues': ['mesurer-bague-avec-regle', 'calibrage-regle-en-ligne', 'mesure-regle-en-ligne-cm'],
+  'tailles-batteries-aa-aaa-cr2032': ['mesurer-vis-avec-regle', 'regle-10-cm', 'calibrage-regle-en-ligne'],
+  'tailles-cartes-sim': ['mesurer-ecran-en-pouces', 'regle-en-cm-sur-telephone', 'cm-en-pouces'],
+  'verre-trempe-telephone': ['mesurer-ecran-en-pouces', 'regle-en-cm-sur-telephone', 'calibrage-regle-en-ligne'],
+  'vis-metriques-m3-m16': ['mesurer-vis-avec-regle', 'regle-10-cm', 'mesure-regle-en-ligne-cm'],
+};
+const relatedSlugs = relatedBySlug[entry.id] ?? ['calibrage-regle-en-ligne', 'regle-en-ligne-precise', 'regle-10-cm'];
+const relatedPosts = relatedSlugs
+  .map(slug => allPosts.find(post => post.id === slug))
+  .filter((post): post is typeof allPosts[number] => Boolean(post && post.id !== entry.id))
+  .slice(0, 3)
   .map(p => ({
     slug: p.id,
     title: p.data.title,

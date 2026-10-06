@@ -6,7 +6,7 @@ ogDescription: "Tableau pratique des tailles de télévision, conversion pouces-
 imageAlt: "Schéma de diagonale de télévision en pouces et centimètres"
 heroImage: "/images/blog/diagonale-television-pouces-cm.svg"
 pubDate: "2026-08-25"
-updatedDate: "2026-08-25"
+updatedDate: "2026-10-06"
 ---
 
 ## Diagonale TV : comment passer des pouces aux centimètres ?
@@ -37,3 +37,28 @@ Deux téléviseurs avec la même diagonale ont généralement le même ratio 16:
 
 Pour un contrôle rapide d'un petit accessoire TV, d'une vis de fixation ou d'un écart sur un support, vous pouvez utiliser une [règle en ligne](/) après calibrage. Pour les dimensions longues, préférez un mètre ruban physique.
 
+## Estimer la largeur d'une TV 16:9
+
+La plupart des téléviseurs sont au format 16:9. Pour estimer la largeur de l'image, multipliez la diagonale par environ 0,872 ; pour la hauteur, par environ 0,490. Une TV de 55 pouces offre donc une image d'environ 122 cm de large et 69 cm de haut. Ce calcul concerne la dalle seule, pas le cadre, le pied, les câbles ni le support mural.
+
+La fiche du fabricant reste la référence avant achat : deux modèles de même diagonale peuvent avoir des dimensions extérieures différentes.
+
+## Préparer l'installation
+
+Mesurez l'intérieur du meuble ou la zone murale, puis ajoutez une marge pour l'aération et les câbles. Vérifiez la profondeur du pied, la hauteur totale et la norme de fixation murale annoncée par le fabricant. La diagonale est utile pour comparer les tailles, mais elle ne confirme jamais à elle seule l'encombrement.
+
+Pour relever un écran existant, consultez [comment mesurer un écran en pouces](/blog/mesurer-ecran-en-pouces/). Le [tableau cm en pouces](/blog/cm-en-pouces/) aide à vérifier les conversions.
+
+## FAQ
+
+### Une TV de 55 pouces fait-elle 55 pouces de large ?
+
+Non. Les 55 pouces correspondent à la diagonale ; l'image 16:9 mesure environ 122 cm de large.
+
+### Faut-il inclure le cadre ?
+
+Non pour la taille commerciale. Oui lorsque vous vérifiez si le téléviseur entre dans un meuble.
+
+## À retenir
+
+Mesurez la diagonale de la zone d'image, puis contrôlez la largeur, la hauteur et la profondeur du modèle choisi.
