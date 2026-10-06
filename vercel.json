@@ -1,6 +1,17 @@
 {
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.regle-enligne.onl"
+        }
+      ],
+      "destination": "https://regle-enligne.onl/:path*",
+      "permanent": true
+    },
+    {
       "source": "/blog/cm-en-mm",
       "destination": "/blog/cm-en-pouces/",
       "permanent": true
