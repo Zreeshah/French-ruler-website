@@ -63,7 +63,7 @@ Exemple : la tige filetée de la vis s'arrête à 24 mm et son diamètre semble 
 
 Pour aller plus loin :
 
-- [Convertisseur de mm en cm](/blog/mm-en-cm)
+- [Convertisseur cm en pouces](/blog/cm-en-pouces/)
 - [La règle de 10 cm en ligne](/blog/regle-10-cm)
 - [Comment calibrer votre règle en ligne](/blog/calibrage-regle-en-ligne)
 

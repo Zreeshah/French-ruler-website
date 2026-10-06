@@ -68,7 +68,7 @@ Exemple : la diagonale active de l'écran de votre ordinateur portable mesure 39
 Pour aller plus loin, vous pouvez également consulter :
 
 - [Le tableau de conversion cm en pouces](/blog/cm-en-pouces)
-- [La règle en ligne de 20 cm](/blog/regle-en-ligne-20-cm)
+- [La règle de 10 cm](/blog/regle-10-cm/)
 - [Le centimètre en ligne](/blog/centimetre-en-ligne)
 
 Sources utiles concernant les unités et l'échelle :

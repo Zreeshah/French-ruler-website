@@ -63,8 +63,8 @@ Rappel des proportions : 1 cm = 10 mm, 5 cm = 50 mm, 10 cm = 100 mm. Cette éche
 
 Pour aller plus loin :
 
-- [Convertisseur cm en mm](/blog/cm-en-mm)
-- [Règle en ligne de 20 cm](/blog/regle-en-ligne-20-cm)
+- [Convertisseur cm en pouces](/blog/cm-en-pouces/)
+- [Mesure règle en ligne en cm](/blog/mesure-regle-en-ligne-cm/)
 - [La règle à imprimer](/regle-a-imprimer/)
 
 Sources utiles concernant les standards physiques :

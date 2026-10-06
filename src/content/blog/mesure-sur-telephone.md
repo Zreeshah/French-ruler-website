@@ -67,7 +67,7 @@ Quelques applications concrètes : vérifier la largeur d'un autocollant, la lon
 
 Pour aller plus loin, vous pouvez également consulter :
 
-- [Le téléphone comme règle](/blog/telephone-comme-regle)
+- [La règle en cm sur téléphone](/blog/regle-en-cm-sur-telephone/)
 - [La règle en cm sur téléphone](/blog/regle-en-cm-sur-telephone)
 - [La règle de 10 cm](/blog/regle-10-cm)
 

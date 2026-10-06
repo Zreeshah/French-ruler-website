@@ -68,7 +68,7 @@ Si, après calibrage, une section de 10 cm correspond exactement à une règle p
 Pour aller plus loin, vous pouvez également consulter :
 
 - [Le calibrage de la règle en ligne](/blog/calibrage-regle-en-ligne)
-- [La règle en ligne 1:1](/blog/regle-en-ligne)
+- [La règle en ligne 1:1](/)
 - [La règle à imprimer](/regle-a-imprimer)
 
 Sources utiles concernant les unités et l'échelle :

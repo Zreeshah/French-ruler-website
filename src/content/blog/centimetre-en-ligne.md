@@ -67,8 +67,8 @@ Exemple : vous voulez vérifier si une photo imprimée mesure environ 9 cm de la
 
 Pour poursuivre vos mesures :
 
-- [Convertisseur cm en mm](/blog/cm-en-mm)
-- [Règle en ligne gratuite 1:1](/blog/regle-en-ligne)
+- [Convertisseur cm en pouces](/blog/cm-en-pouces/)
+- [Règle en ligne gratuite 1:1](/)
 - [Utiliser son téléphone comme règle](/blog/regle-en-cm-sur-telephone)
 
 Sources de référence pour les standards de mesure :

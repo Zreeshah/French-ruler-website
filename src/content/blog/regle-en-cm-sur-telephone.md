@@ -67,7 +67,7 @@ Exemple : un utilisateur souhaite vérifier si un autocollant mesure bien 5 cm d
 
 Pour aller plus loin, vous pouvez également consulter :
 
-- [La règle en ligne 1:1](/blog/regle-en-ligne)
+- [La règle en ligne 1:1](/)
 - [Le calibrage de la règle en ligne](/blog/calibrage-regle-en-ligne)
 - [Le centimètre en ligne](/blog/centimetre-en-ligne)
 

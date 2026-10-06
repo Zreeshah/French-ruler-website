@@ -64,7 +64,7 @@ Exemple : le diamètre intérieur de l'anneau est de 17 mm. Cette information vo
 Pour aller plus loin :
 
 - [Utiliser la règle en millimètres](/blog/mesure-regle-en-ligne-cm)
-- [Convertisseur de mm en cm](/blog/mm-en-cm)
+- [Tableau tailles bagues](/blog/tableau-tailles-bagues/)
 - [Comment calibrer votre écran](/blog/calibrage-regle-en-ligne)
 
 Sources utiles concernant les standards physiques :

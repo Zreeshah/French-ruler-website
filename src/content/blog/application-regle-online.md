@@ -63,7 +63,7 @@ Comparaison : la règle en ligne l'emporte par sa rapidité de lancement et l'ab
 
 Pour aller plus loin :
 
-- [La règle en ligne gratuite 1:1](/blog/regle-en-ligne)
+- [La règle en ligne gratuite 1:1](/)
 - [Utiliser son smartphone comme règle](/blog/regle-en-cm-sur-telephone)
 - [La règle en ligne est-elle précise ?](/blog/regle-en-ligne-precise)
 

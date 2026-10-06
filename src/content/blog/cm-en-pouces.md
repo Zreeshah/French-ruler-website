@@ -64,8 +64,8 @@ Tableau de correspondance : 1 cm = 0,39 pouce ; 2,54 cm = 1 pouce ; 5 cm = 1,97 
 Pour aller plus loin :
 
 - [Mesurer son écran en pouces](/blog/mesurer-ecran-en-pouces)
-- [Convertisseur cm en mm](/blog/cm-en-mm)
-- [La règle en ligne gratuite 1:1](/blog/regle-en-ligne)
+- [Mesure règle en ligne en cm](/blog/mesure-regle-en-ligne-cm/)
+- [La règle en ligne gratuite 1:1](/)
 
 Sources utiles concernant les unités de mesure :
 

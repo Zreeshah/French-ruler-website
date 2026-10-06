@@ -68,7 +68,7 @@ Exemple : un enseignant souhaite vérifier la largeur d'une image pour une fiche
 Pour poursuivre vos mesures :
 
 - [Le centimètre en ligne](/blog/centimetre-en-ligne)
-- [Tableau de conversion mm en cm](/blog/mm-en-cm)
+- [Tableau de conversion cm en pouces](/blog/cm-en-pouces/)
 - [Comment calibrer votre règle en ligne](/blog/calibrage-regle-en-ligne)
 
 Sources de référence pour les standards de mesure :

@@ -67,8 +67,8 @@ Un test simple consiste à vérifier que l'objet témoin (comme la largeur de la
 
 Pour poursuivre vos mesures :
 
-- [La règle en ligne gratuite](/blog/regle-en-ligne)
-- [Dimensions d'une carte bancaire standard](/blog/dimensions-carte-bancaire)
+- [La règle en ligne gratuite](/)
+- [Dimensions d'une carte bancaire standard](/blog/calibrage-regle-en-ligne/)
 - [La règle en ligne est-elle précise ?](/blog/regle-en-ligne-precise)
 
 Sources de référence pour les standards de mesure :
