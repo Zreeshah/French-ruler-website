@@ -6,7 +6,6 @@ ogDescription: "Guide de mesure pour vérifier un protège-écran de téléphone
 imageAlt: "Mesure d'un verre trempé de téléphone avec une règle"
 heroImage: "/images/blog/verre-trempe-telephone.svg"
 pubDate: "2026-10-05"
-updatedDate: "2026-10-06"
 ---
 
 ## La diagonale du téléphone ne suffit pas

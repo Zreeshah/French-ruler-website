@@ -6,7 +6,6 @@ ogDescription: "Repères pratiques pour identifier une vis métrique, son diamè
 imageAlt: "Vis métrique M3 à M16 posée sur une règle graduée"
 heroImage: "/images/blog/vis-metriques-m3-m16.svg"
 pubDate: "2026-09-07"
-updatedDate: "2026-10-06"
 ---
 
 ## Comprendre les tailles de vis métriques

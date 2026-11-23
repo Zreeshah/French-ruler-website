@@ -6,7 +6,6 @@ ogDescription: "La méthode correcte pour relever la diagonale d'un écran de t�
 imageAlt: "Mesure en diagonale d'un écran pour calculer sa taille en pouces"
 heroImage: "/images/blog/mesurer-ecran-en-pouces.svg"
 pubDate: "2026-09-28"
-updatedDate: "2026-10-06"
 ---
 
 ## Un écran se mesure en diagonale

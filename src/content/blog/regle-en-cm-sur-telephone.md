@@ -6,7 +6,6 @@ ogDescription: "Comment calibrer une règle sur téléphone, lire les millimètr
 imageAlt: "Règle en centimètres affichée sur l'écran d'un téléphone"
 heroImage: "/images/blog/regle-en-cm-sur-telephone.png"
 pubDate: "2026-06-24"
-updatedDate: "2026-10-06"
 ---
 
 ## Avant de mesurer : calibrez le téléphone
@@ -31,11 +30,7 @@ Ne posez pas d'objet métallique, humide, coupant ou abrasif sur la vitre. Ne me
 
 ## Réussir le calibrage sur son appareil
 
-Le calibrage consiste à faire correspondre une longueur affichée à une longueur réelle. Une carte de paiement mesure 85,60 mm de large : posez-la près de l'écran, alignez un bord avec le zéro, puis ajustez la règle jusqu'à ce que l'autre bord tombe sur 85,60 mm. Faites-le calmement, car un décalage de 1 mm représente déjà une erreur visible sur un petit objet.
-
-Si vous n'avez pas de carte, utilisez une règle rigide dont les graduations sont intactes. Évitez les objets dont la dimension est seulement supposée, comme une carte de visite ou une ancienne carte de fidélité. Une référence incertaine donnerait une règle incertaine. Après le réglage, vérifiez une seconde fois sur une autre portion de la règle : cela révèle un éventuel mauvais alignement.
-
-Le calibrage est propre à chaque écran. Recommencez après avoir changé de téléphone, de navigateur, de taille d'affichage ou de zoom. Même sur le même appareil, vérifiez-le si la page a été agrandie par inadvertance. L'article sur le [calibrage d'une règle en ligne](/blog/calibrage-regle-en-ligne/) explique les signaux qui indiquent qu'il faut refaire le réglage.
+Le calibrage consiste à faire correspondre une longueur affichée à une longueur réelle. Une carte de paiement mesure 85,60 mm de large : posez-la près de l'écran, alignez un bord avec le zéro, puis ajustez la règle jusqu'à ce que l'autre bord tombe sur 85,60 mm. Si vous n'avez pas de carte, utilisez une règle rigide dont les graduations sont intactes, jamais un objet dont la dimension est seulement supposée. Le calibrage est propre à chaque écran : recommencez après avoir changé de téléphone, de navigateur, de taille d'affichage ou de zoom, et vérifiez une seconde fois sur une autre portion de la règle. Le [guide de calibrage d'une règle en ligne](/blog/calibrage-regle-en-ligne/) détaille les signaux qui indiquent qu'il faut refaire le réglage.
 
 ## Une méthode de mesure reproductible
 

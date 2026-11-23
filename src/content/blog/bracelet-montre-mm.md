@@ -6,7 +6,6 @@ ogDescription: "Guide pratique pour mesurer l'entrecorne, la longueur du bracele
 imageAlt: "Mesure de la largeur d'un bracelet de montre en millimètres"
 heroImage: "/images/blog/bracelet-montre-mm.svg"
 pubDate: "2026-10-01"
-updatedDate: "2026-10-06"
 ---
 
 ## La mesure importante : l'entrecorne

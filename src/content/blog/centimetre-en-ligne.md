@@ -6,7 +6,6 @@ ogDescription: "Comment lire un centimètre affiché à l'écran sans confondre 
 imageAlt: "Centimètre en ligne gradué en millimètres sur un écran"
 heroImage: "/images/blog/centimetre-en-ligne.svg"
 pubDate: "2026-06-30"
-updatedDate: "2026-10-06"
 ---
 
 ## À quoi sert un centimètre en ligne ?
@@ -44,11 +43,7 @@ Si la mesure sert à commander un bracelet, un verre trempé ou une pièce de re
 
 ## Calibrer avec une référence dont la taille est certaine
 
-Avant toute lecture, comparez la graduation affichée avec un objet réel. Une carte de paiement est pratique car sa largeur est de 85,60 mm. Posez son grand côté près de l'écran, alignez un bord avec le zéro, puis vérifiez que l'autre bord correspond à 8,56 cm. Si la règle propose un réglage, ajustez-la jusqu'à ce que les deux bords concordent.
-
-Une règle rigide en bon état est une autre excellente référence. Évitez les objets dont les dimensions sont seulement supposées : une carte de visite, une photo imprimée ou un emballage peuvent varier. La qualité de la référence limite directement la qualité du calibrage. Une fois le réglage effectué, contrôlez une seconde longueur afin de repérer un éventuel décalage progressif.
-
-Le calibrage doit être refait si vous changez d'appareil, de navigateur, de zoom ou d'orientation. Ce n'est pas une contrainte inutile : la taille physique d'un pixel varie selon les écrans. Le guide de [calibrage de la règle en ligne](/blog/calibrage-regle-en-ligne/) détaille les étapes et les erreurs les plus fréquentes.
+Avant toute lecture, comparez la graduation affichée avec un objet réel dont la taille est certaine, par exemple une carte de paiement de 85,60 mm de large. Le [guide de calibrage de la règle en ligne](/blog/calibrage-regle-en-ligne/) détaille chaque étape : aligner un bord avec le zéro, ajuster l'échelle jusqu'à ce que l'autre bord tombe sur 8,56 cm, puis contrôler une seconde longueur. Refaites ce réglage si vous changez d'appareil, de navigateur, de zoom ou d'orientation.
 
 ## Lire les graduations de façon cohérente
 

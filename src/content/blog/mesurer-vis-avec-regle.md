@@ -6,7 +6,6 @@ ogDescription: "Une méthode de repérage simple avant de confirmer les dimensio
 imageAlt: "Vis alignée sur une règle graduée pour mesurer sa longueur"
 heroImage: "/images/blog/mesurer-vis-avec-regle.svg"
 pubDate: "2026-08-29"
-updatedDate: "2026-10-06"
 ---
 
 ## Ce qu'une règle permet de vérifier

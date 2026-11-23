@@ -6,7 +6,6 @@ ogDescription: "Le bon choix dépend de votre besoin, de la précision attendue 
 imageAlt: "Comparaison entre une application de règle et une règle affichée dans un navigateur"
 heroImage: "/images/blog/application-regle-online.svg"
 pubDate: "2026-09-04"
-updatedDate: "2026-10-06"
 ---
 
 ## La réponse courte

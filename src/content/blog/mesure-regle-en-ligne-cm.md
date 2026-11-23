@@ -6,7 +6,6 @@ ogDescription: "Les bons gestes pour une mesure courte à l'écran et les situat
 imageAlt: "Mesure en centimètres avec une règle en ligne calibrée"
 heroImage: "/images/blog/mesure-regle-en-ligne-cm.svg"
 pubDate: "2026-07-06"
-updatedDate: "2026-10-06"
 ---
 
 ## Une mesure en cm fiable commence par l'échelle
@@ -40,9 +39,7 @@ Ne posez jamais une vis, un objet métallique ou un élément abrasif directemen
 
 ## Vérifier ce que représente un centimètre à l'écran
 
-Un centimètre est une unité fixe, mais son dessin sur un écran ne l'est pas. La page doit convertir des pixels en une longueur visible, et cette conversion varie d'un appareil à l'autre. C'est pourquoi une règle en ligne demande un réglage initial. Prenez une carte de paiement réelle, alignez son bord avec la graduation zéro, puis contrôlez que son autre bord arrive à 85,60 mm. Ajustez uniquement avec cette référence, jamais en vous fiant à la taille apparente de la règle.
-
-Une fois l'échelle réglée, ne modifiez plus le zoom. Sur un ordinateur, vérifiez que le navigateur est revenu à 100 %. Sur un téléphone, évitez les gestes qui agrandissent la page. Si vous faites pivoter l'écran, contrôlez de nouveau la référence : une interface peut changer de présentation entre les deux orientations. Le [guide de calibrage](/blog/calibrage-regle-en-ligne/) détaille la vérification à refaire après chaque changement important.
+Un centimètre est une unité fixe, mais son dessin sur un écran ne l'est pas : la conversion des pixels en longueur visible varie d'un appareil à l'autre. Prenez donc une carte de paiement réelle comme référence et suivez le [guide de calibrage](/blog/calibrage-regle-en-ligne/) : alignez un bord avec le zéro, contrôlez l'autre bord à 85,60 mm, puis ne touchez plus au zoom. Refaites cette vérification après chaque changement d'appareil, de navigateur, d'orientation ou de zoom.
 
 ## Distinguer longueur, largeur et diamètre
 

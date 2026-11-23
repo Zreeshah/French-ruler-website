@@ -6,7 +6,6 @@ ogDescription: "Les facteurs qui rendent une mesure sur écran plus fiable, et l
 imageAlt: "Calibrage d'une règle en ligne avant une mesure précise"
 heroImage: "/images/blog/regle-en-ligne-precise.svg"
 pubDate: "2026-09-10"
-updatedDate: "2026-10-06"
 ---
 
 ## Une règle en ligne peut être précise, sous conditions

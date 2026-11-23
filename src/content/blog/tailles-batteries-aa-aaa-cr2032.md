@@ -6,7 +6,6 @@ ogDescription: "Tableau rapide des formats AA, AAA, C, D, 9V et bouton CR2032 av
 imageAlt: "Tableau des tailles de piles AA AAA et CR2032 en millimètres"
 heroImage: "/images/blog/tailles-batteries-aa-aaa-cr2032.svg"
 pubDate: "2026-09-19"
-updatedDate: "2026-10-06"
 ---
 
 ## Dimensions des piles courantes

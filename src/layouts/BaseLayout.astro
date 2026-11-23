@@ -6,6 +6,7 @@ export interface Props {
   ogImage?: string;
   ogTitle?: string;
   ogDescription?: string;
+  ogType?: string;
   noIndex?: boolean;
   schemaMarkup?: string;
 }
@@ -17,6 +18,7 @@ const {
   ogImage = '/images/og-image.png',
   ogTitle,
   ogDescription,
+  ogType = 'website',
   noIndex = false,
   schemaMarkup,
 } = Astro.props;
@@ -56,7 +58,7 @@ const socialDescription = ogDescription || description;
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content={ogType} />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:title" content={socialTitle} />
   <meta property="og:description" content={socialDescription} />
@@ -110,6 +112,7 @@ const socialDescription = ogDescription || description;
           <li><a href="/regle-a-imprimer/">Règle à imprimer</a></li>
           <li><a href="/blog/">Guides</a></li>
           <li><a href="/a-propos/">À propos</a></li>
+          <li><a href="/contact/">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -125,6 +128,7 @@ const socialDescription = ogDescription || description;
         <div class="footer-brand">
           <a href="/" class="footer-logo">Regle-Enligne.onl</a>
           <p class="footer-tagline">Règle en ligne gratuite en centimètres et millimètres.</p>
+          <p class="footer-contact">Contact : <a href="mailto:contact@regle-enligne.onl">contact@regle-enligne.onl</a></p>
         </div>
         <nav class="footer-nav" aria-label="Liens de bas de page">
           <ul role="list">
@@ -156,6 +160,7 @@ const socialDescription = ogDescription || description;
         navLinks.classList.toggle('nav-open');
       });
     }
+
   </script>
 </body>
 </html>
@@ -338,6 +343,13 @@ const socialDescription = ogDescription || description;
   .footer-bottom p {
     font-size: 0.8125rem;
     color: var(--text-tertiary);
+    margin-bottom: 0;
+  }
+
+  .footer-contact {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-top: var(--space-2);
     margin-bottom: 0;
   }
 

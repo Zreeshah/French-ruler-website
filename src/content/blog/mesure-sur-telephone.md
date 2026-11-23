@@ -6,7 +6,6 @@ ogDescription: "Une méthode simple pour exploiter une règle sur téléphone sa
 imageAlt: "Téléphone affichant une règle pour mesurer un petit objet"
 heroImage: "/images/blog/mesure-sur-telephone.svg"
 pubDate: "2026-09-22"
-updatedDate: "2026-10-06"
 ---
 
 ## Le téléphone est un outil d'appoint
@@ -26,9 +25,7 @@ Pour un objet qui ne peut pas être posé près de l'écran, faites un repère s
 
 ## Préparer une mesure correcte
 
-Réglez le zoom de la page à 100 %, calibrez avec une carte bancaire et posez le téléphone à plat. Alignez soigneusement le zéro avec le début de la longueur à lire. Si vous devez prendre une décision d'achat, mesurez une deuxième fois ou consultez la fiche technique du produit.
-
-L'article [comment calibrer la règle](/blog/calibrage-regle-en-ligne/) détaille cette vérification. Pour comparer des longueurs exprimées dans d'autres unités, utilisez le [tableau cm en pouces](/blog/cm-en-pouces/).
+Réglez le zoom de la page à 100 %, calibrez avec une carte bancaire et posez le téléphone à plat, le zéro aligné avec le début de la longueur à lire. Le [guide de calibrage](/blog/calibrage-regle-en-ligne/) détaille cette vérification, et la [règle en cm sur téléphone](/blog/regle-en-cm-sur-telephone/) donne la méthode pas à pas. Si la mesure sert à une décision d'achat, mesurez une deuxième fois ou consultez la fiche technique du produit. Pour comparer des longueurs exprimées dans d'autres unités, utilisez le [tableau cm en pouces](/blog/cm-en-pouces/).
 
 ## Limites importantes
 
@@ -36,11 +33,7 @@ Une coque peut empêcher l'objet d'être bien à plat près de l'écran. Les obj
 
 ## Vérifier l'échelle avant chaque usage utile
 
-L'écran ne connaît pas sa taille physique sans une référence. Un même dessin de règle peut être correct sur un téléphone et faux sur un autre, car la densité de pixels varie selon les modèles. Ouvrez la [règle en ligne](/), remettez l'affichage à sa taille normale et comparez une distance connue. La largeur de 85,60 mm d'une carte de paiement constitue un repère pratique si vous utilisez bien son grand côté.
-
-Ne faites pas confiance à une carte usée dont les coins ont été coupés, ni à une photographie de carte. La comparaison doit se faire avec l'objet réel, posé près de l'écran. Lorsque les bords coïncident, vérifiez aussi une seconde longueur sur une règle physique si vous en avez une. Ce double contrôle est particulièrement utile avant de mesurer une pièce inférieure à quelques centimètres.
-
-Le réglage est à refaire après un changement de navigateur, un zoom, une nouvelle résolution d'écran ou un passage à une autre machine. La [méthode de calibrage](/blog/calibrage-regle-en-ligne/) donne une procédure détaillée et explique pourquoi une mesure exacte hier ne garantit pas la même valeur aujourd'hui.
+L'écran ne connaît pas sa taille physique sans une référence : un même dessin de règle peut être correct sur un téléphone et faux sur un autre, car la densité de pixels varie selon les modèles. Comparez donc toujours une distance connue — la largeur de 85,60 mm d'une carte de paiement, posée près de l'écran — avant une mesure utile, et refaites le réglage après un changement de navigateur, de zoom, de résolution ou d'appareil. La [méthode de calibrage](/blog/calibrage-regle-en-ligne/) explique pourquoi une mesure exacte hier ne garantit pas la même valeur aujourd'hui.
 
 ## Reporter une longueur sans abîmer l'écran
 

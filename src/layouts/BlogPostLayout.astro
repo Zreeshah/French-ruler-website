@@ -8,7 +8,6 @@ export interface Props {
   updatedDate?: Date | string;
   heroImage: string;
   imageAlt?: string;
-  ogTitle?: string;
   ogDescription?: string;
   slug: string;
   headings: Array<{ depth: number; slug: string; text: string }>;
@@ -22,7 +21,6 @@ const {
   updatedDate,
   heroImage,
   imageAlt = '',
-  ogTitle,
   ogDescription,
   slug,
   headings,
@@ -35,6 +33,20 @@ const formattedDate = new Date(pubDate).toLocaleDateString('fr-FR', {
   day: 'numeric',
 });
 const formatSchemaDate = (date: Date | string) => new Date(date).toISOString().split('T')[0];
+
+// La mention « Mis à jour » ne s'affiche que pour une vraie mise à jour,
+// au moins 7 jours après la publication. Sinon, dateModified = date de publication.
+const pubDateObj = new Date(pubDate);
+const updatedDateObj = updatedDate ? new Date(updatedDate) : null;
+const showUpdated = Boolean(
+  updatedDateObj && !isNaN(updatedDateObj.getTime()) &&
+  updatedDateObj.getTime() - pubDateObj.getTime() >= 7 * 24 * 60 * 60 * 1000
+);
+const dateModified = showUpdated && updatedDateObj ? updatedDateObj : pubDateObj;
+
+// Image pour les réseaux sociaux : les SVG ne s'affichent pas sur Facebook et X.
+// On utilise l'image du guide uniquement si c'est un PNG, sinon l'image par défaut en PNG.
+const socialImage = heroImage.endsWith('.png') ? heroImage : '/images/og-image.png';
 const imageDimensions = heroImage.endsWith('.svg')
   ? { width: 1200, height: 675 }
   : { width: 1024, height: 1024 };
@@ -45,7 +57,7 @@ const articleSchema = JSON.stringify({
   "@type": "Article",
   "headline": title,
   "description": description,
-  "image": `https://regle-enligne.onl${heroImage}`,
+  "image": `https://regle-enligne.onl${socialImage}`,
   "author": {
     "@type": "Organization",
     "name": "Équipe éditoriale Regle-Enligne.onl"
@@ -59,7 +71,7 @@ const articleSchema = JSON.stringify({
     }
   },
   "datePublished": formatSchemaDate(pubDate),
-  "dateModified": formatSchemaDate(updatedDate || pubDate),
+  "dateModified": formatSchemaDate(dateModified),
   "inLanguage": "fr-FR",
   "mainEntityOfPage": `https://regle-enligne.onl/blog/${slug}/`
 });
@@ -72,8 +84,8 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
   title={`${title} | Guides Regle-Enligne.onl`}
   description={description}
   canonicalUrl={`https://regle-enligne.onl/blog/${slug}/`}
-  ogImage={heroImage}
-  ogTitle={ogTitle}
+  ogImage={socialImage}
+  ogType="article"
   ogDescription={ogDescription}
   schemaMarkup={articleSchema}
 >
@@ -99,7 +111,7 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
             <time datetime={new Date(pubDate).toISOString()}>{formattedDate}</time>
             <span class="meta-dot">&bull;</span>
             <span class="author-label">Équipe éditoriale Regle-Enligne.onl</span>
-            {updatedDate && <><span class="meta-dot">&bull;</span><span>Mis à jour le {new Date(updatedDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span></>}
+            {showUpdated && updatedDateObj && <><span class="meta-dot">&bull;</span><span>Mis à jour le {updatedDateObj.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</span></>}
           </div>
           <h1 class="blog-title">{title}</h1>
           <p class="blog-lead">{description}</p>

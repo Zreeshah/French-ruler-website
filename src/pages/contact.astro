@@ -40,12 +40,44 @@ const breadcrumbSchema = JSON.stringify({
 
       <div class="privacy-content">
         <p>
-          Pour signaler une erreur, une page imprécise ou une amélioration utile,
-          utilisez notre <a href="https://github.com/Zreeshah/French-ruler-website/issues" rel="noopener noreferrer">espace de retours</a>.
-          Il n'existe pas d'adresse de messagerie de contact pour ce site : l'espace de
-          retours est le seul moyen de nous écrire, et il ne demande aucune donnée
-          personnelle.
+          Vous pouvez nous écrire à
+          <a href="mailto:contact@regle-enligne.onl">contact@regle-enligne.onl</a>.
+          Nous répondons en général sous 48 heures ouvrées. Vous pouvez aussi
+          signaler un problème sur notre
+          <a href="https://github.com/Zreeshah/French-ruler-website/issues" rel="noopener noreferrer">espace de retours</a>,
+          sans indiquer d'adresse e-mail.
         </p>
+
+        <h2>Écrire un message</h2>
+        <p>
+          Remplissez le formulaire : il ouvre votre messagerie avec l'adresse,
+          l'objet et le message déjà remplis. Aucune donnée n'est envoyée par
+          le site lui-même — le message part depuis votre propre messagerie.
+        </p>
+
+        <form class="contact-form" id="contact-form">
+          <label for="contact-nom">Votre nom</label>
+          <input id="contact-nom" name="nom" type="text" autocomplete="name" required />
+
+          <label for="contact-email">Votre adresse e-mail</label>
+          <input id="contact-email" name="email" type="email" autocomplete="email" required />
+
+          <label for="contact-sujet">Sujet</label>
+          <select id="contact-sujet" name="sujet">
+            <option value="Erreur de mesure ou de calibrage">Erreur de mesure ou de calibrage</option>
+            <option value="Erreur dans un guide ou un tableau">Erreur dans un guide ou un tableau</option>
+            <option value="Page qui ne s'affiche pas correctement">Page qui ne s'affiche pas correctement</option>
+            <option value="Suggestion d'amélioration">Suggestion d'amélioration</option>
+            <option value="Question sur la confidentialité">Question sur la confidentialité</option>
+            <option value="Autre question">Autre question</option>
+          </select>
+
+          <label for="contact-message">Votre message</label>
+          <textarea id="contact-message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Envoyer par e-mail</button>
+          <p class="contact-form-note">Le bouton ouvre votre application de messagerie : vérifiez le message, puis envoyez-le.</p>
+        </form>
 
         <h2>Que faut-il indiquer dans votre message ?</h2>
         <p>
@@ -68,10 +100,9 @@ const breadcrumbSchema = JSON.stringify({
 
         <h2>Délai de réponse</h2>
         <p>
-          Les messages sont lus dans l'ordre d'arrivée. Nous ne pouvons pas garantir
-          un délai de réponse, mais chaque signalement d'erreur est examiné : si une
-          correction est nécessaire, le guide ou l'outil est corrigé et la date de
-          mise à jour est indiquée sur la page.
+          Nous répondons en général sous 48 heures ouvrées. Chaque signalement
+          d'erreur est examiné : si une correction est nécessaire, le guide ou
+          l'outil est corrigé et la date de mise à jour est indiquée sur la page.
         </p>
 
         <h2>Avant de nous écrire</h2>
@@ -93,7 +124,62 @@ const breadcrumbSchema = JSON.stringify({
   </section>
 </BaseLayout>
 
+<script>
+  // Le formulaire compose un e-mail vers contact@regle-enligne.onl
+  // et l'ouvre dans la messagerie de l'utilisateur. Aucun envoi serveur.
+  document.getElementById('contact-form')?.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const nom = (document.getElementById('contact-nom') as HTMLInputElement).value.trim();
+    const email = (document.getElementById('contact-email') as HTMLInputElement).value.trim();
+    const sujet = (document.getElementById('contact-sujet') as HTMLSelectElement).value;
+    const message = (document.getElementById('contact-message') as HTMLTextAreaElement).value.trim();
+    const corps = `Nom : ${nom}\nAdresse e-mail : ${email}\n\n${message}`;
+    window.location.href =
+      'mailto:contact@regle-enligne.onl' +
+      '?subject=' + encodeURIComponent('[Regle-Enligne.onl] ' + sujet) +
+      '&body=' + encodeURIComponent(corps);
+  });
+</script>
+
 <style>
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-top: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .contact-form label {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: var(--space-3);
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    padding: var(--space-3);
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-md);
+    font: inherit;
+    font-size: 0.9375rem;
+    color: var(--text-primary);
+    background: var(--bg-primary);
+  }
+
+  .contact-form button {
+    margin-top: var(--space-4);
+    align-self: flex-start;
+  }
+
+  .contact-form-note {
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: 0;
+  }
   .privacy-container {
     max-width: var(--container-lg);
   }

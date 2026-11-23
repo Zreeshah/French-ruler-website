@@ -6,7 +6,6 @@ ogDescription: "Tableau des formats de cartes SIM et conseils pour éviter les e
 imageAlt: "Dimensions nano SIM micro SIM et SIM standard en millimètres"
 heroImage: "/images/blog/tailles-cartes-sim.svg"
 pubDate: "2026-09-13"
-updatedDate: "2026-10-06"
 ---
 
 ## Les trois formats de cartes SIM

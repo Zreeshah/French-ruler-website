@@ -6,7 +6,6 @@ ogDescription: "La méthode fiable pour convertir une longueur en centimètres v
 imageAlt: "Tableau de conversion des centimètres en pouces"
 heroImage: "/images/blog/cm-en-pouces.svg"
 pubDate: "2026-08-11"
-updatedDate: "2026-10-06"
 ---
 
 ## La formule pour convertir des cm en pouces

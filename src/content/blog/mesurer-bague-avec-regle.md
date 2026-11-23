@@ -6,7 +6,6 @@ ogDescription: "Une méthode simple pour obtenir un repère de taille de bague a
 imageAlt: "Mesure du diamètre intérieur d'une bague avec une règle graduée"
 heroImage: "/images/blog/mesurer-bague-avec-regle.svg"
 pubDate: "2026-08-23"
-updatedDate: "2026-10-06"
 ---
 
 ## Mesurez le diamètre intérieur, pas l'extérieur

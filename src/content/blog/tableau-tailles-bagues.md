@@ -6,7 +6,6 @@ ogDescription: "Méthode simple avec bande de papier, diamètre intérieur et co
 imageAlt: "Tableau de tailles de bagues avec mesure du tour de doigt"
 heroImage: "/images/blog/tableau-tailles-bagues.svg"
 pubDate: "2026-08-31"
-updatedDate: "2026-10-06"
 ---
 
 ## Pourquoi utiliser un tableau de tailles de bagues ?

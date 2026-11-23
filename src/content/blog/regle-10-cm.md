@@ -6,7 +6,6 @@ ogDescription: "Une règle de 10 cm pratique pour de petites vérifications, à 
 imageAlt: "Règle en ligne graduée de 0 à 10 centimètres"
 heroImage: "/images/blog/regle-10-cm.svg"
 pubDate: "2026-07-12"
-updatedDate: "2026-10-06"
 ---
 
 ## Une règle de 10 cm pour les petites longueurs
@@ -32,11 +31,7 @@ Pour connaître les bonnes pratiques de réglage, consultez le [guide de calibra
 
 ## Préparer la règle avant une vérification
 
-Une courte règle ne laisse presque aucune place à une erreur de départ. Commencez par fermer le zoom du navigateur, puis affichez la règle dans une orientation confortable. Sur un téléphone, l'orientation horizontale offre parfois davantage de place ; sur un ordinateur, choisissez l'écran dont la résolution vous paraît la plus nette. Cette préférence ne remplace jamais la vérification de l'échelle.
-
-Utilisez une référence connue pour contrôler la distance entre le zéro et la graduation de 8,56 cm. La largeur d'une carte de paiement constitue un bon repère à condition de comparer sa largeur, et non sa hauteur. Ajustez le calibrage jusqu'à ce que les bords coïncident, puis ne modifiez plus la taille de la page pendant la mesure. Un changement de zoom, de fenêtre ou d'écran peut modifier le résultat.
-
-Avant de poser l'objet, déterminez ce que vous mesurez réellement. Pour une étiquette, il peut s'agir de la partie imprimée, sans la bordure. Pour une vis, la longueur utile n'est pas toujours la longueur totale. Pour un rectangle, notez séparément la largeur et la hauteur. Cette étape simple évite de comparer ensuite deux valeurs qui ne décrivent pas la même chose.
+Une courte règle ne laisse presque aucune place à une erreur de départ : fermez le zoom du navigateur et contrôlez l'échelle avec une référence connue avant de mesurer. Le [guide de calibrage](/blog/calibrage-regle-en-ligne/) explique la méthode avec une carte de paiement de 85,60 mm : comparez la distance entre le zéro et la graduation de 8,56 cm, ajustez jusqu'à ce que les bords coïncident, puis ne modifiez plus la taille de la page pendant la mesure. Avant de poser l'objet, déterminez aussi ce que vous mesurez réellement : pour une étiquette, la partie imprimée sans la bordure ; pour une vis, la longueur utile ; pour un rectangle, la largeur et la hauteur séparément.
 
 ## Lire les millimètres sans se tromper
 

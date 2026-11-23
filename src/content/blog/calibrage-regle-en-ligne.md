@@ -6,7 +6,6 @@ ogDescription: "Une méthode simple pour ajuster une règle à l'écran et évit
 imageAlt: "Calibrage d'une règle en ligne avec une carte bancaire"
 heroImage: "/images/blog/calibrage-regle-en-ligne.png"
 pubDate: "2026-06-18"
-updatedDate: "2026-10-06"
 ---
 
 ## Pourquoi le calibrage est indispensable

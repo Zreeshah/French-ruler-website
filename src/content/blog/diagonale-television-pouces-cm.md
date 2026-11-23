@@ -6,7 +6,6 @@ ogDescription: "Tableau pratique des tailles de télévision, conversion pouces-
 imageAlt: "Schéma de diagonale de télévision en pouces et centimètres"
 heroImage: "/images/blog/diagonale-television-pouces-cm.svg"
 pubDate: "2026-08-25"
-updatedDate: "2026-10-06"
 ---
 
 ## Diagonale TV : comment passer des pouces aux centimètres ?

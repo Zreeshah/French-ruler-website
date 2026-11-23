@@ -6,7 +6,6 @@ ogDescription: "Tableau des formats ISO 216, conversions en pouces et conseils p
 imageAlt: "Formats papier A3 A4 A5 A6 et A7 avec dimensions"
 heroImage: "/images/blog/formats-papier-a4-a3-a5.svg"
 pubDate: "2026-09-25"
-updatedDate: "2026-10-06"
 ---
 
 ## Tableau des formats papier de la série A
