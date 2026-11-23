@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://regle-enligne.onl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Mentions légales",
+      "item": "https://regle-enligne.onl/mentions-legales/"
+    }
+  ]
+});
+---
+
+<BaseLayout
+  title="Mentions légales – Regle-Enligne.onl"
+  description="Mentions légales de Regle-Enligne.onl : identité de l'exploitante, hébergement, contact et propriété intellectuelle."
+  canonicalUrl="https://regle-enligne.onl/mentions-legales/"
+  schemaMarkup={breadcrumbSchema}
+>
+  <section class="section privacy-page">
+    <div class="container privacy-container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <ol>
+          <li><a href="/">Règle en ligne</a></li>
+          <li aria-current="page">Mentions légales</li>
+        </ol>
+      </nav>
+
+      <h1>Mentions légales</h1>
+      <p class="privacy-updated">Dernière mise à jour : novembre 2026</p>
+
+      <div class="privacy-content">
+        <h2>Éditrice du site</h2>
+        <p>
+          Le site regle-enligne.onl est édité par <strong>Morgana F Provencher</strong>,
+          dont l'adresse est : 53 boulevard Albin Durand, 51000 Châlons-en-Champagne,
+          Champagne-Ardenne, France.
+        </p>
+
+        <h2>Hébergement</h2>
+        <p>
+          Le site est hébergé par Vercel Inc. Vercel assure l'hébergement et la diffusion des
+          pages ; le contenu éditorial reste sous la responsabilité de l'éditrice.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Pour contacter l'équipe du site, utilisez la page
+          <a href="/contact/">Contact</a>. Il n'existe pas d'adresse de messagerie
+          de contact pour ce site : les messages passent par l'espace de retours
+          indiqué sur cette page.
+        </p>
+
+        <h2>Objet du site</h2>
+        <p>
+          Regle-Enligne.onl est un outil gratuit qui transforme l'écran d'un
+          téléphone, d'une tablette ou d'un ordinateur en règle graduée en
+          centimètres et en millimètres, avec une règle à imprimer et des guides
+          de mesure. Pour en savoir plus, lisez la page
+          <a href="/a-propos/">À propos</a>.
+        </p>
+
+        <h2>Propriété intellectuelle</h2>
+        <p>
+          Les textes, les guides, les tableaux et les éléments graphiques du site
+          sont la propriété de l'éditrice, sauf mention contraire. Toute
+          reproduction ou réutilisation à des fins commerciales nécessite une
+          autorisation préalable. La reproduction à titre personnel, sans
+          modification et sans diffusion publique, est autorisée.
+        </p>
+
+        <h2>Données personnelles</h2>
+        <p>
+          Le site ne demande aucune donnée personnelle pour être utilisé. Les
+          traitements de données liés à la mesure d'audience et à la publicité
+          sont décrits dans la
+          <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
+        </p>
+
+        <h2>Responsabilité</h2>
+        <p>
+          La règle à l'écran et la règle à imprimer sont des outils d'appoint.
+          Leur précision dépend du calibrage, du zoom, de l'écran et des réglages
+          d'impression. Elles ne remplacent pas un instrument de mesure physique.
+          Les limites et les conditions d'utilisation sont précisées dans les
+          <a href="/conditions-generales/">conditions générales d'utilisation</a>.
+        </p>
+
+        <div class="privacy-cta">
+          <a href="/" class="btn btn-primary">Retour à la règle en ligne</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .privacy-container {
+    max-width: var(--container-lg);
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: var(--space-2);
+    color: var(--border-dark);
+  }
+
+  .breadcrumb a {
+    color: var(--text-tertiary);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  .privacy-updated {
+    font-size: 0.875rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-8);
+  }
+
+  .privacy-content h2 {
+    margin-top: var(--space-8);
+  }
+
+  .privacy-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-5);
+  }
+
+  .privacy-list li {
+    list-style: disc;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .privacy-cta {
+    margin-top: var(--space-10);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border);
+  }
+</style>

@@ -21,13 +21,47 @@ const breadcrumbSchema = JSON.stringify({
 });
 
 const rulerSizes = [10, 20, 30];
+
+const faqSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "La règle imprimée est-elle exacte ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, si vous imprimez à l'échelle 100 % sur une feuille A4 et que la zone de contrôle mesure exactement 5 cm après impression. Si la zone est plus courte ou plus longue, la règle ne sera pas exacte : vérifiez l'échelle et les marges, puis imprimez de nouveau." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel papier utiliser pour imprimer une règle ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Une feuille A4 ordinaire suffit pour une mesure d'appoint. Pour une règle qui doit durer, choisissez un papier épais, de 160 g/m² ou plus, ou collez la feuille imprimée sur un carton fin et découpez-la proprement." }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je imprimer la règle en noir et blanc ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Les graduations sont en noir et restent parfaitement lisibles en noir et blanc. La couleur n'apporte rien à la précision de la mesure." }
+    },
+    {
+      "@type": "Question",
+      "name": "Pourquoi ma zone de contrôle ne fait-elle pas 5 cm ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "L'imprimante ou le navigateur a presque toujours réduit le document, par exemple avec l'option « Ajuster à la page ». Réglez l'échelle sur 100 %, désactivez toute adaptation à la page, vérifiez que le zoom du navigateur est à 100 % et imprimez de nouveau." }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je utiliser la règle imprimée pour mesurer un écran ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui, pour une estimation rapide de la largeur ou de la hauteur d'un écran. Pour la diagonale en pouces, le guide sur la mesure d'un écran en pouces est plus précis, car il explique la conversion entre centimètres et pouces." }
+    }
+  ]
+});
+
+const schemaMarkup = JSON.stringify([JSON.parse(breadcrumbSchema), JSON.parse(faqSchema)]);
 ---
 
 <BaseLayout
   title="Règle à imprimer – Règle en cm de 10 cm, 20 cm et 30 cm"
   description="Imprimez une règle en ligne gratuite en centimètres et millimètres. Règle à imprimer A4 avec échelle à 100%."
   canonicalUrl="https://regle-enligne.onl/regle-a-imprimer/"
-  schemaMarkup={breadcrumbSchema}
+  schemaMarkup={schemaMarkup}
 >
   <section class="section print-hero">
     <div class="container">
@@ -110,6 +144,112 @@ const rulerSizes = [10, 20, 30];
     </div>
   </section>
 
+  <!-- Guide : imprimer une règle exacte -->
+  <section class="section no-print">
+    <div class="container">
+      <h2>Pourquoi imprimer une règle à l'échelle 100 %</h2>
+      <p>
+        Une règle n'a de valeur que si ses centimètres sont vrais. Sur un écran, un centimètre dépend du
+        calibrage ; sur le papier, il dépend de l'imprimante. La plupart des imprimantes et des navigateurs
+        réduisent le document par défaut pour qu'il « tienne » dans la page, avec des options comme
+        « Ajuster à la page » ou « Adapter à la page ». Une réduction de seulement 5 % transforme un
+        centimètre en 9,5 millimètres, et l'erreur grandit avec la distance : sur 30 cm, elle atteint
+        déjà 1,5 cm. C'est pour cela que cette page insiste sur l'échelle 100 % et qu'elle fournit une
+        zone de contrôle de 5 cm : c'est la preuve, après impression, que votre règle est exacte.
+        Si la zone de contrôle mesure exactement 5 cm avec une règle physique, vous pouvez faire
+        confiance à toutes les graduations de la page. Si elle mesure 4,8 cm ou 5,2 cm, ne corrigez
+        pas à l'œil : changez les réglages et imprimez de nouveau.
+      </p>
+      <p>
+        Le principe est le même que pour le calibrage de la <a href="/">règle en ligne</a> : sans
+        référence physique, aucune mesure à l'écran ou sur papier n'est fiable. La carte bancaire,
+        large de 85,6 mm, sert de référence pour la règle à l'écran ; la zone de contrôle de 5 cm
+        joue ce rôle pour la règle imprimée. Pour comprendre le calibrage en détail, lisez le guide
+        <a href="/blog/calibrage-regle-en-ligne/">Calibrage de la règle en ligne</a>.
+      </p>
+
+      <h2>Choisir le bon format : 10, 20 ou 30 cm</h2>
+      <p>
+        Cette page propose trois règles, de 10, 20 et 30 cm, parce qu'aucune longueur ne convient
+        à tous les usages. La règle de 10 cm tient dans une poche ou un sac : elle sert à mesurer
+        une bague, une vis, une pile, une carte SIM ou l'étiquette d'un colis. La règle de 20 cm
+        convient aux livres, aux cahiers, aux feuilles et aux petits objets du quotidien. La règle
+        de 30 cm couvre toute la longueur d'une feuille A4 : elle sert pour un dessin, un patron,
+        un avant-bras ou un objet long et plat. Choisissez toujours la règle la plus courte qui
+        couvre votre objet : plus la mesure est proche du zéro, plus elle est précise, car
+        l'erreur d'impression, si elle existe, s'accumule avec la distance.
+      </p>
+      <p>
+        Le format de papier compte autant que la longueur de la règle. Les trois règles sont
+        prévues pour une feuille A4, le format standard en France et en Europe. Si votre
+        imprimante est réglée sur le format Lettre américain, la mise en page change et l'échelle
+        peut être faussée. Le guide <a href="/blog/formats-papier-a4-a3-a5/">Formats de papier
+        A4, A3 et A5</a> explique les dimensions exactes de chaque format et comment les
+        reconnaître avant d'imprimer.
+      </p>
+
+      <h2>Réglages d'impression sur A4</h2>
+      <p>
+        Avant d'imprimer, vérifiez quatre réglages. D'abord, le format de papier : A4, en
+        orientation portrait. Ensuite, les marges : choisissez les marges minimales proposées par
+        votre imprimante, sans activer l'option qui réduit le document pour les respecter.
+        Troisièmement, l'échelle : 100 %, « taille réelle » ou « échelle réelle », selon le
+        navigateur. Enfin, la couleur : le noir et blanc suffit amplement, les graduations sont
+        en noir et restent parfaitement lisibles. Un papier épais, de 160 g/m² ou plus, donne
+        une règle plus rigide et plus durable ; une feuille ordinaire suffit pour une mesure
+        d'appoint. Pour une règle qui doit durer, collez la feuille imprimée sur un carton fin
+        et découpez-la proprement le long des bords, sans couper les graduations.
+      </p>
+
+      <h2>Vérifier la règle après impression</h2>
+      <p>
+        La vérification prend moins d'une minute et elle est indispensable. Posez une règle
+        physique sur la zone de contrôle et mesurez-la : elle doit faire exactement 5 cm, du
+        début à la fin du trait. Vérifiez ensuite deux autres repères, par exemple le zéro et
+        la graduation de 10 cm, puis le zéro et celle de 20 cm sur la grande règle. Si l'écart
+        grandit avec la distance, l'échelle est fausse : c'est le signe d'une réduction
+        automatique. Vérifiez alors que le zoom de votre navigateur est bien à 100 % avant
+        d'imprimer, car un zoom de 90 % ou de 110 % dans la fenêtre d'impression fausse
+        l'échelle de la même façon. Si vous imprimez depuis un téléphone, préférez un
+        ordinateur : les applications mobiles d'impression appliquent souvent leur propre
+        mise en page sans prévenir.
+      </p>
+
+      <h2>Erreurs fréquentes</h2>
+      <p>
+        L'erreur la plus fréquente est d'imprimer depuis un téléphone avec une mise à l'échelle
+        automatique. La deuxième est d'utiliser un lecteur de PDF qui réduit le document pour
+        l'adapter à la page : dans ce cas, enregistrez la règle avec le bouton « Télécharger
+        le PDF » puis imprimez le fichier depuis un lecteur qui propose l'échelle 100 %.
+        La troisième est d'imprimer sur du papier Lettre au lieu d'A4, ce qui change la mise
+        en page. La quatrième est de mesurer sur une feuille pliée, humide ou gondolée :
+        une feuille qui n'est pas parfaitement plane fausse la lecture, surtout aux
+        extrémités. Enfin, ne mesurez jamais un objet en le posant sur la règle imprimée
+        si l'objet est lourd ou coupant : la feuille se déforme et la mesure change.
+      </p>
+
+      <h2>Quand la règle imprimée ne suffit pas</h2>
+      <p>
+        Une règle imprimée est un outil d'appoint, pas un instrument de précision. Pour une
+        petite mesure rapide, elle suffit largement. Pour une bague, une vis ou un écran,
+        préférez la <a href="/">règle en ligne calibrée</a> ou une règle physique, et lisez
+        le guide <a href="/blog/regle-en-ligne-precise/">Règle en ligne précise</a> pour
+        connaître les limites de chaque méthode. Pour une mesure qui engage une décision
+        importante — une découpe, une commande sur mesure, un montage — confirmez toujours
+        avec un instrument physique : une règle en métal, un mètre ruban ou un pied à
+        coulisse. Si vous mesurez souvent sur votre téléphone, le guide
+        <a href="/blog/mesure-sur-telephone/">Mesurer sur téléphone</a> explique comment
+        calibrer l'écran et poser le téléphone à plat pour une lecture fiable.
+      </p>
+      <p>
+        <strong>À retenir :</strong> échelle 100 %, feuille A4, zone de contrôle de 5 cm
+        vérifiée après impression, et confirmation physique pour toute mesure importante.
+        Avec ces quatre réflexes, une règle imprimée gratuitement devient un outil
+        honnête et utile.
+      </p>
+    </div>
+  </section>
+
   <!-- Calibration Test Box -->
   <section class="section print-calibration" id="test-box">
     <div class="container">
@@ -126,7 +266,7 @@ const rulerSizes = [10, 20, 30];
   </section>
 
   <!-- Printable Rulers -->
-  <section class="section printable-rulers" id="linijki">
+  <section class="section printable-rulers" id="regles-imprimables">
     <div class="container">
       <h2 class="no-print">Règles à imprimer</h2>
       
@@ -134,7 +274,7 @@ const rulerSizes = [10, 20, 30];
         <div class="print-ruler-block" id={`ruler-${size}cm`}>
           <h3 class="print-ruler-title">Règle de {size} cm</h3>
           <div class="print-ruler-svg" data-length={size}>
-            <!-- SVG ruler will be generated client-side for screen, and also embedded statically for print -->
+            <!-- La règle en SVG sera générée côté client pour l'écran, et aussi intégrée statiquement pour l'impression -->
           </div>
         </div>
       ))}
@@ -160,6 +300,37 @@ const rulerSizes = [10, 20, 30];
       />
       <p style="margin-top: var(--space-4); font-size: 0.875rem; color: var(--text-tertiary);">
         Aperçu de la règle à imprimer sur feuille A4
+      </p>
+    </div>
+  </section>
+  <!-- FAQ -->
+  <section class="section no-print">
+    <div class="container">
+      <h2>Questions fréquentes sur la règle à imprimer</h2>
+      <h3>La règle imprimée est-elle exacte ?</h3>
+      <p>Oui, si vous imprimez à l'échelle 100 % sur une feuille A4 et que la zone de contrôle mesure exactement 5 cm après impression. Si la zone est plus courte ou plus longue, la règle ne sera pas exacte : vérifiez l'échelle et les marges, puis imprimez de nouveau.</p>
+      <h3>Quel papier utiliser pour imprimer une règle ?</h3>
+      <p>Une feuille A4 ordinaire suffit pour une mesure d'appoint. Pour une règle qui doit durer, choisissez un papier épais, de 160 g/m² ou plus, ou collez la feuille imprimée sur un carton fin et découpez-la proprement.</p>
+      <h3>Puis-je imprimer la règle en noir et blanc ?</h3>
+      <p>Oui. Les graduations sont en noir et restent parfaitement lisibles en noir et blanc. La couleur n'apporte rien à la précision de la mesure.</p>
+      <h3>Pourquoi ma zone de contrôle ne fait-elle pas 5 cm ?</h3>
+      <p>L'imprimante ou le navigateur a presque toujours réduit le document, par exemple avec l'option « Ajuster à la page ». Réglez l'échelle sur 100 %, désactivez toute adaptation à la page, vérifiez que le zoom du navigateur est à 100 % et imprimez de nouveau.</p>
+      <h3>Puis-je utiliser la règle imprimée pour mesurer un écran ?</h3>
+      <p>Oui, pour une estimation rapide de la largeur ou de la hauteur d'un écran. Pour la diagonale en pouces, le guide sur la mesure d'un écran en pouces est plus précis, car il explique la conversion entre centimètres et pouces.</p>
+
+      <h2>À retenir</h2>
+      <ul>
+        <li>Imprimez toujours à l'échelle 100 %, sur une feuille A4, sans « Ajuster à la page ».</li>
+        <li>Vérifiez la zone de contrôle de 5 cm avec une règle physique après chaque impression.</li>
+        <li>Choisissez la règle la plus courte qui couvre votre objet : 10, 20 ou 30 cm.</li>
+        <li>Confirmez toute mesure importante avec un instrument physique.</li>
+      </ul>
+      <p>
+        Pour mesurer directement à l'écran, utilisez la <a href="/">règle en ligne</a> et son
+        guide de <a href="/blog/calibrage-regle-en-ligne/">calibrage</a>. Pour les formats
+        de papier, lisez <a href="/blog/formats-papier-a4-a3-a5/">Formats de papier A4, A3
+        et A5</a>, et pour les limites de précision, <a href="/blog/regle-en-ligne-precise/">Règle
+        en ligne précise</a>.
       </p>
     </div>
   </section>
@@ -243,7 +414,7 @@ const rulerSizes = [10, 20, 30];
   }
 
   .test-box {
-    /* 5cm at 96 DPI = 5 * 37.795 ≈ 189px */
+    /* 5 cm à 96 ppp = 5 × 37,795 ≈ 189 px */
     width: 189px;
     height: 60px;
     border: 2px solid #000;

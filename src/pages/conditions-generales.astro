@@ -1,0 +1,183 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://regle-enligne.onl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Conditions générales d'utilisation",
+      "item": "https://regle-enligne.onl/conditions-generales/"
+    }
+  ]
+});
+---
+
+<BaseLayout
+  title="Conditions générales d'utilisation – Regle-Enligne.onl"
+  description="Conditions générales d'utilisation du service gratuit Regle-Enligne.onl : accès, limites de précision, responsabilités et propriété intellectuelle."
+  canonicalUrl="https://regle-enligne.onl/conditions-generales/"
+  schemaMarkup={breadcrumbSchema}
+>
+  <section class="section privacy-page">
+    <div class="container privacy-container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <ol>
+          <li><a href="/">Règle en ligne</a></li>
+          <li aria-current="page">Conditions générales d'utilisation</li>
+        </ol>
+      </nav>
+
+      <h1>Conditions générales d'utilisation</h1>
+      <p class="privacy-updated">Dernière mise à jour : novembre 2026</p>
+
+      <div class="privacy-content">
+        <h2>1. Objet du service</h2>
+        <p>
+          Regle-Enligne.onl est un service gratuit qui transforme l'écran d'un
+          téléphone, d'une tablette ou d'un ordinateur en règle graduée en
+          centimètres et en millimètres, et qui propose une règle à imprimer ainsi
+          que des guides de mesure. L'utilisation du service est libre, sans
+          inscription et sans installation d'application.
+        </p>
+
+        <h2>2. Accès et disponibilité</h2>
+        <p>
+          Le service est accessible gratuitement, 24 heures sur 24, sous réserve
+          des interruptions pour maintenance ou pour des raisons techniques. Aucune
+          disponibilité permanente n'est garantie. L'exploitante peut modifier,
+          suspendre ou arrêter tout ou partie du service sans préavis.
+        </p>
+
+        <h2>3. Précision des mesures et limites</h2>
+        <p>
+          La règle à l'écran et la règle à imprimer sont des outils d'appoint.
+          Leur précision dépend du calibrage, du zoom du navigateur, de l'écran
+          et des réglages d'impression. Elles ne remplacent pas un instrument de
+          mesure physique et ne doivent jamais servir pour une mesure médicale,
+          une découpe, un montage, un travail de construction ou toute autre
+          mesure dont l'exactitude engage la sécurité ou une décision importante.
+          L'utilisateur doit confirmer toute mesure importante avec un instrument
+          physique. L'exploitante ne peut être tenue responsable d'une erreur de
+          mesure ou des conséquences d'une décision prise à partir d'une mesure
+          effectuée avec cet outil.
+        </p>
+
+        <h2>4. Utilisation du service</h2>
+        <p>
+          L'utilisateur s'engage à utiliser le service de façon conforme à sa
+          destination et à ne pas tenter de perturber son fonctionnement, de
+          contourner ses protections ou d'en extraire les contenus de manière
+          automatisée et massive. Toute utilisation abusive peut entraîner le
+          blocage de l'accès.
+        </p>
+
+        <h2>5. Propriété intellectuelle</h2>
+        <p>
+          Les textes, les guides, les tableaux et les éléments graphiques du site
+          sont la propriété de l'exploitante, sauf mention contraire. Toute
+          reproduction ou réutilisation à des fins commerciales nécessite une
+          autorisation préalable. La reproduction à titre personnel, sans
+          modification et sans diffusion publique, est autorisée.
+        </p>
+
+        <h2>6. Données personnelles</h2>
+        <p>
+          Le service ne demande aucune donnée personnelle pour être utilisé. Le
+          calibrage est enregistré uniquement dans le stockage local du navigateur
+          de l'utilisateur. Les traitements de données liés à la mesure d'audience
+          et à la publicité sont décrits dans la
+          <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
+        </p>
+
+        <h2>7. Modification des conditions</h2>
+        <p>
+          L'exploitante se réserve le droit de modifier les présentes conditions
+          générales. Toute modification sera publiée sur cette page avec la date
+          de mise à jour correspondante. L'utilisation du service après une
+          modification vaut acceptation des nouvelles conditions.
+        </p>
+
+        <h2>8. Contact</h2>
+        <p>
+          Pour toute question sur ces conditions, utilisez la page
+          <a href="/contact/">Contact</a>. Les coordonnées de l'exploitante
+          figurent dans les <a href="/mentions-legales/">mentions légales</a>.
+        </p>
+
+        <div class="privacy-cta">
+          <a href="/" class="btn btn-primary">Retour à la règle en ligne</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .privacy-container {
+    max-width: var(--container-lg);
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: var(--space-2);
+    color: var(--border-dark);
+  }
+
+  .breadcrumb a {
+    color: var(--text-tertiary);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  .privacy-updated {
+    font-size: 0.875rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-8);
+  }
+
+  .privacy-content h2 {
+    margin-top: var(--space-8);
+  }
+
+  .privacy-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-5);
+  }
+
+  .privacy-list li {
+    list-style: disc;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .privacy-cta {
+    margin-top: var(--space-10);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border);
+  }
+</style>

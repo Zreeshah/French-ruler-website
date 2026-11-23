@@ -22,8 +22,8 @@ const breadcrumbSchema = JSON.stringify({
 ---
 
 <BaseLayout
-  title="À propos – Regle-Enligne.onl"
-  description="En savoir plus sur Regle-Enligne.onl — un outil gratuit pour mesurer des objets en ligne avec votre téléphone, tablette ou ordinateur."
+  title="À propos – Regle-Enligne.onl, règle en ligne gratuite en cm et mm"
+  description="Qui sommes-nous, pourquoi cet outil existe, comment fonctionne le calibrage et quelles sont ses limites. Règle en ligne gratuite, sans inscription, exploitée par Morgana F Provencher."
   canonicalUrl="https://regle-enligne.onl/a-propos/"
   schemaMarkup={breadcrumbSchema}
 >
@@ -85,9 +85,104 @@ const breadcrumbSchema = JSON.stringify({
           de sorte que lors de votre prochaine visite, la règle graduée sera immédiatement prête à l'emploi.
         </p>
 
+        <h2>Qui exploite ce site ?</h2>
+        <p>
+          Ce site est exploité par <strong>Morgana F Provencher</strong>, 53 boulevard Albin
+          Durand, 51000 Châlons-en-Champagne, Champagne-Ardenne, pour le compte de l'équipe
+          éditoriale de Regle-Enligne.onl. Les coordonnées complètes figurent dans les
+          <a href="/mentions-legales/">mentions légales</a>. L'exploitante est responsable
+          du contenu publié et des guides de mesure ; elle ne collecte aucune donnée
+          personnelle pour l'utilisation de l'outil, comme l'explique la
+          <a href="/politique-de-confidentialite/">politique de confidentialité</a>.
+        </p>
+
+        <h2>Pourquoi une règle à l'écran ?</h2>
+        <p>
+          L'idée est née d'un moment ordinaire : un colis à mesurer, une bague à vérifier,
+          une vis à identifier, et aucune règle physique sous la main. Dans ces moments-là,
+          installer une application est trop long : il faut la chercher, l'installer, lui
+          donner des autorisations, puis apprendre à s'en servir. Un outil dans le navigateur
+          est immédiat : on ouvre la page, on calibre, on mesure. C'est ce principe qui a
+          guidé tout le site : gratuit, sans inscription, sans installation, et utilisable
+          sur téléphone, tablette ou ordinateur, en français.
+        </p>
+
+        <h2>Comment fonctionne le calibrage, en détail</h2>
+        <p>
+          Un écran ne connaît pas le centimètre : il ne connaît que des pixels. Pour afficher
+          une règle exacte, l'outil doit donc apprendre combien de pixels valent un centimètre
+          sur votre écran. Deux méthodes sont proposées. La première est automatique : l'outil
+          estime la diagonale de votre écran et en déduit l'échelle. La seconde est manuelle
+          et plus fiable : vous placez une carte bancaire sur l'écran et vous ajustez
+          l'échelle jusqu'à ce que le bord de la carte coïncide avec la graduation de
+          85,6 mm, la largeur normalisée d'une carte au format ID-1. Le calibrage est
+          enregistré uniquement dans le stockage local de votre navigateur : il n'est envoyé
+          à aucun serveur et il est retrouvé à votre prochaine visite. Il faut le refaire
+          après un changement d'écran, de navigateur, de zoom ou d'orientation, car chacun
+          de ces changements modifie la taille des pixels à l'écran. Le guide
+          <a href="/blog/calibrage-regle-en-ligne/">Calibrage de la règle en ligne</a>
+          explique chaque étape, avec les erreurs à éviter.
+        </p>
+
+        <h2>Ce que la règle peut mesurer, et ce qu'elle ne peut pas</h2>
+        <p>
+          La règle à l'écran est faite pour les petits objets plats : une étiquette, une
+          carte, une bague, une vis, une pile, une carte SIM. Elle donne une mesure
+          d'appoint, utile pour vérifier, comparer ou préparer un achat. Elle n'est pas
+          un instrument de précision : elle ne remplace ni une règle en métal, ni un mètre
+          ruban, ni un pied à coulisse, et elle ne doit jamais servir pour une mesure
+          médicale, une découpe, un montage ou un travail de construction. Pour les
+          limites exactes, lisez <a href="/blog/regle-en-ligne-precise/">Règle en ligne
+          précise</a>. Pour une bague, le guide
+          <a href="/blog/mesurer-bague-avec-regle/">Mesurer une bague avec une règle</a>
+          explique comment reporter la mesure sur une bande de papier plutôt que de poser
+          le métal directement sur la vitre du téléphone.
+        </p>
+
+        <h2>Comment nos guides sont préparés</h2>
+        <p>
+          Chaque guide part d'un problème concret — mesurer un écran, une bague, une vis,
+          une pile — et explique la méthode pas à pas, avec ses limites. Les guides sont
+          testés en conditions réelles avant publication, et ils indiquent clairement
+          quand une règle sur écran ne suffit pas. Chaque guide porte sa date de
+          publication et, le cas échéant, sa date de mise à jour. Si une méthode change
+          ou si une erreur est signalée, le guide est corrigé et la date est mise à jour.
+          Nous préférons un guide honnête sur ses limites qu'un guide qui promet une
+          précision qu'il ne peut pas tenir.
+        </p>
+
+        <h2>Nous contacter et signaler une erreur</h2>
+        <p>
+          Pour signaler une erreur, une page imprécise ou une amélioration utile, utilisez
+          la page <a href="/contact/">Contact</a> ou notre
+          <a href="https://github.com/Zreeshah/French-ruler-website/issues" rel="noopener noreferrer">espace de retours</a>.
+          Indiquez la page concernée, votre appareil et votre navigateur, et ce que vous
+          avez mesuré : c'est ce qui permet de reproduire le problème et de le corriger.
+          Aucune donnée personnelle n'est nécessaire pour utiliser l'outil ni pour
+          signaler une erreur.
+        </p>
+
+        <h2>Questions fréquentes</h2>
+        <h3>La règle en ligne est-elle gratuite ?</h3>
+        <p>Oui. L'outil est gratuit, sans inscription et sans installation. Vous ouvrez la page, vous calibrez, vous mesurez.</p>
+        <h3>Mes mesures sont-elles envoyées quelque part ?</h3>
+        <p>Non. Le calibrage est enregistré uniquement dans le stockage local de votre navigateur. Aucune mesure n'est envoyée à un serveur.</p>
+        <h3>Pourquoi faut-il calibrer la règle ?</h3>
+        <p>Parce qu'un écran ne connaît que des pixels. Sans calibrage, un centimètre affiché n'a aucune valeur réelle. La carte bancaire de 85,6 mm sert de référence physique pour régler l'échelle.</p>
+        <h3>Que faire si ma mesure semble fausse ?</h3>
+        <p>Vérifiez le zoom du navigateur, refaites le calibrage avec une carte bancaire et mesurez une deuxième fois. Si le doute persiste, confirmez avec une règle physique et signalez le problème via la page Contact.</p>
+
+        <p>
+          <strong>À retenir :</strong> un outil gratuit et sans inscription, exploité par
+          Morgana F Provencher, qui transforme votre écran en règle graduée — à condition
+          de le calibrer, et en sachant qu'il ne remplace pas un instrument physique pour
+          les mesures importantes. Essayez la <a href="/">règle en ligne</a> ou
+          imprimez une <a href="/regle-a-imprimer/">règle à imprimer</a> à l'échelle 100 %.
+        </p>
+
         <h2>Équipe éditoriale et corrections</h2>
         <p>
-          Les guides de mesure sont préparés par l'équipe éditoriale de Regle-Enligne.onl et indiquent leurs limites lorsqu'une règle sur écran ne suffit pas. Pour signaler une erreur, une page imprécise ou une amélioration utile, utilisez notre <a href="https://github.com/Zreeshah/French-ruler-website/issues" rel="noopener noreferrer">espace de retours</a>.
+          Les guides de mesure sont préparés par l'équipe éditoriale de Regle-Enligne.onl et indiquent leurs limites lorsqu'une règle sur écran ne suffit pas. Pour signaler une erreur, une page imprécise ou une amélioration utile, utilisez la page <a href="/contact/">Contact</a> ou notre <a href="https://github.com/Zreeshah/French-ruler-website/issues" rel="noopener noreferrer">espace de retours</a>.
         </p>
 
         <div class="about-cta">

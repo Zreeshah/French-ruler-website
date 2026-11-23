@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const breadcrumbSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://regle-enligne.onl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Contact",
+      "item": "https://regle-enligne.onl/contact/"
+    }
+  ]
+});
+---
+
+<BaseLayout
+  title="Contact – Regle-Enligne.onl"
+  description="Contactez l'équipe de Regle-Enligne.onl pour signaler une erreur de mesure, une page imprécise ou proposer une amélioration de la règle en ligne."
+  canonicalUrl="https://regle-enligne.onl/contact/"
+  schemaMarkup={breadcrumbSchema}
+>
+  <section class="section privacy-page">
+    <div class="container privacy-container">
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <ol>
+          <li><a href="/">Règle en ligne</a></li>
+          <li aria-current="page">Contact</li>
+        </ol>
+      </nav>
+
+      <h1>Contact</h1>
+
+      <div class="privacy-content">
+        <p>
+          Pour signaler une erreur, une page imprécise ou une amélioration utile,
+          utilisez notre <a href="https://github.com/Zreeshah/French-ruler-website/issues" rel="noopener noreferrer">espace de retours</a>.
+          Il n'existe pas d'adresse de messagerie de contact pour ce site : l'espace de
+          retours est le seul moyen de nous écrire, et il ne demande aucune donnée
+          personnelle.
+        </p>
+
+        <h2>Que faut-il indiquer dans votre message ?</h2>
+        <p>
+          Pour que nous puissions reproduire le problème et le corriger, indiquez
+          la page concernée, votre appareil (téléphone, tablette ou ordinateur),
+          votre navigateur, et ce que vous avez mesuré. Par exemple : « Sur la page
+          de la règle à imprimer, la zone de contrôle mesure 4,8 cm au lieu de 5 cm,
+          sur un ordinateur portable avec le navigateur Firefox. » Plus votre
+          message est précis, plus la correction est rapide.
+        </p>
+
+        <h2>Que pouvez-vous nous signaler ?</h2>
+        <ul class="privacy-list">
+          <li>Une mesure qui semble fausse ou un calibrage qui ne fonctionne pas</li>
+          <li>Une erreur dans un guide ou dans un tableau de conversion</li>
+          <li>Une page qui ne s'affiche pas correctement sur votre appareil</li>
+          <li>Une suggestion d'amélioration ou un nouveau guide à écrire</li>
+          <li>Une question sur la confidentialité — voir aussi la <a href="/politique-de-confidentialite/">politique de confidentialité</a></li>
+        </ul>
+
+        <h2>Délai de réponse</h2>
+        <p>
+          Les messages sont lus dans l'ordre d'arrivée. Nous ne pouvons pas garantir
+          un délai de réponse, mais chaque signalement d'erreur est examiné : si une
+          correction est nécessaire, le guide ou l'outil est corrigé et la date de
+          mise à jour est indiquée sur la page.
+        </p>
+
+        <h2>Avant de nous écrire</h2>
+        <p>
+          La plupart des mesures fausses viennent du calibrage ou du zoom. Avant de
+          signaler une erreur, vérifiez que le zoom de votre navigateur est à 100 %,
+          refaites le calibrage avec une carte bancaire de 85,6 mm et mesurez une
+          deuxième fois. Le guide <a href="/blog/calibrage-regle-en-ligne/">Calibrage
+          de la règle en ligne</a> explique chaque étape. Pour en savoir plus sur
+          le site et son exploitante, lisez la page <a href="/a-propos/">À propos</a>
+          et les <a href="/mentions-legales/">mentions légales</a>.
+        </p>
+
+        <div class="privacy-cta">
+          <a href="/" class="btn btn-primary">Retour à la règle en ligne</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .privacy-container {
+    max-width: var(--container-lg);
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+    margin-bottom: var(--space-6);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '›';
+    margin-left: var(--space-2);
+    color: var(--border-dark);
+  }
+
+  .breadcrumb a {
+    color: var(--text-tertiary);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--accent);
+  }
+
+  .privacy-content h2 {
+    margin-top: var(--space-8);
+  }
+
+  .privacy-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-5);
+  }
+
+  .privacy-list li {
+    list-style: disc;
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .privacy-cta {
+    margin-top: var(--space-10);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--border);
+  }
+</style>
